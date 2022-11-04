@@ -1,54 +1,72 @@
-body{
+body {
     background-color: rgb(211, 211, 201);
 }
+.wrapper {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.bg-image {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+}
+.registration-form {
+    padding: 10px 20px;
+    max-width: 100%;
+    width: 400px;
+    background-color: rgba(0,0,0,0.05);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+.registration-form .form-control::placeholder {
+    color: #CCC;
+}
+@media screen and (max-width: 768px) {
+    .bg-image {
+        opacity: .2;
+    }
+}
 
-/* .register {
-    border: 1px solid #dadce0;
-    border-radius: 15px;
-    background: #FDFDFD;
-} */
-
+@media screen and (max-width: 576px) {
+    .registration-form {
+        width: 100%;
+    }
+}
+.registration-form img {
+    width: 120px;
+}
 .title {
     font-weight: 600;
 }
-#logo2{
-    margin-top: -30px;
-    height: 250px;
-}
-#main-div1{
-    /* border: 1px solid red; */
-    width: 40%;
 
-}
-#boss{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-#personal{
+#personal {
     width: 100%;
     height: 100%;
+}
 
-}
-label{
-
-    float: left;
-}
-::placeholder{
-    /* opacity: 0.33; */
-}
 input, select, textarea {
     color: red;
-    }
-    #name {
+}
+
+#name {
     color: rgb(219, 135, 52);
-    }
-    #email{
-    color:rgb(219, 135, 52);
-    }
-    #password{
-    color:rgb(219, 135, 52);
-    }
-    #password_confirmation{
+}
+
+#email {
     color: rgb(219, 135, 52);
-    }
+}
+
+#password {
+    color: rgb(219, 135, 52);
+}
+
+#password_confirmation {
+    color: rgb(219, 135, 52);
+}
