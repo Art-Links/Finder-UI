@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/Signup.css'
+import '../styles/Signin.css'
 import logo2 from '../myimages/logo2.png'
-import photo from '../myimages/photo.svg'
+import photo1 from '../myimages/photo1.svg'
 
 
 import { useRef } from 'react'
@@ -10,7 +10,7 @@ import { useState } from "react"
 import { Link } from 'react-router-dom'
 
 
-const SignUp = () => {
+const SignIn = () => {
 
     const [isDisabled, setIsDisabled] = useState(false)
 
@@ -19,7 +19,7 @@ const SignUp = () => {
     const passwordRef = useRef()
     const passwordConfirmationRef = useRef()
     const userNameRef = useRef()
-    const signUp = async () => {
+    const signIn = async () => {
         setIsDisabled(true)
         const response = await fetch('http://localhost:3000/users', {
             method: 'post',
@@ -44,10 +44,11 @@ const SignUp = () => {
     }
     
 
+
     return (
         <div class='wrapper'>
             <div class='bg-image'>
-                <img id='personal' src={photo} alt='' />
+                <img id='personal' src={photo1} alt='' />
             </div>
             <div class='registration-form'>
                 <div id='form-div' className='w-100'>
@@ -74,12 +75,7 @@ const SignUp = () => {
                     </div>
                     <div className='row'>
                         <div className='col-6'>
-                            <Link className='btn btn-dark w-100' to='/signin'>Go To Login</Link>
-                        </div>
-                        <div className='col-6'>
-                            <button
-                                className='btn btn-primary w-100'  onClick={signUp}>Register
-                            </button>
+                            <Link className='btn btn-dark w-100' onClick={signIn} to='/login'>Go To Login</Link>
                         </div>
                     </div>
                 </div>
@@ -88,4 +84,4 @@ const SignUp = () => {
     )
 }
 
-export default SignUp
+export default SignIn
