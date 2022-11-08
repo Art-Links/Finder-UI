@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-// import mainLogo from '../myimages/mainLogo.png'
+import mainLogo from '../myimages/mainLogo.png'
 
 const SearchSection = () => {
 const navigate = useNavigate()
@@ -9,7 +9,7 @@ navigate('/category')
     return (
         <section class="content-section">
             <div class="content-wrapper">
-                {/* <img class="logo-img" src={mainLogo} alt="" /> */}
+                <img class="logo-img" src={mainLogo} alt="" />
                 <div class="search-bar">
                     <i id="search-icon" class="fas fa-search"></i>
                     <input id="search-input" class="search-input" type="text" placeholder="Finder Search" />
