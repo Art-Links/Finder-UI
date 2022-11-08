@@ -28,11 +28,16 @@
 .registration-form .form-control::placeholder {
     color: #CCC;
 }
+#logo2{
+    width: 400px;
+    margin-top: -100px;
+}
 @media screen and (max-width: 768px) {
     .bg-image {
         opacity: .2;
     }
 }
+
 
 @media screen and (max-width: 576px) {
     .registration-form {

@@ -84,11 +84,11 @@ header {
 }
 
 .user-icon span {
-    color: white;
+    color: black;
 }
 
 .user-icon {
-    background-color: #EF6C00;
+    background-color: rgb(235, 208, 28);
     height: 30px;
     width: 30px;
     border-radius: 50%;
