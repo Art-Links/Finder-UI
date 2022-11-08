@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
+import mainLogo from '../myimages/mainLogo.png'
+
 
 
 
@@ -12,7 +14,12 @@ navigate('/profile')
     return (
         <header>
             <nav class="navbar1">
+                <div></div>
                 <ul>
+                    <li>
+                <img class="logo-img" src={mainLogo} alt="" />
+
+                    </li>
                     <li>
                         {/* <a class="link" href="">SignUp</a> */}
                         <Link class="link" to={'/signup'}>SignUp</Link>

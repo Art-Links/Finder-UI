@@ -4,3 +4,22 @@
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+#map-container {
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    width: 100%;
+}
+
+#map-container::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #fffdeec2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+>>>>>>> ce5d77a2750a6f2b2b20cb40b0458d4ac9d5f189
