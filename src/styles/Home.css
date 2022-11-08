@@ -31,7 +31,8 @@ body {
 header {
     height: 60px;
     opacity: 80%;
-    background-color: #dfdfd0;
+    /* background-image: linear-gradient (yellow, blue); */
+    background-image: linear-gradient(to right, #CFB997, #F2DEBA);
     width: 100%;
 }
 
@@ -115,7 +116,7 @@ header {
 }
 
 .logo-img {
-    width: 80px;
+    width: 120px;
     margin-bottom: 20px;
 }
 #div-logo{
@@ -223,8 +224,6 @@ header {
 }
 .main-logo{
     width: 300px;
-
-
 }
 
 /* Footer */
@@ -239,10 +238,8 @@ footer {
 
 
 .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    padding: 10px;
+    margin-right: 10px;
 }
 
 .upper-footer {
@@ -292,7 +289,9 @@ footer {
 }
 
 #key-icon {
-    color: orange;
+    font-size:x-large;
+    margin-top: 3px;
+    /* margin-right: 100px; */
 }
 
 #mic-icon {

@@ -14,11 +14,9 @@ const Navbar = () => {
         <header>
             <nav class="navbar1 d-flex">
                 <div id='div-logo'>
-                <img class="logo-img" src={Logo} alt="" />
-
+                    <img class="logo-img" src={Logo} alt="" />
                 </div>
                 <ul>
-                   
                     <li>
                         {/* <a class="link" href="">SignUp</a> */}
                         <Link class="link" to={'/signup'}>SignUp</Link>
@@ -31,6 +29,9 @@ const Navbar = () => {
                             <a class="menu-icon" href=""><i class="fas fa-bars"></i></a>
                         </div>
                     </li> */}
+                    <li>
+                        <Link to={''} id="key-icon" class="fa-solid fa-circle-plus"> add</Link>
+                    </li>
                     <li>
                         <div class="circle-shadow">
                             <Link to='/profile' class="user-icon" href=""><span>E</span></Link>

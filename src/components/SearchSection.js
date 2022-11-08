@@ -4,7 +4,7 @@ import mainLogo from '../myimages/mainLogo.png'
 
 const SearchSection = () => {
 const navigate = useNavigate()
-navigate('/category')
+// navigate('/category')
 
     return (
         <section class="content-section">
@@ -13,7 +13,6 @@ navigate('/category')
                 <div class="search-bar">
                     {/* <i id="search-icon" class="fas fa-search"></i> */}
                     <input id="search-input" class="search-input" type="text" placeholder="Finder Search" />
-                    <i id="key-icon" class="fas fa-plus"></i>
                     {/* <i id="mic-icon" class="fas fa-microphone"></i> */}
                 </div>
 

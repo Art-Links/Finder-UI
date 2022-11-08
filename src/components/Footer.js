@@ -13,24 +13,16 @@ const Footer = () => {
                             <a href="">About</a>
                         </li>
                         <li>
-                            <a href="">Advertising</a>
+                            <a href="">Contect us</a>
                         </li>
-                        <li>
-                            <a href="">Business</a>
-                        </li>
-                        <li>
-                            <a href="">How Search Works</a>
-                        </li>
-                    </ul>
-                    <ul class="lower-right-footer">
                         <li>
                             <a href="">Privacy</a>
                         </li>
+                    </ul>
+                    <ul class="lower-right-footer">
+
                         <li>
-                            <a href="">Terms</a>
-                        </li>
-                        <li>
-                            <a href="">Settings</a>
+                            <a href="">Created By @ArtLink</a>
                         </li>
                     </ul>
                 </div>
