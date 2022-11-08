@@ -20,7 +20,7 @@ function App() {
       <Route path="/category" element={<Category/>}/>
       {/* <Route path="/profile" element={<Profile/>}/> */}
       <Route path="/svgPhoto" element={<svgPhoto/>}/>
-      <Route path="/" element={<Map/>}/>
+      <Route path="/Map" element={<Map/>}/>
 
 
 

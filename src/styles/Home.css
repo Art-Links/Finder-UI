@@ -7,7 +7,10 @@
 li {
     list-style-type: none;
 }
-
+#maps{
+    position: absolute;
+    z-index: 10;
+}
 a {
     text-decoration: none;
 }
