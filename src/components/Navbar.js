@@ -1,22 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 
 
 const Navbar = () => {
-   
-   
+const navigate = useNavigate()
+navigate('/profile')
+
     return (
         <header>
             <nav class="navbar1">
                 <ul>
                     <li>
                         {/* <a class="link" href="">SignUp</a> */}
-                        <Link class="link" to={'/signup'}>signup</Link>
+                        <Link class="link" to={'/signup'}>SignUp</Link>
                     </li>
                     <li>
-                        <a class="link" href="">Images</a>
+                        <Link class="link" to={'/signin'}>SignIn</Link>
                     </li>
                     {/* <li>
                         <div class="circle-shadow">
@@ -25,7 +27,7 @@ const Navbar = () => {
                     </li> */}
                     <li>
                         <div class="circle-shadow">
-                            <a class="user-icon" href=""><span>E</span></a>
+                            <Link to='/profile' class="user-icon" href=""><span>E</span></Link>
                         </div>
                     </li>
                 </ul>

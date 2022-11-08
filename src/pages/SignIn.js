@@ -15,19 +15,15 @@ const SignIn = () => {
     const [isDisabled, setIsDisabled] = useState(false)
 
     const navigate = useNavigate()
-    const emailRef = useRef()
     const passwordRef = useRef()
-    const passwordConfirmationRef = useRef()
-    const userNameRef = useRef()
+    const accountRef = useRef()
     const signIn = async () => {
         setIsDisabled(true)
-        const response = await fetch('http://localhost:3000/users', {
+        const response = await fetch('http://localhost:3000/users/login', {
             method: 'post',
             body: JSON.stringify({
-                userName: userNameRef.current.value,
-                email: emailRef.current.value,
+                account: accountRef.current.value,
                 password: passwordRef.current.value,
-                passwordConfirmation: passwordConfirmationRef.current.value,
             }),
             headers: {
                 'Content-Type': 'application/json'
@@ -39,7 +35,7 @@ const SignIn = () => {
         window.alert(json.messages)
         if (json.success) {
             // go to sign in
-            navigate('/login')
+            navigate('/')
         }
     }
     
@@ -57,25 +53,19 @@ const SignIn = () => {
                     </div>
                     <h1 className='mb-2'>Create Account</h1>
                     <div className='form-field mb-3 d-flex flex-column align-items-start'>
-                        <label htmlFor='name' className='mb-2'>Name</label>
-                        <input placeholder='Type Yor Name' type='text' id="name" ref={userNameRef} className='form-control' />
+                        <label htmlFor='name' className='mb-2'>Name Or Email</label>
+                        <input placeholder='Type UserName Or Email' type='text' id="name" ref={accountRef} className='form-control' />
                     </div>
-                    <div className='form-field mb-3  d-flex flex-column align-items-start'>
-                        <label htmlFor='email' className='mb-2'>Email Address</label>
-                        <input placeholder='Email Address' type='email' ref={emailRef} id="email" className='form-control' />
-                    </div>
+                    
                     <div className='form-field mb-3  d-flex flex-column align-items-start'>
                         <label htmlFor='Password' className='mb-2'>Password</label>
                         <input placeholder='Yor Password' type='password' ref={passwordRef} id="password" className='form-control' />
                     </div>
 
-                    <div className='form-field mb-5  d-flex flex-column align-items-start'>
-                        <label htmlFor='password_confirmation' className='mb-2'>Password Confirmation</label>
-                        <input placeholder='Password Confirmation' type='password' ref={passwordConfirmationRef} id="password_confirmation" className='form-control' />
-                    </div>
+                   
                     <div className='row'>
                         <div className='col-6'>
-                            <Link className='btn btn-dark w-100' onClick={signIn} to='/login'>Go To Login</Link>
+                            <Link className='btn btn-primary w-100' onClick={signIn} to='/'>Login</Link>
                         </div>
                     </div>
                 </div>

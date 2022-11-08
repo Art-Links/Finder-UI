@@ -37,9 +37,10 @@ const SignUp = () => {
         setIsDisabled(false)
 
         window.alert(json.messages)
+        
         if (json.success) {
             // go to sign in
-            navigate('/login')
+            navigate('/')
         }
     }
     
@@ -73,13 +74,14 @@ const SignUp = () => {
                         <input placeholder='Password Confirmation' type='password' ref={passwordConfirmationRef} id="password_confirmation" className='form-control' />
                     </div>
                     <div className='row'>
-                        <div className='col-6'>
+                        <div className='col-5'>
                             <Link className='btn btn-dark w-100' to='/signin'>Go To Login</Link>
                         </div>
                         <div className='col-6'>
-                            <button
-                                className='btn btn-primary w-100'  onClick={signUp}>Register
-                            </button>
+
+                            <div className='col-10'>
+                               <Link className='btn btn-primary w-100' to='/signin'  onClick={signUp}>Register</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
