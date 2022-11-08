@@ -271,7 +271,10 @@ const Marker = (options) => {
 const Map = () => {
     const appCtx = useContext(AppContext)
     console.log(appCtx)
-    return <Wrapper apiKey='AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
+    return (
+
+    <div id='map-container'>
+        <Wrapper apiKey='AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
         <PlacesMap center={{ lat: 40.9, lng: 28.5 }} zoom={9}>
             {
                 appCtx.places.map((place, i) => {
@@ -280,6 +283,8 @@ const Map = () => {
             }
         </PlacesMap>
     </Wrapper>
+        </div>
+    )
 }
 
 export default Map
