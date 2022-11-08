@@ -21,9 +21,9 @@ navigate('/category')
                     <button id='btnCat'to='/category' class="google-search-btn">I Found this</button>
                 </div>
 
-                <div class="search-btns">
+                {/* <div class="search-btns">
                     <button id='btnCat1'> <Link  to='/category' class="google-search-btn"> Go and FInde</Link></button>
-                </div>
+                </div> */}
 
                 {/* <div class="language">
             <p>Google Offered in: <a href="">Maori</a></p>

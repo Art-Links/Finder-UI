@@ -1,5 +1,5 @@
-.wrapper {
-    background-color: rgb(211, 211, 201);
+body {
+    /* background-color: rgb(211, 211, 201); */
 }
 .wrapper {
     display: flex;
