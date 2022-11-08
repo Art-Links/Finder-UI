@@ -107,7 +107,7 @@ header {
 .content-wrapper {
     width: 100%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 280px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -130,6 +130,8 @@ header {
     display: flex;
     align-items: center;
     padding-left: 15px;
+    background-color: white;
+
 }
 
 .search-bar:hover {
