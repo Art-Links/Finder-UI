@@ -7,7 +7,10 @@
 li {
     list-style-type: none;
 }
-
+#maps{
+    position: absolute;
+    z-index: 10;
+}
 a {
     text-decoration: none;
 }
@@ -212,7 +215,7 @@ header {
 footer {
     background-color: #F2F2F2;
     /* height: 60px; */
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
     padding-top: -10px;
