@@ -30,13 +30,16 @@ body {
 /* Header */
 header {
     height: 60px;
+    opacity: 80%;
+    background-color: #dfdfd0;
+    width: 100%;
 }
 
 .navbar1 {
     height: 100%;
     width: 100%;
     padding: 10px 20px;
-    background-color: #f1f1ca55;
+    /* background-color: #f1f1ca55; */
     justify-content: space-between;
 }
 
@@ -229,12 +232,14 @@ footer {
     position: absolute;
     bottom: -60px;
     width: 100%;
-    padding-top: -10px;
 }
+
+
 
 .footer-content {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
