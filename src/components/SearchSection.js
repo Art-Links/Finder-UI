@@ -9,7 +9,7 @@ navigate('/category')
     return (
         <section class="content-section">
             <div class="content-wrapper">
-                <img class="logo-img" src={mainLogo} alt="" />
+                <img class="main-logo" src={mainLogo} alt="" />
                 <div class="search-bar">
                     <i id="search-icon" class="fas fa-search"></i>
                     <input id="search-input" class="search-input" type="text" placeholder="Finder Search" />
