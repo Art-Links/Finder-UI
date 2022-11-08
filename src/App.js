@@ -8,6 +8,7 @@ import Subnavbar from './pages/Subnavbar';
 import Category from './pages/Category';
 import svgPhoto from './pages/svgPhoto';
 import Profile from './pages/Profile';
+import Map from '../src/components/Map'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <Route path="/subnavbar" element={<Subnavbar/>}/>
       <Route path="/category" element={<Category/>}/>
       <Route path="/profile" element={<Profile/>}/>
-      <Route path="/svgphoto" element={<svgPhoto/>}/>
+      <Route path="/svgPhoto" element={<svgPhoto/>}/>
+      <Route path="/" element={<Map/>}/>
 
 
 

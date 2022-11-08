@@ -5,6 +5,7 @@ import SearchSection from '../components/SearchSection';
 // import Subnavbar from './Subnavbar';
 import Category from '../pages/Category';
 // import { useNavigate } from 'react-router-dom';
+import Map from '../components/Map';
 
 
 
@@ -14,13 +15,13 @@ const Home = () => {
 
     return (
         <div className='home-page'>
-            
-           <Navbar />
-           <svgPhoto/>
-           <SearchSection />
-           <Footer />
-           {/* <Category/> */}
-           
+            <Navbar />
+            <svgPhoto />
+            <SearchSection />
+            <Map />
+            <Footer />
+            {/* <Category/> */}
+
         </div>
 
     )
