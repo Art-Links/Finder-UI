@@ -1,25 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
-import mainLogo from '../myimages/mainLogo.png'
+import Logo from '../myimages/Logo.png'
 
 
 
 
 
 const Navbar = () => {
-const navigate = useNavigate()
-navigate('/profile')
+
+
 
     return (
         <header>
-            <nav class="navbar1">
-                <div></div>
-                <ul>
-                    <li>
-                <img class="logo-img" src={mainLogo} alt="" />
+            <nav class="navbar1 d-flex">
+                <div id='div-logo'>
+                <img class="logo-img" src={Logo} alt="" />
 
-                    </li>
+                </div>
+                <ul>
+                   
                     <li>
                         {/* <a class="link" href="">SignUp</a> */}
                         <Link class="link" to={'/signup'}>SignUp</Link>
