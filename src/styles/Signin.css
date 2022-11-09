@@ -5,6 +5,7 @@ body {
     display: flex;
     position: relative;
     justify-content: flex-end;
+    background-color: #C8D7D4;
 }
 .bg-image {
     position: absolute;

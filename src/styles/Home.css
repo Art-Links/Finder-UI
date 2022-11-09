@@ -232,6 +232,14 @@ header {
 .main-logo {
     width: 300px;
 }
+#myList{
+    height:35px;
+    width: 270px;
+    border-radius: 50px;
+    margin-right: 5px;
+    background-color: #bbb9b9;
+    border: solid 1px #FFFFFF;
+}
 
 /* Footer */
 footer {

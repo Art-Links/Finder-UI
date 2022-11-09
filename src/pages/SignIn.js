@@ -43,6 +43,7 @@ const SignIn = () => {
 
     return (
         <div class='wrapper'>
+            
             <div class='bg-image'>
                 <img id='personal' src={photo1} alt='' />
             </div>
