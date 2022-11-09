@@ -7,10 +7,12 @@
 li {
     list-style-type: none;
 }
-#maps{
+
+#maps {
     position: absolute;
     z-index: 10;
 }
+
 a {
     text-decoration: none;
 }
@@ -116,10 +118,11 @@ header {
 }
 
 .logo-img {
-    width: 120px;
+    width: 138px !important;
     margin-bottom: 20px;
 }
-#div-logo{
+
+#div-logo {
     margin-top: -15px;
 }
 
@@ -153,7 +156,7 @@ header {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    
+
 }
 
 ::placeholder {
@@ -179,7 +182,7 @@ header {
 }
 
 
-#btnFon:hover{
+#btnFon:hover {
     border: 1px solid yellow;
 }
 
@@ -209,20 +212,23 @@ header {
     color: black;
     margin-right: 10px;
 }
-#btnCat:hover{
+
+#btnCat:hover {
     border: 1px solid black;
 
 }
+
 #btnCat1 {
     color: black;
     margin-right: 10px;
     width: 115px;
 }
 
-#btnCat1:hover{
+#btnCat1:hover {
     border: 1px solid orange;
 }
-.main-logo{
+
+.main-logo {
     width: 300px;
 }
 
@@ -289,7 +295,7 @@ footer {
 }
 
 #key-icon {
-    font-size:x-large;
+    font-size: x-large;
     margin-top: 3px;
     /* margin-right: 100px; */
 }
@@ -368,5 +374,13 @@ footer {
 
     .lower-left-footer {
         flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
     }
 }
