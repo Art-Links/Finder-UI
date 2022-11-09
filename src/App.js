@@ -4,8 +4,9 @@ import SignUp from './pages/SignUp';
 import SignIn from './pages/SignIn';
 import { Route, Routes } from "react-router-dom"
 import Subnavbar from './pages/Subnavbar';
-// import Profile from './pages/Profile';
-import LostItem from '../src/pages/LostItem';
+import Category from './pages/Category';
+import svgPhoto from './pages/svgPhoto';
+import Profile from './pages/Profile';
 import Map from '../src/components/Map'
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/subnavbar" element={<Subnavbar />} />
-        {/* <Route path="/profile" element={<Profile/>}/> */}
+        <Route path="/category" element={<Category />} />
+        <Route path="/profile" element={<Profile/>}/>
+        {/* <Route path="/svgPhoto" element={<svgPhoto/>}/> */}
         <Route path="/Map" element={<Map />} />
         <Route path="/lostItem" element={<LostItem />} />
 
