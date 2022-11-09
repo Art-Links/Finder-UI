@@ -127,7 +127,7 @@ header {
 }
 
 .search-bar {
-    border: 2px solid yellow;
+    border: 1.5px solid yellow;
     width: 600px;
     height: 45px;
     border-radius: 30px;
