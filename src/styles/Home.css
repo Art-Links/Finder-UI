@@ -34,7 +34,7 @@ header {
     height: 60px;
     opacity: 80%;
     /* background-image: linear-gradient (yellow, blue); */
-    background-image: linear-gradient(to right, #CFB997, #F2DEBA);
+    background-color: #facc2a; 
     width: 100%;
 }
 
@@ -90,7 +90,7 @@ header {
 }
 
 .user-icon {
-    background-color: rgb(235, 208, 28);
+    background-color: #FFF;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -108,13 +108,13 @@ header {
 }
 
 .content-wrapper {
-    width: 100%;
     display: flex;
-    margin-top: 280px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .logo-img {
