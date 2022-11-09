@@ -30,7 +30,7 @@ const Navbar = () => {
                         </div>
                     </li> */}
                     <li>
-                        <Link to={''} id="key-icon" class="fa-solid fa-circle-plus"> add</Link>
+                        <Link to={''} id="key-icon" class="fa-solid fa-circle-plus"></Link>
                     </li>
                     <li>
                         <div class="circle-shadow">
@@ -42,5 +42,6 @@ const Navbar = () => {
         </header>
     )
 }
+
 
 export default Navbar
