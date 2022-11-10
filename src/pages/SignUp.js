@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Signup.css'
-import logo2 from '../myimages/logo2.png'
+import logo2 from '../myimages/sonlogo.svg'
 import photo from '../myimages/photo.svg'
 
 
@@ -82,6 +82,7 @@ const SignUp = () => {
                             <div className='col-10'>
                                <Link className='btn btn-primary w-100' to='/signin'  onClick={signUp}>Register</Link>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

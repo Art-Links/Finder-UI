@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../myimages/Logo.png'
+import { useContext } from 'react'
+import {AuthContext} from '../AuthContext/authContext'
 
 
 
 
 
 const Navbar = () => {
-
-
-
+    const {loggedIn} = useContext(AuthContext)
+    console.log("Signed in at navbar",loggedIn)
     return (
         <header>
             <nav class="navbar1 d-flex">
@@ -17,13 +18,19 @@ const Navbar = () => {
                     <img class="logo-img" src={Logo} alt="" />
                 </div>
                 <ul>
+                    {(!loggedIn)?
+                    <>
                     <li>
                         {/* <a class="link" href="">SignUp</a> */}
-                        <Link class="link" to={'/signup'}>SignUp</Link>
+                        <Link class="link" to={'/signup'}>Sign Up</Link>
                     </li>
                     <li>
-                        <Link class="link" to={'/signin'}>SignIn</Link>
+                        <Link class="link" to={'/signin'}>Sign In</Link>
                     </li>
+                    </>:
+                    <li>
+                        <Link class="link" to={'/signOut'}>Sign Out</Link>
+                    </li>}
                     {/* <li>
                         <div class="circle-shadow">
                             <a class="menu-icon" href=""><i class="fas fa-bars"></i></a>

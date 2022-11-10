@@ -3,6 +3,8 @@ import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import React, { useRef, useState, useEffect, useContext } from 'react';
 import { AppContext } from '../AuthContext/AppContext';
 import SearchSection from '../components/SearchSection';
+// import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+
 
 const PlacesMap = ({ center, zoom, children }) => {
     const mapRef = useRef(null)

@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../styles/Signin.css'
 import logo2 from '../myimages/logo2.png'
 import photo1 from '../myimages/photo1.svg'
 
 
+ 
+
+
 import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useState } from "react"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'     
+import { AuthContext } from '../AuthContext/authContext'
 
 
 const SignIn = () => {
-
+    const {logIn} = useContext(AuthContext)
     const [isDisabled, setIsDisabled] = useState(false)
 
     const navigate = useNavigate()
@@ -34,7 +38,8 @@ const SignIn = () => {
 
         window.alert(json.messages)
         if (json.success) {
-            // go to sign in
+            
+            logIn(json.token)
             navigate('/')
         }
     }
