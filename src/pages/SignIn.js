@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import '../styles/Signin.css'
-import logo2 from '../myimages/logo2.png'
+import logo2 from '../myimages/sonlogo.svg'
 import photo1 from '../myimages/photo1.svg'
 
 

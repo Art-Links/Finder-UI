@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../myimages/Logo.png'
+import Logo from '../myimages/sonlogo.svg'
 import { useContext } from 'react'
 import {AuthContext} from '../AuthContext/authContext'
 
@@ -15,7 +15,7 @@ const Navbar = () => {
         <header>
             <nav class="navbar1 d-flex">
                 <div id='div-logo'>
-                    <img class="logo-img" src={Logo} alt="" />
+                    <img id="logo-img" src={Logo} alt="" />
                 </div>
                 <ul>
                     {(!loggedIn)?
@@ -37,7 +37,7 @@ const Navbar = () => {
                         </div>
                     </li> */}
                     <li>
-                        <Link to={''} id="key-icon" class="fa-solid fa-circle-plus"></Link>
+                        <Link to='/lostitem' id="key-icon" class="fa-solid fa-circle-plus"></Link>
                     </li>
                     <li>
                         <div class="circle-shadow">

@@ -122,8 +122,10 @@ header {
     margin-bottom: 20px;
 }
 
-#div-logo {
-    margin-top: -15px;
+#logo-img {
+    margin-top: -8px;
+    width: 120px;
+    height:55px;
 }
 
 .search-bar {

@@ -29,9 +29,11 @@ body {
 .registration-form .form-control::placeholder {
     color: #CCC;
 }
+#form-div{
+    margin-top: -70px;
+}
 #personal{
         width: 400px;
-        margin-top: -100px;
     }
 
 @media screen and (max-width: 768px) {
