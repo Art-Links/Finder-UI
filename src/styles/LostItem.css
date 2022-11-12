@@ -8,9 +8,12 @@
 }
 #myFile {
     background-color: white;
-    width: 200px;
+    width: 350px;
+    border-radius: 3px;
+    
 }
-#Description{
+
+#inputCity{
     resize: none;
     outline: none;
     height: 120px;
