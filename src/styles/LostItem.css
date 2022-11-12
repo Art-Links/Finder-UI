@@ -5,3 +5,7 @@
     height: fit-content;
     width: fit-content;
 }
+#myFile {
+    background-color: white;
+    width: 200px;
+}
