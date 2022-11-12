@@ -129,19 +129,18 @@ header {
 }
 
 .search-bar {
-    border: 1.5px solid yellow;
     width: 600px;
     height: 45px;
     border-radius: 30px;
     display: flex;
     align-items: center;
     padding-left: 15px;
-    background-color: lightgray;
+    background-color: #32269d;
 
 }
 
 .search-input {
-    background-color: lightgray;
+    background-color: #32269d;
 }
 
 .search-bar:hover {

@@ -1,7 +1,17 @@
 #main-div{
     background-color: #C8D7D4;
+    display: inline-grid;
 }
 #form{
     height: fit-content;
     width: fit-content;
+}
+#myFile {
+    background-color: white;
+    width: 200px;
+}
+#Description{
+    resize: none;
+    outline: none;
+    height: 120px;
 }
