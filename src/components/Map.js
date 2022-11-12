@@ -226,15 +226,14 @@ const Marker = (options) => {
     return null;
 };
 
-const Map = ({lat, long: lng}) => {
+const Map = ({}) => {
     const appCtx = useContext(AppContext)
     return (
-
         <div className='map-container'>
             <SearchSection />
             <div className='map-wrapper'>
                 <Wrapper apiKey='AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
-                    <PlacesMap center={{ lat: lat+0.1, lng: lng }} zoom={9}>
+                    <PlacesMap center={{ lat: 40.9, lng: 28.5 }} zoom={9}>
                         {
                             appCtx.places.map((place, i) => {
                                 return <Marker title={place.title} position={{ lat: place.latitude, lng: place.longitude }} key={i} />

@@ -17,9 +17,6 @@ const LostItem = () => {
   // const blurImageRef = useRef()
   const latRef = useRef()
   const lngRef = useRef()
-  const cityRef = useRef()
-  const stateRef = useRef()
-  const streetRef = useRef()
   const descriptionRef = useRef()
 
   const lostitme = async () => {
@@ -32,9 +29,6 @@ const LostItem = () => {
         // blurImage: blurImageRef.current.value,
         lat: latRef.current.value,
         lng: lngRef.current.value,
-        city: cityRef.current.value,
-        state: stateRef.current.value,
-        street: streetRef.current.value,
         description: descriptionRef.current.value
       }),
       headers: {
@@ -57,15 +51,15 @@ const LostItem = () => {
         <div>
           <h2>Add an Item</h2>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <label for="inputEmail4" class="form-label">Name</label>
           <input type="email" class="form-control" ref={nameRef} id="inputEmail4" />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <label for="inputEmail4" class="form-label">Email</label>
           <input type="email" class="form-control" ref={emailRef} id="inputEmail4" />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <label for="inputPassword4" class="form-label">lat</label>
           <input type="password" ref={latRef} class="form-control" id="inputPassword4" />
         </div>
@@ -73,19 +67,7 @@ const LostItem = () => {
           <label for="inputAddress" class="form-label">lng</label>
           <input type="text" ref={lngRef} class="form-control" id="inputAddress" placeholder="1234 Main St" />
         </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">City</label>
-          <input type="text" ref={cityRef} class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">State</label>
-          <input type="text" ref={stateRef} class="form-control" id="inputCity" />
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">street</label>
-          <input type="text" ref={streetRef} class="form-control" id="inputCity" />
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <label for="inputCity" class="form-label">description</label>
           <input type="text" ref={descriptionRef} class="form-control" id="inputCity" />
         </div>

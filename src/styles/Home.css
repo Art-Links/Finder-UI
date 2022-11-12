@@ -123,9 +123,8 @@ header {
 }
 
 #logo-img {
-    margin-top: -8px;
-    width: 120px;
-    height:55px;
+    width: 55px;
+    height: 40px;
 }
 
 .search-bar {
@@ -135,12 +134,12 @@ header {
     display: flex;
     align-items: center;
     padding-left: 15px;
-    background-color: #32269d;
-
+    background-color: #282828;
+    opacity: 85%;
 }
 
 .search-input {
-    background-color: #32269d;
+    background-color: #282828;
 }
 
 .search-bar:hover {
@@ -161,7 +160,6 @@ header {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-
 }
 
 

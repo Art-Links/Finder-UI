@@ -58,7 +58,7 @@ const SignUp = () => {
                     <h1 className='mb-2'>Create Account</h1>
                     <div className='form-field mb-3 d-flex flex-column align-items-start'>
                         <label htmlFor='name' className='mb-2'>Name</label>
-                        <input placeholder='Type Yor Name' type='text' id="name" ref={userNameRef} className='form-control' />
+                        <input placeholder='Type Your Name' type='text' id="name" ref={userNameRef} className='form-control' />
                     </div>
                     <div className='form-field mb-3  d-flex flex-column align-items-start'>
                         <label htmlFor='email' className='mb-2'>Email Address</label>
@@ -66,7 +66,7 @@ const SignUp = () => {
                     </div>
                     <div className='form-field mb-3  d-flex flex-column align-items-start'>
                         <label htmlFor='Password' className='mb-2'>Password</label>
-                        <input placeholder='Yor Password' type='password' ref={passwordRef} id="password" className='form-control' />
+                        <input placeholder='Your Password' type='password' ref={passwordRef} id="password" className='form-control' />
                     </div>
 
                     <div className='form-field mb-5  d-flex flex-column align-items-start'>
