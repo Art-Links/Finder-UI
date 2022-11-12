@@ -14,6 +14,13 @@
     max-width: 800px;
     height: 100vh;
 }
+
+
+#logo2 {
+    width: 500px;
+    margin-top: 100px;
+}
+
 .registration-form {
     padding: 10px 20px;
     max-width: 100%;
