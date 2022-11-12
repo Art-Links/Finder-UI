@@ -3,12 +3,12 @@ import '../styles/LostItem.css'
 
 
 import { useRef } from 'react'
-import { useState, useNavigate } from 'react'
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 const LostItem = () => {
 
-  const [isDisabled, setIsDisabled] = useState(false)
+  // const [isDisabled, setIsDisabled] = useState(false)
 
   const navigate = useNavigate()
   const nameRef = useRef()
@@ -51,7 +51,8 @@ const LostItem = () => {
     }
   }
   return (
-    <div id='main-div' className='registration-form d-flex container'>
+    
+    <div id='main-div' className='registration-form'>
       <form id='form' class="row g-2 w-100 d-flex">
         <div>
           <h2>Add an Item</h2>
@@ -101,6 +102,7 @@ const LostItem = () => {
         </div>
       </form>
     </div>
+    
   )
 }
 
