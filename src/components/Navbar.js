@@ -15,7 +15,9 @@ const Navbar = () => {
         <header>
             <nav class="navbar1 d-flex">
                 <div id='div-logo'>
+                    <Link to={'/'}>
                     <img id="logo-img" src={Logo} alt="" />
+                    </Link>
                 </div>
                 <ul>
                     {(!loggedIn)?

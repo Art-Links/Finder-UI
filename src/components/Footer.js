@@ -22,7 +22,7 @@ const Footer = () => {
                     <ul class="lower-right-footer">
 
                         <li>
-                            <a href="">Created By @ArtLink</a>
+                            <a href="">Created By @ArtLinks</a>
                         </li>
                     </ul>
                 </div>

@@ -44,6 +44,8 @@
         width: 100%;
     }
 }
+
+
 .registration-form img {
     width: 120px;
 }
@@ -60,7 +62,7 @@
     color: red;
 } */
 
-#name {
+/* #name {
     color: rgb(219, 135, 52);
 }
 
@@ -74,4 +76,4 @@
 
 #password_confirmation {
     color: rgb(219, 135, 52);
-}
+} */

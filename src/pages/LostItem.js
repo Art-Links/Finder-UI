@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/LostItem.css'
 import logo2 from '../myimages/sonlogo.svg'
+import photo from '../myimages/Uplode.svg'
+import Navbar from '../components/Navbar'
 
 
 
@@ -47,33 +49,39 @@ const LostItem = () => {
   }
   return (
 
-    <div id='main-div' className='registration-form'>
-      <form id='form' class="row g-2 w-100 d-flex">
-        <div className=' mb-4'>
-          <img id='logo2' src={logo2} alt='' />
+    <div>
+        <Navbar />
+      <div className='wrapper'>
+        <div class='bg-images'>
+          <img id='personal' src={photo} alt='' />
         </div>
-        <div>
-          <h2>Add an Item</h2>
-        </div>
-        <div class="col-md-12">
-          <label for="inputEmail4" class="form-label">Name</label>
-          <input placeholder='Type The Name For Item' type="email" class="form-control" ref={nameRef} id="inputEmail4" />
-        </div>
-        <div class="col-md-12">
-          <label for="inputPassword4" class="form-label">lat</label>
-          <input type="text" ref={latRef} class="form-control" id="inputPassword4" />
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">lng</label>
-          <input type="text" ref={lngRef} class="form-control" id="inputAddress" placeholder="1234 Main St" />
-        </div>
-        <div class="col-md-12">
-          <label for="inputCity" class="form-label">description</label>
-          <textarea type="text" ref={descriptionRef} class="form-control" id="inputCity" placeholder='Please Descrip How You Found It ?!'/>
-        </div>
-        {/* <div class="col-md-12">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
+        <div id='main-div' className='registration-forms'>
+          <form id='form' class="row g-2 w-100 d-flex">
+            <div className=' mb-4'>
+              <img id='logos2' src={logo2} alt='' />
+            </div>
+            <div>
+              <h3>Add an Item</h3>
+            </div>
+            <div class="col-md-12">
+              <label for="inputEmail4" className="form-label d-flex flex-column align-items-start">Name</label>
+              <input placeholder='Type The Name For Item' type="email" className="form-control" ref={nameRef} id="inputEmail4" />
+            </div>
+            <div className="col-md-12">
+              <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label>
+              <input type="text" ref={latRef} className="form-control" id="inputPassword4" placeholder='Latitude' />
+            </div>
+            <div className="col-12">
+              <label for="inputAddress" className="form-label d-flex flex-column align-items-start">lng</label>
+              <input type="text" ref={lngRef} className="form-control" id="inputAddress" placeholder="Longitude" />
+            </div>
+            <div className="col-md-12">
+              <label for="inputCity" className="form-label d-flex flex-column align-items-start">description</label>
+              <textarea type="text" ref={descriptionRef} className="form-control" id="inputCity" placeholder='Please Descrip How You Found It ?!' />
+            </div>
+            {/* <div className="col-md-12">
+          <label for="inputState" className="form-label">State</label>
+          <select id="inputState" className="form-select">
             <option selected>Choose...</option>
             <option>Ankara</option>
             <option>Istanbul</option>
@@ -89,17 +97,22 @@ const LostItem = () => {
             <option>Kars</option>
             <option>Trabzon</option>
             <option>Rize</option>
+            
+            </select>
+          </div> */}
+            <div className="col-md-12">
+              <label for="input" className="form-label d-flex flex-column align-items-start">Photo</label>
+              <input ref={blurImageRef} type="file" id="myFile" name="filename" />
+            </div>
+            <dr />
+            <dr />
+            <div className='col-12'>
+              <button className='btn btn-primary w-100' disabled={isDisabled} onClick={lostitme}>Submit</button>
+            </div>
+          </form>
+        </div>
 
-          </select>
-        </div> */}
-        <div className="col-md-12">
-          <label for="input" class="form-label">Photo</label><br />
-          <input ref={blurImageRef} type="file" id="myFile" name="filename"/>
-        </div>
-        <div className='col-12'>
-          <Link className='btn btn-primary w-100' to='/signin' onClick={lostitme}>Submit</Link>
-        </div>
-      </form>
+      </div>
     </div>
 
   )

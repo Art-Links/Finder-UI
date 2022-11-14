@@ -1,0 +1,1279 @@
+<svg class="prefix__animated" id="prefix__freepik_stories-scavenger-hunt" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 500 500" version="1.1">
+    <style>
+        @keyframes fadeIn {
+            0% {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes slideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px)
+            }
+
+            to {
+                opacity: 1;
+                transform: inherit
+            }
+        }
+
+        @keyframes floating {
+
+            0%,
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-10px)
+            }
+        }
+
+        svg#prefix__freepik_stories-scavenger-hunt:not(.prefix__animated) .prefix__animable {
+            opacity: 0
+        }
+
+        .prefix__animator-hidden {
+            display: none
+        }
+    </style>
+    <g id="prefix__freepik--background-simple--inject-209" class="prefix__animable"
+        style="transform-origin:250.755px 260.445px;animation:1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) fadeIn;animation-delay:0s">
+        <path
+            d="M441.64 158s-66.75-79.89-170.15-98.21-123.69 59.55-158.37 105.36S39.16 228 37.2 294.08s24.87 100.13 76.57 123.69 104.71 36 156.41 43.19 92.93 3.27 113.22-39.27 11.12-62.17 34.68-82.46S494.65 226.67 441.64 158z"
+            style="transform-origin:250.755px 260.445px" id="prefix__elnan2loj8wwj" class="prefix__animable"
+            fill="#92e3a9" />
+        <g id="prefix__elmnusiut83i">
+            <path
+                d="M441.64 158s-66.75-79.89-170.15-98.21-123.69 59.55-158.37 105.36S39.16 228 37.2 294.08s24.87 100.13 76.57 123.69 104.71 36 156.41 43.19 92.93 3.27 113.22-39.27 11.12-62.17 34.68-82.46S494.65 226.67 441.64 158z"
+                style="transform-origin:250.755px 260.445px" class="prefix__animable" id="prefix__el0talpdfgdrhm"
+                fill="#fff" opacity=".7" />
+        </g>
+    </g>
+    <g id="prefix__freepik--Bushes--inject-209" class="prefix__animable" style="transform-origin:255.56px 394.72px">
+        <path
+            d="M432.43 445.86c-1.49-12.49-11.17-37.24-25.07-44.19-14.73-7.37-25.78 9.47-52.08 21.57s-19.47-8.94-46.82-25.24-31 6.31-42.09 11.57c-11.43 5.44-18.17-14.56-20.86-22-5.27-14.52-11.4-27-25-35.58-21.07-13.3-57.1-12.25-68.24 13.52-3.35 7.75-2.14 22-10.55 26.15-12.63 6.31-45.24-1.05-47.34 20A31.21 31.21 0 0099 430.8c.92 2.8 1.63 5.74 1.16 7.17-1.06 3.16-7.9-4.21-13.68-.53a25.94 25.94 0 00-7.79 8.42z"
+            style="transform-origin:255.56px 394.72px" id="prefix__el17w3rmjhtaq" class="prefix__animable"
+            fill="#92e3a9" />
+        <path d="M184.64 373.17a12.56 12.56 0 001 7.7 23.74 23.74 0 004.47 5.81s1.89-6.68-5.47-13.51z"
+            style="transform-origin:187.377px 379.925px" id="prefix__elcrp6cfz55sn" class="prefix__animable"
+            fill="#fff" />
+        <path d="M149.36 410.34a12.58 12.58 0 007.21 2.87 24 24 0 007.25-1.11s-4.91-4.85-14.46-1.76z"
+            style="transform-origin:156.59px 411.26px" id="prefix__el47nhxqoy9z2" class="prefix__animable"
+            fill="#fff" />
+        <path d="M114.91 405.59a12.58 12.58 0 007.21 2.87 24 24 0 007.25-1.11s-4.91-4.85-14.46-1.76z"
+            style="transform-origin:122.14px 406.51px" id="prefix__el0xy4o9k9mdyn" class="prefix__animable"
+            fill="#fff" />
+        <path d="M144.42 427.78a12.6 12.6 0 007.74.6 24 24 0 006.59-3.21s-6.13-3.17-14.33 2.61z"
+            style="transform-origin:151.585px 426.516px" id="prefix__eljl3gkkpvmh" class="prefix__animable"
+            fill="#fff" />
+        <path d="M109.44 423.34a12.58 12.58 0 007.74.6 24 24 0 006.59-3.21s-6.13-3.18-14.33 2.61z"
+            style="transform-origin:116.605px 422.074px" id="prefix__elywfz2kqdkpr" class="prefix__animable"
+            fill="#fff" />
+        <path d="M167.94 429.6a12.56 12.56 0 007.28-2.68 24 24 0 004.67-5.66s-6.89-.34-11.95 8.34z"
+            style="transform-origin:173.915px 425.429px" id="prefix__eled6t7fy41xq" class="prefix__animable"
+            fill="#fff" />
+        <path d="M119 442.06a12.58 12.58 0 007.28-2.68 23.84 23.84 0 004.66-5.66s-6.89-.34-11.94 8.34z"
+            style="transform-origin:124.97px 437.889px" id="prefix__el7oxm4tax7xw" class="prefix__animable"
+            fill="#fff" />
+        <path d="M158 377.52a12.54 12.54 0 004.17 6.55 23.87 23.87 0 006.53 3.34s-1.13-6.81-10.7-9.89z"
+            style="transform-origin:163.35px 382.465px" id="prefix__elhcp9crlx8aq" class="prefix__animable"
+            fill="#fff" />
+        <path d="M228.2 374.42a12.54 12.54 0 00-6.88 3.58 23.9 23.9 0 00-3.9 6.21s6.88-.54 10.78-9.79z"
+            style="transform-origin:222.81px 379.315px" id="prefix__eli6g8l1ksdl" class="prefix__animable"
+            fill="#fff" />
+        <path d="M243 396.57a12.56 12.56 0 00-7.7 1 24.19 24.19 0 00-5.81 4.48s6.62 1.85 13.51-5.48z"
+            style="transform-origin:236.245px 399.307px" id="prefix__el3gexmylsitv" class="prefix__animable"
+            fill="#fff" />
+        <path d="M241.53 421.73a12.57 12.57 0 00-7-3.37 23.76 23.76 0 00-7.31.59s4.56 5.19 14.31 2.78z"
+            style="transform-origin:234.375px 420.331px" id="prefix__elay5xxel8xl7" class="prefix__animable"
+            fill="#fff" />
+        <path d="M225.05 435.23a12.59 12.59 0 00-5.34-5.64 23.83 23.83 0 00-7-2.06s2.37 6.47 12.34 7.7z"
+            style="transform-origin:218.88px 431.38px" id="prefix__elmneehfpf6nl" class="prefix__animable"
+            fill="#fff" />
+        <path d="M216.37 394.4a12.59 12.59 0 00-6.88 3.59 23.82 23.82 0 00-3.91 6.2s6.88-.54 10.79-9.79z"
+            style="transform-origin:210.975px 399.295px" id="prefix__el4pnyd57un64" class="prefix__animable"
+            fill="#fff" />
+        <path d="M146.53 388.85a12.49 12.49 0 005.54 5.43 24 24 0 007.11 1.79s-2.65-6.37-12.65-7.22z"
+            style="transform-origin:152.855px 392.46px" id="prefix__elc6akmt29w2w" class="prefix__animable"
+            fill="#fff" />
+        <path d="M207.31 368.48a12.59 12.59 0 00-4.32 6.45 24 24 0 00-.45 7.32s5.78-3.77 4.77-13.77z"
+            style="transform-origin:204.933px 375.365px" id="prefix__elq5luc24n32" class="prefix__animable"
+            fill="#fff" />
+        <path d="M194.3 356.3a12.63 12.63 0 00-1 7.7 23.9 23.9 0 002.83 6.76s3.48-5.94-1.83-14.46z"
+            style="transform-origin:195.169px 363.53px" id="prefix__elxgh9mgs3k1" class="prefix__animable"
+            fill="#fff" />
+        <path d="M166.12 360.4a12.59 12.59 0 002.58 7.32 24.08 24.08 0 005.6 4.73s.43-6.88-8.18-12.05z"
+            style="transform-origin:170.212px 366.425px" id="prefix__el63n1yclt86e" class="prefix__animable"
+            fill="#fff" />
+        <path d="M289.26 406a7.31 7.31 0 00.56 4.47 14 14 0 002.6 3.38s1.09-3.85-3.16-7.85z"
+            style="transform-origin:290.838px 409.925px" id="prefix__elmxpp8yiepl" class="prefix__animable"
+            fill="#fff" />
+        <path d="M268.77 427.55a7.33 7.33 0 004.19 1.66 13.91 13.91 0 004.21-.64s-2.85-2.82-8.4-1.02z"
+            style="transform-origin:272.97px 428.08px" id="prefix__el92juoprgqug" class="prefix__animable"
+            fill="#fff" />
+        <path d="M265.9 437.67a7.34 7.34 0 004.5.35 14.09 14.09 0 003.82-1.86s-3.55-1.85-8.32 1.51z"
+            style="transform-origin:270.06px 436.937px" id="prefix__elhqvu75gm6tt" class="prefix__animable"
+            fill="#fff" />
+        <path d="M279.56 438.73a7.34 7.34 0 004.23-1.56 14 14 0 002.71-3.28s-4.01-.2-6.94 4.84z"
+            style="transform-origin:283.03px 436.309px" id="prefix__elz49vs4s4u2" class="prefix__animable"
+            fill="#fff" />
+        <path d="M273.8 408.49a7.35 7.35 0 002.42 3.8 14.06 14.06 0 003.79 1.94s-.66-3.95-6.21-5.74z"
+            style="transform-origin:276.905px 411.36px" id="prefix__elho8um3ssu1" class="prefix__animable"
+            fill="#fff" />
+        <path d="M314.55 406.68a7.33 7.33 0 00-4 2.09 13.73 13.73 0 00-2.27 3.6s4.01-.31 6.27-5.69z"
+            style="transform-origin:311.415px 409.525px" id="prefix__elr16wsn36jw" class="prefix__animable"
+            fill="#fff" />
+        <path d="M323.13 419.55a7.27 7.27 0 00-4.47.57 13.82 13.82 0 00-3.37 2.6s3.86 1.08 7.84-3.17z"
+            style="transform-origin:319.21px 421.132px" id="prefix__eln0pdrjs2koe" class="prefix__animable"
+            fill="#fff" />
+        <path d="M322.29 434.16a7.25 7.25 0 00-4.06-2 14.07 14.07 0 00-4.24.34s2.64 3.05 8.3 1.66z"
+            style="transform-origin:318.14px 433.323px" id="prefix__el540btsf4dk9" class="prefix__animable"
+            fill="#fff" />
+        <path d="M312.72 442a7.26 7.26 0 00-3.1-3.28 13.82 13.82 0 00-4.08-1.19s1.39 3.76 7.18 4.47z"
+            style="transform-origin:309.13px 439.765px" id="prefix__elkutuq21tg2" class="prefix__animable"
+            fill="#fff" />
+        <path d="M307.68 418.29a7.32 7.32 0 00-4 2.08 13.81 13.81 0 00-2.26 3.61s3.99-.32 6.26-5.69z"
+            style="transform-origin:304.55px 421.135px" id="prefix__elnf2okaggsdc" class="prefix__animable"
+            fill="#fff" />
+        <path d="M267.13 415.07a7.29 7.29 0 003.22 3.15 13.93 13.93 0 004.13 1s-1.54-3.66-7.35-4.15z"
+            style="transform-origin:270.805px 417.145px" id="prefix__eldfb6cr6zo5e" class="prefix__animable"
+            fill="#fff" />
+        <path d="M302.42 403.24a7.3 7.3 0 00-2.51 3.74 14.12 14.12 0 00-.26 4.25s3.35-2.23 2.77-7.99z"
+            style="transform-origin:301.04px 407.235px" id="prefix__el9flhjlkhi1c" class="prefix__animable"
+            fill="#fff" />
+        <path d="M294.86 396.17a7.29 7.29 0 00-.59 4.46 13.86 13.86 0 001.64 3.93s2.09-3.45-1.05-8.39z"
+            style="transform-origin:295.37px 400.365px" id="prefix__elfljbpc3hghe" class="prefix__animable"
+            fill="#fff" />
+        <path d="M278.5 398.55a7.3 7.3 0 001.5 4.25 13.91 13.91 0 003.25 2.75s.25-4-4.75-7z"
+            style="transform-origin:280.876px 402.05px" id="prefix__els0sika815w9" class="prefix__animable"
+            fill="#fff" />
+        <path d="M391 415.47a7.36 7.36 0 00.57 4.47 14.07 14.07 0 002.6 3.37s1.11-3.86-3.17-7.84z"
+            style="transform-origin:392.587px 419.39px" id="prefix__ell2o70plp1p" class="prefix__animable"
+            fill="#fff" />
+        <path d="M370.54 437.05a7.29 7.29 0 004.19 1.66 14 14 0 004.21-.64s-2.85-2.82-8.4-1.02z"
+            style="transform-origin:374.74px 437.58px" id="prefix__elfh5016wfb3" class="prefix__animable" fill="#fff" />
+        <path d="M375.57 418a7.24 7.24 0 002.42 3.8 13.72 13.72 0 003.79 1.94s-.66-3.96-6.21-5.74z"
+            style="transform-origin:378.675px 420.87px" id="prefix__elbaa6lxlgvar" class="prefix__animable"
+            fill="#fff" />
+        <path d="M416.32 416.19a7.28 7.28 0 00-4 2.08 13.73 13.73 0 00-2.27 3.6s4-.31 6.27-5.68z"
+            style="transform-origin:413.185px 419.03px" id="prefix__elbsoo25ygaqg" class="prefix__animable"
+            fill="#fff" />
+        <path d="M424.9 429.05a7.27 7.27 0 00-4.47.57 13.82 13.82 0 00-3.37 2.6s3.86 1.09 7.84-3.17z"
+            style="transform-origin:420.98px 430.633px" id="prefix__el6zu0jv0h4jx" class="prefix__animable"
+            fill="#fff" />
+        <path d="M424.06 443.66a7.32 7.32 0 00-4.06-2 14 14 0 00-4.24.34s2.64 3.06 8.3 1.66z"
+            style="transform-origin:419.91px 442.825px" id="prefix__el4qzje0z0njg" class="prefix__animable"
+            fill="#fff" />
+        <path d="M409.45 427.79a7.29 7.29 0 00-4 2.09 13.85 13.85 0 00-2.26 3.6s3.99-.31 6.26-5.69z"
+            style="transform-origin:406.32px 430.635px" id="prefix__elf3r9bkmlknp" class="prefix__animable"
+            fill="#fff" />
+        <path d="M368.9 424.57a7.3 7.3 0 003.21 3.16 14.16 14.16 0 004.13 1s-1.53-3.67-7.34-4.16z"
+            style="transform-origin:372.57px 426.65px" id="prefix__elbazdbh68as" class="prefix__animable" fill="#fff" />
+        <path d="M404.19 412.74a7.35 7.35 0 00-2.51 3.75 14.12 14.12 0 00-.26 4.25s3.36-2.19 2.77-8z"
+            style="transform-origin:402.811px 416.74px" id="prefix__el8s4m3iqvwdc" class="prefix__animable"
+            fill="#fff" />
+        <path d="M396.63 405.67a7.38 7.38 0 00-.6 4.47 13.87 13.87 0 001.65 3.93s2.04-3.45-1.05-8.4z"
+            style="transform-origin:397.128px 409.87px" id="prefix__elm1c289zjfy" class="prefix__animable"
+            fill="#fff" />
+        <path d="M380.27 408.05a7.3 7.3 0 001.5 4.25 13.91 13.91 0 003.25 2.75s.25-4-4.75-7z"
+            style="transform-origin:382.646px 411.55px" id="prefix__elytjm0b7ksab" class="prefix__animable"
+            fill="#fff" />
+        <path style="transform-origin:169.305px 417.98px" id="prefix__elq7ok65318q" class="prefix__animable"
+            fill="#a1a1a1"
+            d="M175.88 445.86h9.37l-4.11-21.04 19.47-15.26-22.1 10.52-6.31-29.98 5.26 54.71-13.68-5.26-25.78-10 28.41 15.78 9.47.53z" />
+        <path style="transform-origin:290.765px 431.39px" id="prefix__elzsin7bllp4" class="prefix__animable"
+            fill="#a1a1a1" d="M292.15 417.45l-12.63 27.36 5.26.52 3.16-7.89 14.07-2.52-13.02-2.74 3.16-14.73z" />
+        <path style="transform-origin:389.595px 437.965px" id="prefix__el1kbtlkifvqn" class="prefix__animable"
+            fill="#a1a1a1" d="M385.27 430.6l7.36 14.73 1.29-7.96-8.65-6.77z" />
+        <path style="transform-origin:401.05px 430.08px" id="prefix__elkikdnt52cks" class="prefix__animable"
+            fill="#a1a1a1" d="M399 445.86l1.05-10.71 9.42-7.18-8.87 1.57 1.5-15.24-9.47 31.03 3.16.53H399z" />
+    </g>
+    <g id="prefix__freepik--Clouds--inject-209" class="prefix__animable" style="transform-origin:259.769px 59.7515px">
+        <g id="prefix__elg59o8ksudsb">
+            <path
+                d="M435.12 52.48H346.7a.5.5 0 01-.45-.28.51.51 0 01.06-.53l1.8-2.26c1.27-1.57 3.23-1 4.81-.47 1 .32 2 .63 2.58.34a7.06 7.06 0 002.13-2.63 15.28 15.28 0 013.19-4.07c1.68-1.4 4.41.06 7.3 1.61 2.27 1.21 4.63 2.47 5.9 1.92a3.74 3.74 0 002-2.31 6.56 6.56 0 014.31-4c2.39-.86 4.73.17 6.8 1.08 2.88 1.27 4.57 1.87 6-.42a25.35 25.35 0 002-4.11c1.54-3.74 3.12-7.61 9.67-8.3 8.43-.9 18.51 13.94 19.76 15.84a7.38 7.38 0 003.58-.21 5.35 5.35 0 014.95.68c3.88 2.43 2.53 7.56 2.47 7.77a.49.49 0 01-.44.35zm-87.38-1h87c.21-1.13.58-4.6-2.12-6.29a4.38 4.38 0 00-4.17-.56 8.2 8.2 0 01-4.24.17.51.51 0 01-.32-.22c-.1-.16-10.75-16.41-18.92-15.56-6 .63-7.3 3.9-8.85 7.69A26 26 0 01394 41c-2 3.14-4.68 2-7.28.81-2-.88-4.05-1.79-6.05-1.06a5.58 5.58 0 00-3.75 3.5 4.7 4.7 0 01-2.5 2.75c-1.73.74-4.18-.58-6.77-2s-5-2.69-6.19-1.73a14.93 14.93 0 00-3 3.83 7.45 7.45 0 01-2.53 3c-.94.47-2.1.11-3.33-.27-1.75-.55-2.95-.83-3.73.14z"
+                style="transform-origin:391.019px 40.2454px" class="prefix__animable" id="prefix__elgxksvmzs1id"
+                opacity=".3" />
+        </g>
+        <g id="prefix__el0yquyvus4ms">
+            <path
+                d="M256.74 91.49H84.2a.5.5 0 01-.39-.81l3.52-4.4c2.26-2.83 5.76-1.74 8.86-.77 2.1.66 4.09 1.28 5.39.63 1.6-.8 2.88-2.89 4.35-5.31a29.76 29.76 0 016.12-7.83c3-2.52 8.22.25 13.72 3.19 4.53 2.43 9.23 4.94 11.93 3.81 2.53-1.09 3.3-2.78 4.2-4.75 1.18-2.6 2.52-5.54 8.15-7.59C154.52 66 159 68 163 69.72c5.12 2.25 9.16 4 12.37-1a50.46 50.46 0 003.9-8.09c3.07-7.5 6-14.59 18.48-15.9 16.4-1.73 36.34 28 38.21 30.86a14.58 14.58 0 007.4-.38c2.65-.67 5.15-1.3 9.28 1.28 7.28 4.55 4.65 14.54 4.62 14.64a.49.49 0 01-.52.36zm-171.5-1h171.1c.38-1.77 1.62-9.48-4.27-13.16-3.77-2.36-5.86-1.83-8.5-1.16a15.51 15.51 0 01-8.07.34.51.51 0 01-.31-.21C235 76 214 44 197.81 45.71 185.9 47 183.24 53.47 180.15 61a50.72 50.72 0 01-4 8.25c-3.67 5.76-8.5 3.64-13.61 1.39-4-1.75-8.08-3.56-12.17-2.07-5.23 1.9-6.43 4.53-7.58 7.07-.94 2.06-1.83 4-4.72 5.25-3.15 1.34-7.83-1.16-12.79-3.81s-10.1-5.4-12.61-3.31a29 29 0 00-5.91 7.58c-1.53 2.55-2.87 4.75-4.76 5.65-1.66.82-3.83.14-6.14-.57-2.92-.92-6-1.86-7.78.43z"
+                style="transform-origin:170.725px 68.0748px" class="prefix__animable" id="prefix__elbbo24vrq9w"
+                opacity=".3" />
+        </g>
+    </g>
+    <g id="prefix__freepik--Trees--inject-209" class="prefix__animable" style="transform-origin:227.873px 237.105px">
+        <path
+            d="M264.73 275.82c18.18 92.2-39 53.79-87 53.79s-108.91 31.27-87-53.79c12.53-48.61 39-79 87-79s79.33 40.12 87 79z"
+            style="transform-origin:177.158px 267.182px" id="prefix__elojt1nmlfwb" class="prefix__animable"
+            fill="#92e3a9" />
+        <g id="prefix__elsrlv979hosj">
+            <path
+                d="M264.73 275.82c18.18 92.2-39 53.79-87 53.79s-108.91 31.27-87-53.79c12.53-48.61 39-79 87-79s79.33 40.12 87 79z"
+                style="transform-origin:177.158px 267.182px" class="prefix__animable" id="prefix__el4cevvjmdpqo"
+                fill="#fff" opacity=".3" />
+        </g>
+        <path style="transform-origin:169.435px 346.03px" id="prefix__elkxsf10k10f7" class="prefix__animable"
+            fill="#c2c2c2"
+            d="M162.69 282.67l13.2 9.15-1.52 39.91-24.04-10.48 23.42 17.88L172.19 445h12.52l-1.92-135.2 33.5-36.85-33.9 28.98-1.24-54.87-3.7 37.61-8.71-6.33-19.03-26.96 12.23 24.51-39.36-15.88 40.11 22.66z" />
+        <path d="M163.54 231.67s-1.28 6 1.39 10.87a33.75 33.75 0 006.31 8.21s2.64-9.38-7.7-19.08z"
+            style="transform-origin:167.387px 241.21px" id="prefix__elik2liexyqah" class="prefix__animable"
+            fill="#fff" />
+        <path d="M113.75 284.15s4.58 4 10.18 4a33.76 33.76 0 0010.23-1.56s-6.93-6.81-20.41-2.44z"
+            style="transform-origin:123.955px 285.418px" id="prefix__el1stnkr46y8q" class="prefix__animable"
+            fill="#fff" />
+        <path d="M106.77 308.77s5.56 2.45 10.92.83a33.63 33.63 0 009.31-4.52s-8.65-4.49-20.23 3.69z"
+            style="transform-origin:116.885px 307.002px" id="prefix__elrc2vbfqwhd" class="prefix__animable"
+            fill="#fff" />
+        <path d="M140 311.33s6.08-.08 10.29-3.78a34.15 34.15 0 006.58-8s-9.76-.47-16.87 11.78z"
+            style="transform-origin:148.435px 305.439px" id="prefix__elhcmjkqdt6eb" class="prefix__animable"
+            fill="#fff" />
+        <path d="M126 237.82s1.38 5.92 5.9 9.23a33.77 33.77 0 009.21 4.72s-1.65-9.61-15.11-13.95z"
+            style="transform-origin:133.555px 244.795px" id="prefix__elhfx1ss9f7ad" class="prefix__animable"
+            fill="#fff" />
+        <path d="M225 233.43s-6 .85-9.71 5.06a33.87 33.87 0 00-5.51 8.76s9.75-.76 15.22-13.82z"
+            style="transform-origin:217.39px 240.34px" id="prefix__el2136fx7usdz" class="prefix__animable"
+            fill="#fff" />
+        <path d="M245.9 264.7s-6-1.28-10.87 1.39a33.74 33.74 0 00-8.2 6.32s9.38 2.64 19.07-7.71z"
+            style="transform-origin:236.365px 268.552px" id="prefix__el7ax4ywjv3bu" class="prefix__animable"
+            fill="#fff" />
+        <path d="M243.86 300.22s-4.29-4.31-9.87-4.76a33.67 33.67 0 00-10.32.83s6.42 7.32 20.19 3.93z"
+            style="transform-origin:233.765px 298.242px" id="prefix__elgdj7snp0k9n" class="prefix__animable"
+            fill="#fff" />
+        <path d="M220.59 319.28s-2.47-5.56-7.53-8a33.89 33.89 0 00-9.93-2.91s3.39 9.18 17.46 10.91z"
+            style="transform-origin:211.86px 313.825px" id="prefix__eldidnzhlqade" class="prefix__animable"
+            fill="#fff" />
+        <path d="M208.34 261.64s-6 .86-9.72 5.06a33.83 33.83 0 00-5.51 8.77s9.71-.77 15.23-13.83z"
+            style="transform-origin:200.725px 268.555px" id="prefix__elfsbc006592d" class="prefix__animable"
+            fill="#fff" />
+        <path d="M109.75 253.81s2.68 5.45 7.82 7.67a33.92 33.92 0 0010 2.52s-3.7-9-17.82-10.19z"
+            style="transform-origin:118.66px 258.905px" id="prefix__el4ivlx60yq0e" class="prefix__animable"
+            fill="#fff" />
+        <path d="M195.55 225.06s-4.87 3.63-6.1 9.1a33.71 33.71 0 00-.63 10.33s8.18-5.33 6.73-19.43z"
+            style="transform-origin:192.198px 234.775px" id="prefix__elzzznitxbxw" class="prefix__animable"
+            fill="#fff" />
+        <path d="M177.18 207.86s-2.77 5.41-1.46 10.86a33.66 33.66 0 004 9.55s4.96-8.38-2.54-20.41z"
+            style="transform-origin:178.348px 218.065px" id="prefix__el6o0df1r5uav" class="prefix__animable"
+            fill="#fff" />
+        <path d="M137.41 213.64s0 6.08 3.64 10.34a33.92 33.92 0 007.9 6.68s.61-9.72-11.54-17.02z"
+            style="transform-origin:143.183px 222.15px" id="prefix__el2sghsmglghs" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M366.36 103.48c17.12 86.82-36.68 50.66-81.92 50.66s-102.56 29.45-81.91-50.66c11.8-45.78 36.68-74.39 81.91-74.39s74.7 37.77 81.92 74.39z"
+            style="transform-origin:283.903px 95.3488px" id="prefix__eltg0gmx5o2p" class="prefix__animable"
+            fill="#92e3a9" />
+        <g id="prefix__ell2nv86vt6yf">
+            <path
+                d="M366.36 103.48c17.12 86.82-36.68 50.66-81.92 50.66s-102.56 29.45-81.91-50.66c11.8-45.78 36.68-74.39 81.91-74.39s74.7 37.77 81.92 74.39z"
+                style="transform-origin:283.903px 95.3488px" class="prefix__animable" id="prefix__elsl6pw8eowzk"
+                fill="#fff" opacity=".5" />
+        </g>
+        <path style="transform-origin:276.625px 260.76px" id="prefix__eligaqza24h9i" class="prefix__animable"
+            fill="#a1a1a1"
+            d="M258.63 146.26l22.06 16.84-2.26 282.02h13.33l-2.56-309.64 31.55-34.7-31.93 27.29-1.16-51.67-3.49 35.41-8.21-5.95-17.91-25.4 11.51 23.08-37.06-14.95 37.77 21.34 12.43 8.62-1.43 37.58-22.64-9.87z" />
+        <path d="M271.07 61.91s-1.21 5.59 1.3 10.23a31.88 31.88 0 005.95 7.73s2.49-8.87-7.25-17.96z"
+            style="transform-origin:274.692px 70.89px" id="prefix__el9xq2cw4apbn" class="prefix__animable"
+            fill="#fff" />
+        <path d="M224.18 111.32s4.31 3.76 9.59 3.81a32 32 0 009.63-1.47s-6.52-6.45-19.22-2.34z"
+            style="transform-origin:233.79px 112.54px" id="prefix__elf64vmyylfa" class="prefix__animable" fill="#fff" />
+        <path d="M217.61 134.51s5.23 2.31 10.28.78a31.73 31.73 0 008.77-4.26s-8.15-4.22-19.05 3.48z"
+            style="transform-origin:227.135px 132.845px" id="prefix__el6oddk5c278i" class="prefix__animable"
+            fill="#fff" />
+        <path d="M248.88 136.92s5.72-.08 9.68-3.56a32 32 0 006.2-7.53s-9.17-.45-15.88 11.09z"
+            style="transform-origin:256.82px 131.374px" id="prefix__el8l9cmrlhr6h" class="prefix__animable"
+            fill="#fff" />
+        <path d="M235.68 67.69s1.3 5.58 5.55 8.7a32 32 0 008.68 4.44s-1.52-9.04-14.23-13.14z"
+            style="transform-origin:242.795px 74.26px" id="prefix__el9mhzpci7qbb" class="prefix__animable"
+            fill="#fff" />
+        <path d="M329 63.56s-5.67.8-9.15 4.77a31.65 31.65 0 00-5.19 8.25s9.13-.72 14.34-13.02z"
+            style="transform-origin:321.83px 70.07px" id="prefix__el6bel9s0r1nq" class="prefix__animable" fill="#fff" />
+        <path d="M348.62 93s-5.62-1.2-10.23 1.32a31.7 31.7 0 00-7.72 6s8.83 2.43 17.95-7.32z"
+            style="transform-origin:339.645px 96.6517px" id="prefix__elc6r8zppqv7k" class="prefix__animable"
+            fill="#fff" />
+        <path d="M346.7 126.46s-4-4.06-9.29-4.48a31.91 31.91 0 00-9.72.78s6.05 6.89 19.01 3.7z"
+            style="transform-origin:337.195px 124.599px" id="prefix__el8bi6n9jjnky" class="prefix__animable"
+            fill="#fff" />
+        <path d="M324.79 144.41s-2.32-5.23-7.09-7.5a31.85 31.85 0 00-9.35-2.74s3.19 8.6 16.44 10.24z"
+            style="transform-origin:316.57px 139.29px" id="prefix__el8yi52s9ecxc" class="prefix__animable"
+            fill="#fff" />
+        <path d="M313.26 90.13s-5.67.8-9.16 4.77a32 32 0 00-5.19 8.25s9.15-.72 14.35-13.02z"
+            style="transform-origin:306.085px 96.64px" id="prefix__elqpsru106cwh" class="prefix__animable"
+            fill="#fff" />
+        <path d="M220.41 82.75s2.52 5.14 7.37 7.22a31.75 31.75 0 009.45 2.38s-3.52-8.48-16.82-9.6z"
+            style="transform-origin:228.82px 87.55px" id="prefix__el4v1el2equkl" class="prefix__animable" fill="#fff" />
+        <path d="M301.21 55.68s-4.58 3.42-5.74 8.57a31.77 31.77 0 00-.6 9.72s7.68-4.97 6.34-18.29z"
+            style="transform-origin:298.051px 64.825px" id="prefix__el4igcm328lvq" class="prefix__animable"
+            fill="#fff" />
+        <path d="M283.91 39.48s-2.6 5.1-1.37 10.23a32 32 0 003.76 9s4.7-7.9-2.39-19.23z"
+            style="transform-origin:285.018px 49.095px" id="prefix__elsesezw068kc" class="prefix__animable"
+            fill="#fff" />
+        <path d="M246.46 44.93s0 5.72 3.43 9.73a32.06 32.06 0 007.44 6.34s.57-9.2-10.87-16.07z"
+            style="transform-origin:251.897px 52.965px" id="prefix__elotm1othuj4" class="prefix__animable"
+            fill="#fff" />
+    </g>
+    <g id="prefix__freepik--Floor--inject-209" class="prefix__animable" style="transform-origin:248.34px 445.86px">
+        <path d="M455.11 446.36H41.57a.5.5 0 110-1h413.54a.5.5 0 010 1z" style="transform-origin:248.34px 445.86px"
+            id="prefix__elxt8u6vfri2" class="prefix__animable" fill="#263238" />
+    </g>
+    <g id="prefix__freepik--Elements--inject-209" class="prefix__animable prefix__animator-hidden"
+        style="transform-origin:245.301px 241.646px">
+        <path
+            d="M409.53 371a.52.52 0 01-.42-.22c-13.05-19.59-34.58-31.16-34.8-31.28a.49.49 0 01-.2-.67.49.49 0 01.67-.21c.22.11 22 11.8 35.17 31.6a.51.51 0 01-.14.7.57.57 0 01-.28.08z"
+            style="transform-origin:392.041px 354.781px" id="prefix__elqphnmvsegoo" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M370.56 347.07a.5.5 0 01-.49-.43.51.51 0 01.42-.57l12.84-1.84c-2.08-8.94-3.83-11-3.84-11.06a.5.5 0 010-.7.49.49 0 01.7 0c.08.08 2 2.28 4.19 12a.51.51 0 01-.07.4.54.54 0 01-.34.21l-13.38 1.91z"
+            style="transform-origin:377.23px 339.696px" id="prefix__ely5k389g3ku8" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M395.8 355a.54.54 0 01-.21-.05c-6.34-3-12.8 0-12.86 0a.5.5 0 11-.42-.9 17.52 17.52 0 0112.94-.33c-.16-2.58-.65-10.57-.77-14.08a.5.5 0 01.48-.52.51.51 0 01.52.48c.15 4.18.82 14.76.82 14.87a.51.51 0 01-.21.44.52.52 0 01-.29.09z"
+            style="transform-origin:389.134px 347.072px" id="prefix__el3bda5ju30os" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M393.77 365.42a.5.5 0 01-.39-.18.52.52 0 01.07-.71c.18-.15 4.36-3.57 9.07-3 .46-1.32 1.91-6.3.29-13.56a.5.5 0 01.38-.6.49.49 0 01.59.38c2 8.83-.38 14.3-.48 14.53a.5.5 0 01-.54.29c-4.41-.7-8.63 2.73-8.67 2.76a.51.51 0 01-.32.09z"
+            style="transform-origin:398.924px 356.389px" id="prefix__elwx8fi38wwu" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="372.22" cy="346.95" r="3.79" style="transform-origin:372.22px 346.95px" id="prefix__el90sd3lf2rdh"
+            class="prefix__animable" fill="#92e3a9" />
+        <path
+            d="M372.22 351.24a4.29 4.29 0 114.29-4.29 4.3 4.3 0 01-4.29 4.29zm0-7.58a3.29 3.29 0 103.29 3.29 3.29 3.29 0 00-3.29-3.29z"
+            style="transform-origin:372.22px 346.95px" id="prefix__elxpt0b4jtq2i" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="373.54" cy="338.53" r="3.79" style="transform-origin:373.54px 338.53px" id="prefix__elpgurm35yjxc"
+            class="prefix__animable" fill="#92e3a9" />
+        <path
+            d="M373.54 342.82a4.29 4.29 0 114.29-4.29 4.29 4.29 0 01-4.29 4.29zm0-7.58a3.29 3.29 0 103.29 3.29 3.29 3.29 0 00-3.29-3.29z"
+            style="transform-origin:373.54px 338.53px" id="prefix__elkz3bpadd79" class="prefix__animable"
+            fill="#263238" />
+        <path d="M383.65 332.84a3.79 3.79 0 10-3.79 3.79 3.79 3.79 0 003.79-3.79z"
+            style="transform-origin:379.86px 332.84px" id="prefix__el243ph8i59l8" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M379.86 337.13a4.29 4.29 0 114.29-4.29 4.3 4.3 0 01-4.29 4.29zm0-7.58a3.29 3.29 0 103.29 3.29 3.3 3.3 0 00-3.29-3.29z"
+            style="transform-origin:379.86px 332.84px" id="prefix__elhyk0va6msz6" class="prefix__animable"
+            fill="#263238" />
+        <path d="M386.8 353.61a3.79 3.79 0 10-3.8 3.79 3.79 3.79 0 003.8-3.79z"
+            style="transform-origin:383.01px 353.61px" id="prefix__elkgav1s8pjn8" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M383 357.9a4.29 4.29 0 114.29-4.29 4.3 4.3 0 01-4.29 4.29zm0-7.58a3.29 3.29 0 103.29 3.29 3.29 3.29 0 00-3.29-3.29z"
+            style="transform-origin:383px 353.61px" id="prefix__elktwrv09w3l" class="prefix__animable" fill="#263238" />
+        <path d="M399.71 339.58a3.79 3.79 0 10-3.79 3.79 3.79 3.79 0 003.79-3.79z"
+            style="transform-origin:395.92px 339.58px" id="prefix__el6odseob8f5o" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M395.92 343.87a4.29 4.29 0 114.29-4.29 4.3 4.3 0 01-4.29 4.29zm0-7.58a3.29 3.29 0 103.29 3.29 3.3 3.3 0 00-3.29-3.29z"
+            style="transform-origin:395.92px 339.58px" id="prefix__elc7smna7q10q" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="393.77" cy="364.92" r="3.79" style="transform-origin:393.77px 364.92px" id="prefix__el0rzxtmibv7xj"
+            class="prefix__animable" fill="#92e3a9" />
+        <path
+            d="M393.77 369.21a4.29 4.29 0 114.29-4.29 4.3 4.3 0 01-4.29 4.29zm0-7.58a3.29 3.29 0 103.29 3.29 3.29 3.29 0 00-3.29-3.29z"
+            style="transform-origin:393.77px 364.92px" id="prefix__elfpvwti8sm5d" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="404.51" cy="347.69" r="3.79" style="transform-origin:404.51px 347.69px" id="prefix__ela04o8woqyww"
+            class="prefix__animable" fill="#92e3a9" />
+        <path
+            d="M404.51 352a4.29 4.29 0 114.29-4.29 4.3 4.3 0 01-4.29 4.29zm0-7.58a3.29 3.29 0 103.29 3.29 3.29 3.29 0 00-3.29-3.31z"
+            style="transform-origin:404.51px 347.71px" id="prefix__elnzatm2btnl" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M394.59 257.67s-3.43 1.94-3.43 2.73a12.26 12.26 0 001.41 3.17s-2.12-.26-2.38.27a5.54 5.54 0 00-.18 1.94s-2.55-2.82-3-2.82-1 .26-.7 1.49 0 1.68 1 2.12 2.82 3 2.73 3.53-2.2-.62-2.73-1.06a5 5 0 00-2.56-1.06c-.61.09-.09 2.47 1 3.53s-.79 1.32-.79 1.32l4.05 5.73s-6.78-3.62-7.22-3.79-.53 1.5-.53 1.76 1.85 1.76 1.85 1.76-1.5.09-1.41 1 .17 1.32.62 1.59l1.49.88s-4.58-2.29-4.05-.44 8.2 4.23 7.31 4.85-3.52-.8-4.84-1.06-4.32-1.32-3.88-.26 2.47 2.11 2.47 2.11-3-.18-2.82.79 2 2.12 2.46 2.21a6.75 6.75 0 011.5.88 19 19 0 00-1.41 3.26c.09.35 1 .88 1.59 1.41s.88.09.62.53a4.56 4.56 0 01-1.77 1.41c-.44.09-4-2.38-4.23-1.59s.35 1 1.15 1.85.79 2.38 2.55 3.44 7.85 5.64 11.9 6.7 13.4-1.06 14.63-1.85 5.65-7.05 5.65-7.05 2-3.7 1.67-3.7-5.11-.53-5.11-.53 7.05-3.09 6.87-3.71-3.35.27-3.35.27l-4.72 1.38c-.62.18 1.24-.71 1.41-1.15s2.56-1.32 3.09-1.85 2.73-1.85 2-2.2-2.46.09-2.9.18a26.77 26.77 0 01-3.18.17c-1.23 0-2.64.53-1.23 0s4.93-1.14 5.64-1.94 1-1.58.44-1.85a9.29 9.29 0 00-2.29-1 14.8 14.8 0 00-2.82.18 13.9 13.9 0 01-1.5.09l2.29-2.65s2.82-2.82 2.82-3.79-.88-.7-1.32-.35-4.58 3.08-4.58 3.08-1.41.09-1.33-.17a34.31 34.31 0 012.65-2.56s2.2-4.76 2.38-5.2 1.23-1.94.26-1.58a3.88 3.88 0 00-1.85 1 21.4 21.4 0 01-2.11 1.5c-.53.44-2.74 1.68-2.74 1.68l3.88-6.09s1.32-3.43 0-3.26a5.84 5.84 0 00-2.47 1.15c-.52.26-1.05.7-1 .35s1.68-2.29.45-2.47a3.6 3.6 0 00-2.21.44s1.59-3.61.62-4.05a4.54 4.54 0 00-2.2-.26s.44-2.12-.71-1.5-2.73 4.58-2.73 4.58z"
+            style="transform-origin:396.391px 282.905px" id="prefix__elf3g4h8dmv1k" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M395.17 308.61a12 12 0 01-3-.31c-3.25-.84-7.68-3.84-10.34-5.63-.72-.49-1.31-.89-1.69-1.12a5.12 5.12 0 01-2.1-2.53 3.92 3.92 0 00-.57-1 7.29 7.29 0 00-.57-.56c-.48-.45-1-.9-.68-1.79a.7.7 0 01.42-.44c.59-.23 1.55.26 3.08 1.09.41.22.95.51 1.16.59a4.62 4.62 0 001.13-.86 1.93 1.93 0 01-.27-.19c-.19-.16-.4-.33-.61-.48-.58-.44-1-.78-1.13-1.19 0-.17-.13-.5 1.25-3.23a5 5 0 00-.95-.54c-.6-.12-2.64-1.37-2.87-2.61a.88.88 0 01.22-.76 2.38 2.38 0 011.46-.57 4.05 4.05 0 01-1.29-1.47.78.78 0 01.09-.86c.46-.53 1.54-.27 3.27.18.41.1.78.2 1.07.26a11.65 11.65 0 011.68.53 16.22 16.22 0 002 .63c-.48-.26-1.12-.57-1.68-.84-2.75-1.31-4.72-2.33-5-3.48a1 1 0 01.25-1.12 2.15 2.15 0 011.8-.09 7.1 7.1 0 01-.13-.91 1.12 1.12 0 01.27-.86 1.48 1.48 0 01.56-.4c-1.27-1.1-1.27-1.33-1.27-1.52s0-1.78.59-2.16a.66.66 0 01.62-.07c.32.13 3.35 1.73 5.42 2.83l-2.84-4a.5.5 0 01-.05-.49.52.52 0 01.39-.3 1.42 1.42 0 00.69-.26s0-.08-.18-.21A4.92 4.92 0 01384 268a.77.77 0 01.62-.55 5.49 5.49 0 013 1.16 8 8 0 001.74 1 8.53 8.53 0 00-2.27-2.58 1.77 1.77 0 01-1.13-1.7 5.43 5.43 0 00-.12-.77 1.94 1.94 0 01.22-1.67 1.2 1.2 0 011-.43c.19 0 .57 0 2.52 2.06a2.65 2.65 0 01.21-.91c.25-.5 1.08-.64 1.93-.61a7.84 7.84 0 01-1-2.6c0-.9 2-2.22 3.69-3.17a.51.51 0 01.71.25l1.76 4.43c.59-1.31 1.58-3.23 2.47-3.71a1 1 0 011.1 0 1.58 1.58 0 01.42 1.41 4.46 4.46 0 011.84.35c1 .44.59 2.17.06 3.63a3.93 3.93 0 011.39-.06 1 1 0 01.8.54 1.64 1.64 0 01-.16 1.36 4.62 4.62 0 012.22-.93.93.93 0 01.89.33c.62.79-.05 2.78-.36 3.6a.19.19 0 01-.05.09l-2.76 4.34a10.32 10.32 0 00.88-.58 7.92 7.92 0 011-.65 6.09 6.09 0 001.08-.78 4.31 4.31 0 012.07-1.21.75.75 0 01.92.14c.37.42 0 1.06-.35 1.72-.09.16-.16.29-.2.38-.18.45-2.3 5-2.39 5.22a.48.48 0 01-.12.16c-.73.66-1.51 1.39-2 1.88h.2c1.66-1.09 4.13-2.74 4.44-3a1.56 1.56 0 011.56-.33 1.07 1.07 0 01.57 1.07c0 1.09-2.27 3.45-3 4.15l-1.5 1.73h.3a15.32 15.32 0 012.94-.17 6.94 6.94 0 012.13.85l.32.16a1 1 0 01.54.7 2.64 2.64 0 01-.83 1.94 4.61 4.61 0 01-2 1H411.74a5.51 5.51 0 013.07-.1.71.71 0 01.41.58c.05.58-.59 1.1-1.63 1.89a6.42 6.42 0 00-.68.54 7.37 7.37 0 01-1.66 1c-.25.12-.58.29-.85.44l2.19-.67c3.66-1 3.89-.22 4 .08s.27.94-5.46 3.54l3.22.33a.56.56 0 01.46.26c.15.25.31.52-1.7 4.18-.48.69-4.53 6.41-5.81 7.23-1.19.55-7.5 2.07-12.13 2.07zm-18-12.42c0 .12.13.24.45.53s.4.37.63.63a4.74 4.74 0 01.74 1.25 4.15 4.15 0 001.7 2.09c.39.24 1 .65 1.75 1.15 2.59 1.75 6.94 4.69 10 5.5 4 1 13.2-1.13 14.23-1.79.85-.55 3.76-4.44 5.51-6.92.56-1 1.2-2.3 1.48-3-1.24-.12-3.93-.42-4.57-.49a.5.5 0 01-.44-.42.5.5 0 01.3-.53 63.89 63.89 0 006-2.94 15.91 15.91 0 00-2.13.44l-4.67 1.41a.54.54 0 01-.72-.26c-.19-.42.15-.63.59-.9a5 5 0 00.95-.68c.14-.35.63-.62 1.79-1.2a7.67 7.67 0 001.39-.79 7.45 7.45 0 01.79-.63c.27-.21.76-.58 1-.85a7.77 7.77 0 00-2.07.26h-.19a26.38 26.38 0 01-3.27.18 8.41 8.41 0 00-1.51.19c-.21 0-.66.13-.79-.32s.17-.56.89-.84c.5-.18 1.24-.38 2-.58a11.81 11.81 0 003.44-1.22c.53-.59.61-1 .59-1.08l-.34-.17a6.87 6.87 0 00-1.79-.74 15.32 15.32 0 00-2.69.17 13.35 13.35 0 01-1.57.1.52.52 0 01-.46-.3.49.49 0 01.08-.53l2.29-2.64c1.45-1.46 2.7-3.06 2.7-3.47a.41.41 0 000-.19 1.22 1.22 0 00-.48.23c-.44.36-4.19 2.83-4.62 3.11a.43.43 0 01-.24.08c-1.43.09-1.64-.17-1.74-.3a.67.67 0 01-.09-.53c.05-.13.13-.38 2.71-2.7.64-1.39 2.19-4.74 2.32-5.08.05-.12.14-.29.25-.49l.14-.24a2.52 2.52 0 00-1.12.7 5.79 5.79 0 01-1.33 1 9.29 9.29 0 00-.85.58c-.55.45-2.58 1.59-2.81 1.72a.5.5 0 01-.67-.7l3.85-6a5.17 5.17 0 00.49-2.58 4.18 4.18 0 00-1.76.81 4.82 4.82 0 01-.52.33 4.16 4.16 0 00-.42.23c-.39.24-.73.44-1.06.19a.57.57 0 01-.2-.64 2.62 2.62 0 01.31-.6c.16-.26.64-1.05.58-1.29a3.25 3.25 0 00-1.9.41.5.5 0 01-.59-.05.51.51 0 01-.14-.58c.66-1.49 1.06-3.12.84-3.42a4.16 4.16 0 00-1.9-.2.5.5 0 01-.43-.15.49.49 0 01-.12-.45 3 3 0 00.05-1c-.68.36-1.88 2.75-2.51 4.33a.49.49 0 01-.46.31.5.5 0 01-.47-.31l-2-5a9.52 9.52 0 00-2.69 2.05 12 12 0 001.35 2.88.53.53 0 010 .53.5.5 0 01-.48.22 4.73 4.73 0 00-1.92.05 6.09 6.09 0 00-.08 1.63.52.52 0 01-.3.49.51.51 0 01-.57-.13 23.64 23.64 0 00-2.69-2.65.2.2 0 00-.14.06 1.2 1.2 0 000 .83c.07.34.11.62.14.86.07.61.08.69.55.91 1 .46 3.16 3.17 3 4.06a.65.65 0 01-.42.5c-.87.31-3-1.12-3.13-1.26a5.42 5.42 0 00-2-.94 4.39 4.39 0 001.09 2.67 1.18 1.18 0 01.42 1.24 1.28 1.28 0 01-.76.72l3.65 5.16a.5.5 0 010 .62.52.52 0 01-.61.11c-2.37-1.26-5.84-3.1-6.89-3.63a5.8 5.8 0 00-.13 1 16.26 16.26 0 001.66 1.49.5.5 0 01.16.55.49.49 0 01-.44.34 1.62 1.62 0 00-.91.31.14.14 0 000 .11c.1.9.18 1.09.38 1.21l1.5.88a.5.5 0 01-.48.88 9.1 9.1 0 00-3.37-1.11.31.31 0 000 .08c.23.81 2.91 2.09 4.52 2.86 2.1 1 2.84 1.39 2.88 2a.63.63 0 01-.28.58c-.81.56-2.28 0-3.71-.49a12.87 12.87 0 00-1.52-.49c-.31-.06-.7-.16-1.13-.28a17.2 17.2 0 00-2.05-.44 6.68 6.68 0 002.1 1.64.5.5 0 01.25.57.48.48 0 01-.51.37 4.67 4.67 0 00-2.32.28c.14.6 1.71 1.64 2.09 1.73a6.22 6.22 0 011.7 1 .5.5 0 01.15.63A24.72 24.72 0 00381 294a7.19 7.19 0 00.74.6c.23.17.46.34.66.52a.64.64 0 00.37.18.64.64 0 01.47.3.65.65 0 01-.12.69 4.72 4.72 0 01-2.09 1.64c-.33.06-.69-.12-1.78-.71a13.8 13.8 0 00-2.11-1.03z"
+            style="transform-origin:396.372px 282.891px" id="prefix__elj1xd3dlg2" class="prefix__animable"
+            fill="#263238" />
+        <path d="M398.47 266.39s-4.14 1-4.05 1.59 2.64 3.88 3.44 3.79 4.58-1.41 4.76-2.82-4.15-2.56-4.15-2.56z"
+            style="transform-origin:398.522px 269.081px" id="prefix__el7ilgb2kawew" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M397.84 272.27c-1.24 0-3.82-3.51-3.92-4.22-.05-.37-.15-1.07 4.44-2.14a.49.49 0 01.24 0c1.11.3 4.73 1.39 4.51 3.1-.23 1.88-4.61 3.19-5.2 3.26zm-2.84-4.21c.38.81 2.33 3.11 2.87 3.21.85-.1 4.16-1.41 4.28-2.38.07-.55-1.85-1.48-3.66-2a16.42 16.42 0 00-3.49 1.17z"
+            style="transform-origin:398.514px 269.083px" id="prefix__elbh8c7kjxrmu" class="prefix__animable"
+            fill="#263238" />
+        <path d="M391.51 271.68s-7.05-.79-7.14.18a3.46 3.46 0 002.64 2.82c1.24.09 4.5-3 4.5-3z"
+            style="transform-origin:387.94px 273.029px" id="prefix__elivhalclbgzg" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M387.06 275.18H387a3.61 3.61 0 01-2.26-1.36 3.16 3.16 0 01-.85-2 .72.72 0 01.28-.5c.93-.76 5.5-.34 7.42-.13a.51.51 0 01.41.34.46.46 0 01-.13.52c-.8.74-3.44 3.13-4.81 3.13zm-2.19-3.18a2.52 2.52 0 00.62 1.13 2.63 2.63 0 001.56 1c.55.05 2-1 3.29-2.11a20.47 20.47 0 00-5.47-.02z"
+            style="transform-origin:387.961px 273.032px" id="prefix__elhyrsjbcq1tc" class="prefix__animable"
+            fill="#263238" />
+        <path d="M395.12 274.86s-5.2-.27-4.67.61 2.38 2.91 3.53 3.18 7.4-1.42 6.43-2.21-5.29-1.58-5.29-1.58z"
+            style="transform-origin:395.462px 276.75px" id="prefix__el8e7ppg85v89" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M394.25 279.17a1.29 1.29 0 01-.38 0c-1.39-.32-3.32-2.53-3.85-3.4a.71.71 0 010-.73c.13-.21.53-.88 5.14-.64h.06c.46.09 4.48.84 5.52 1.69a.73.73 0 01.21.9c-.55 1.01-5.08 2.18-6.7 2.18zm-3.19-3.68c.67.93 2.2 2.48 3 2.67s4.75-.86 5.75-1.49a22.82 22.82 0 00-4.78-1.32 19.44 19.44 0 00-3.97.14z"
+            style="transform-origin:395.472px 276.766px" id="prefix__eljkxoziy4tsq" class="prefix__animable"
+            fill="#263238" />
+        <path d="M407.11 279.44s-6.79-1.32-6.79.09 2.3 3.7 3.62 3.79a5.83 5.83 0 003.79-1.85c.53-.71-.62-2.03-.62-2.03z"
+            style="transform-origin:404.095px 281.1px" id="prefix__el3tf4szrcvzq" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M404.07 283.82h-.17c-1.51-.11-4.08-2.56-4.08-4.29a.91.91 0 01.35-.71c1.13-.94 5.67-.14 7 .13a.5.5 0 01.28.16c.14.17 1.39 1.66.64 2.66a6.44 6.44 0 01-4.02 2.05zm-1.92-4.44a2.54 2.54 0 00-1.35.21c0 1.11 2.14 3.16 3.17 3.23a5.36 5.36 0 003.36-1.65c.16-.22-.16-.84-.49-1.27a27.28 27.28 0 00-4.69-.52z"
+            style="transform-origin:404.074px 281.098px" id="prefix__eleo7op5gmluj" class="prefix__animable"
+            fill="#263238" />
+        <path d="M408.08 271.86s-4.14 1-4.05 1.85 1.93 3.61 3.17 3.17a6.37 6.37 0 003-4.05c.08-1.24-2.12-.97-2.12-.97z"
+            style="transform-origin:407.115px 274.381px" id="prefix__el4ngy276d7cr" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M406.92 277.43a1.9 1.9 0 01-1.05-.35 6.07 6.07 0 01-2.34-3.32c-.09-.88 1.4-1.68 4.44-2.39a3.21 3.21 0 012.3.49 1.24 1.24 0 01.37 1c-.09 1.37-1.86 4-3.32 4.49a1.17 1.17 0 01-.4.08zm1.25-5.08c-1.77.42-3.47 1.07-3.66 1.4a5.77 5.77 0 001.9 2.49.84.84 0 00.62.17 6 6 0 002.67-3.62.22.22 0 00-.07-.21 2.34 2.34 0 00-1.46-.23z"
+            style="transform-origin:407.086px 274.378px" id="prefix__el2wrj0e44s9y" class="prefix__animable"
+            fill="#263238" />
+        <path d="M395 262.25s-4.06.27-4.06.88 1.94 3.53 3.35 3.09a3 3 0 001.85-2.91c.04-.88-1.14-1.06-1.14-1.06z"
+            style="transform-origin:393.542px 264.257px" id="prefix__ellm025tceyun" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M394 266.76a2.4 2.4 0 01-1.39-.54 5.87 5.87 0 01-2.15-3.09c0-.38 0-1.08 4.52-1.38h.11c.54.08 1.57.51 1.57 1.55a3.54 3.54 0 01-2.2 3.39 1.76 1.76 0 01-.46.07zm-2.49-3.47a6.05 6.05 0 001.84 2.23 1.11 1.11 0 00.81.22 2.53 2.53 0 001.5-2.43c0-.37-.52-.52-.68-.56a16.14 16.14 0 00-3.45.54z"
+            style="transform-origin:393.561px 264.255px" id="prefix__eln4yjzrol6" class="prefix__animable"
+            fill="#263238" />
+        <path d="M394.33 282s-7.23-.88-8.55-.44.53 2.82 2.91 3.35 4-1 5-1.58.64-1.33.64-1.33z"
+            style="transform-origin:389.867px 283.228px" id="prefix__el5rk2t5vqmd2" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M389.63 285.51a5 5 0 01-1.05-.12c-1.86-.41-3.68-2-3.74-3.2a1.07 1.07 0 01.78-1.11c1.39-.46 8 .33 8.77.42a.51.51 0 01.38.25 1.37 1.37 0 01.09 1 1.65 1.65 0 01-.92 1 7.49 7.49 0 00-.71.43 6.5 6.5 0 01-3.6 1.33zm-2.5-3.58a4.6 4.6 0 00-1.19.1c-.1 0-.1.05-.1.1 0 .57 1.3 1.92 3 2.29a4.9 4.9 0 003.89-1.07 8.43 8.43 0 01.8-.48.8.8 0 00.42-.39c-2.13-.28-5.11-.55-6.82-.55z"
+            style="transform-origin:389.876px 283.224px" id="prefix__elyrlrsw5fa3k" class="prefix__animable"
+            fill="#263238" />
+        <path d="M400.68 284.9s-7.23 0-6.79.88 3.53 2.56 5 2.65 6.17-2.2 5.47-2.73-3.68-.8-3.68-.8z"
+            style="transform-origin:399.151px 286.666px" id="prefix__elyiayqtrnvs" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M399 288.93h-.1c-1.65-.1-4.9-1.85-5.44-2.92a.68.68 0 010-.65c.39-.63 2.82-1 7.21-1 .52 0 3.18.3 4 .89a.65.65 0 01.22.78c-.37 1.11-4.41 2.9-5.89 2.9zm-4.43-3.1a9.77 9.77 0 004.39 2.1 12 12 0 004.82-2 15.69 15.69 0 00-3.11-.55 32.62 32.62 0 00-6.12.45z"
+            style="transform-origin:399.159px 286.645px" id="prefix__elr0i8hpwytuf" class="prefix__animable"
+            fill="#263238" />
+        <path d="M396.18 289.84s-8.11-.27-8.11.62 4.32 2.9 5.82 2.29 5.2-1.77 4.32-2.38a3.47 3.47 0 00-2.03-.53z"
+            style="transform-origin:393.207px 291.332px" id="prefix__el3kyvjv1kopd" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M393.19 293.36a9.67 9.67 0 01-4.57-1.59c-.72-.47-1.05-.89-1.05-1.31a.68.68 0 01.22-.49c.78-.76 5.58-.72 8.38-.63a4 4 0 012.33.62.74.74 0 01.34.71c-.09.71-1.25 1.22-3.68 2.12l-1.08.42a2.44 2.44 0 01-.89.15zm-4.48-2.76a7.09 7.09 0 001.93 1.11 5.17 5.17 0 003.06.58c.3-.13.69-.27 1.11-.43a20.14 20.14 0 002.86-1.23 3 3 0 00-1.45-.29h-.06a39.79 39.79 0 00-7.45.26z"
+            style="transform-origin:393.207px 291.327px" id="prefix__elb0cwhiety3" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M388.07 287.64a33.28 33.28 0 01-3.08 2.11c-.88.44-3.88-.7-4.23-1.67s1.76-1.06 3.61-1.06 4.76-.09 3.7.62z"
+            style="transform-origin:384.509px 288.432px" id="prefix__el652j8pxfq5m" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M384.45 290.35a6.08 6.08 0 01-2-.46c-.55-.22-1.85-.82-2.15-1.64a1 1 0 01.1-.91c.48-.69 1.82-.82 4-.82h.56c2.7 0 3.65 0 3.84.68.07.21.05.53-.41.84a32.08 32.08 0 01-3.15 2.16 1.67 1.67 0 01-.79.15zm1-2.83h-1.11c-2.51 0-3.06.24-3.16.39a3.48 3.48 0 001.6 1 3.36 3.36 0 001.95.34 24.86 24.86 0 002.57-1.74c-.48.01-1.21.01-1.82.01z"
+            style="transform-origin:384.532px 288.436px" id="prefix__elfpymov0qr5" class="prefix__animable"
+            fill="#263238" />
+        <path d="M411.87 288.43s-6.35 0-6.7.62 2.47 2.38 4.23 2.46 4-2.46 3.62-2.82a1.69 1.69 0 00-1.15-.26z"
+            style="transform-origin:409.101px 289.963px" id="prefix__el98bwkxwyhzm" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M409.49 292h-.11c-1.69-.08-4.1-1.46-4.61-2.39a.79.79 0 010-.82c.13-.24.49-.87 7.1-.87a2.06 2.06 0 011.53.41.75.75 0 01.08.9c-.48.99-2.32 2.77-3.99 2.77zm-3.73-2.72a7 7 0 003.67 1.71c1.21.07 2.67-1.42 3-2.05a1.68 1.68 0 00-.55 0h-.05a37.6 37.6 0 00-6.07.36zm-.23.09z"
+            style="transform-origin:409.125px 289.951px" id="prefix__el2pte88ugejp" class="prefix__animable"
+            fill="#263238" />
+        <path d="M414.25 283.49s-3.26-.26-3.79.27-.35 1.41.44 2.11 1.94.18 2.64-.79 1.46-1.76.71-1.59z"
+            style="transform-origin:412.359px 284.809px" id="prefix__elr9jp2izpalc" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M411.74 286.7a1.75 1.75 0 01-1.17-.45 2.48 2.48 0 01-.91-1.71 1.51 1.51 0 01.45-1.14c.59-.59 2.79-.51 4.11-.41a.65.65 0 01.72.24c.29.43 0 .85-.66 1.69l-.33.45a3 3 0 01-2 1.32zm.87-2.77a5.24 5.24 0 00-1.81.19.48.48 0 00-.14.39 1.54 1.54 0 00.57 1 .75.75 0 00.61.19 2.08 2.08 0 001.3-.9l.34-.47.27-.36z"
+            style="transform-origin:412.355px 284.81px" id="prefix__elivtdrtt3p5b" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M407.37 292.84s-7.31.35-8.72.88 1.14 1.32 1.94 1.76 2.11 1.41 3.44 1a15.87 15.87 0 004.4-2.29c.57-.65-1.06-1.35-1.06-1.35z"
+            style="transform-origin:403.392px 294.709px" id="prefix__el9hg6id6e2y" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M403.32 297.06a5.48 5.48 0 01-2.65-.95 2.79 2.79 0 00-.33-.19 6.48 6.48 0 00-.68-.32c-1-.46-2-.85-1.93-1.54 0-.36.26-.63.74-.81 1.45-.54 8.12-.88 8.88-.91a.43.43 0 01.23 0c.3.13 1.28.62 1.44 1.31a.89.89 0 01-.21.79c-.66.77-3.41 2-4.63 2.44a2.62 2.62 0 01-.86.18zm-4.32-2.92a9.37 9.37 0 001.11.54c.31.14.58.26.77.36l.35.21a3.53 3.53 0 002.69.72 15.7 15.7 0 004.18-2.14 4.54 4.54 0 00-.77-.49 66.59 66.59 0 00-8.33.8z"
+            style="transform-origin:403.384px 294.692px" id="prefix__el82x3n4ijr9f" class="prefix__animable"
+            fill="#263238" />
+        <path d="M406.58 297.42s-5.29 1.14-5 1.59 3.17 2.11 3.79 1.93 3.79-1.76 4-2.29-2.79-1.23-2.79-1.23z"
+            style="transform-origin:405.475px 299.187px" id="prefix__elkgapg8809r" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M405.28 301.45a8.8 8.8 0 01-4.15-2.19.63.63 0 010-.52c.1-.23.31-.71 5.38-1.81a.54.54 0 01.22 0c1.21.3 2.71.77 3 1.34a.64.64 0 01.06.54c-.3.9-4 2.53-4.31 2.61a.6.6 0 01-.2.03zm-2.92-2.4a10.08 10.08 0 002.87 1.41 18.89 18.89 0 003.42-1.82 11.13 11.13 0 00-2.08-.71 41.9 41.9 0 00-4.21 1.12z"
+            style="transform-origin:405.449px 299.184px" id="prefix__elss6zb99ltgp" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M409 298a2.16 2.16 0 011.41-1c1.15-.36 3.88-1.85 4.23-1.06s-.26 1.41-1.58 1.94-3.18 1.5-3.44 1.5-.27-.8-.27-.8z"
+            style="transform-origin:411.869px 297.546px" id="prefix__ela310gw1ytq8" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M409.58 300c-.22 0-.72-.12-.76-1.16l-.29-.51a.49.49 0 010-.44 2.62 2.62 0 011.72-1.25c.3-.09.71-.27 1.16-.45 1.66-.7 3.22-1.36 3.68-.33a1.42 1.42 0 010 1.14 3.09 3.09 0 01-1.9 1.46c-.6.24-1.31.57-1.93.86a5.52 5.52 0 01-1.68.68zm0-1.88l.19.34a.5.5 0 01.06.24v.19l1-.47c.64-.3 1.36-.64 2-.89 1-.4 1.27-.74 1.34-.91a.35.35 0 000-.29 8.58 8.58 0 00-2.4.78c-.49.2-.93.39-1.25.48a2.39 2.39 0 00-.96.48z"
+            style="transform-origin:411.844px 297.664px" id="prefix__eloxr74bucler" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M401.21 297.51s-2.83 1.67-3.62 2.11a2.17 2.17 0 01-1.32.44 18.57 18.57 0 01-2.64-1.5c-1-.52-3.09-1.05-2.3-1.76s2.47-1.23 5.47-.44 5.02.64 4.41 1.15z"
+            style="transform-origin:396.237px 298.012px" id="prefix__elaf7gzyycwgp" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M396.27 300.56c-.33 0-.74-.23-1.73-.86-.39-.24-.8-.5-1.15-.7s-.55-.25-.86-.38c-.94-.4-1.75-.74-1.86-1.38a.87.87 0 01.33-.81c.69-.61 2.37-1.49 5.93-.55a28.55 28.55 0 003.15.61c1.12.16 1.58.23 1.71.69a.64.64 0 01-.26.71l-.07.05s-2.83 1.68-3.63 2.12a2.62 2.62 0 01-1.56.5zm-4.54-3.44a8.25 8.25 0 001.19.58c.34.14.68.28.94.42s.81.48 1.21.74a9.5 9.5 0 001.24.71c.25 0 .36 0 1-.38l2.86-1.67h-.28a28 28 0 01-3.26-.64c-3.03-.88-4.4-.16-4.9.24zm9.48.39l-.33-.38z"
+            style="transform-origin:396.238px 298.014px" id="prefix__el8g3sob81ipg" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M391.25 294.77s-2.91 2.38-3.88 2.65a3.25 3.25 0 01-1.85-.09s-5.47-1.5-5.12-2.47 4.94-1.14 6.35-.7 4.32-.35 4.5.61z"
+            style="transform-origin:385.817px 295.722px" id="prefix__elol0qd5cysyh" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M386.61 298a3.47 3.47 0 01-1.28-.23c-1.07-.29-4.79-1.38-5.34-2.45a.81.81 0 01-.06-.65c.54-1.47 5.64-1.42 7-1a7 7 0 002.06.1c1.34 0 2.6-.09 2.78.91a.5.5 0 01-.18.47c-.5.41-3 2.46-4.06 2.74a3.17 3.17 0 01-.92.11zm-5.67-3a15.8 15.8 0 004.71 1.88 2.81 2.81 0 001.59.09 16.75 16.75 0 003.18-2.15 13.58 13.58 0 00-1.43 0 8 8 0 01-2.39-.14c-1.32-.46-4.98-.21-5.66.32zm9.83-.07z"
+            style="transform-origin:385.832px 295.708px" id="prefix__eltn6j6bsq3nc" class="prefix__animable"
+            fill="#263238" />
+        <path d="M382.17 291.78a6.19 6.19 0 01-1.33 1.67c-.7.53-.61.71-1.41.18s-2.9-1.85-2.11-2.29 3.44-.27 4.85.44z"
+            style="transform-origin:379.658px 292.524px" id="prefix__el063q0p0rbjb6" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M380.09 294.45a1.82 1.82 0 01-.93-.41l-.19-.12c-1.53-1-2.35-1.68-2.33-2.35a.82.82 0 01.44-.67c1-.55 3.81-.32 5.31.43a.5.5 0 01.25.3.53.53 0 010 .39 6.68 6.68 0 01-1.47 1.83l-.28.23a1.21 1.21 0 01-.8.37zm-2.36-2.74a9.6 9.6 0 001.79 1.38l.19.12a4.08 4.08 0 00.39.24s.06-.09.12-.14l.33-.26a4.52 4.52 0 00.89-1 7.55 7.55 0 00-3.71-.34z"
+            style="transform-origin:379.658px 292.523px" id="prefix__eln0gp2rkqk3" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M383.84 296.89s-4.93-1.15-5.37-.35.44 1.06 1.49 1.58 2.12 1.41 3.18 1.15 1.76-1.15 1.58-1.59-.88-.79-.88-.79z"
+            style="transform-origin:381.551px 297.787px" id="prefix__elkdrm7h2fd1f" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M382.74 299.82a4.81 4.81 0 01-2.28-.85c-.24-.14-.48-.28-.72-.4l-.41-.2c-.68-.32-1.26-.6-1.43-1.14a1.15 1.15 0 01.13-.94c.41-.74 2.41-.7 5.93.11h.11a2.58 2.58 0 011.12 1.06 1.09 1.09 0 01-.09.91 2.89 2.89 0 01-1.84 1.34 1.91 1.91 0 01-.52.11zm-3.25-3.07a1.47 1.47 0 00-.64.09v.08c0 .14.59.4.91.55l.43.21.77.42a3.07 3.07 0 002.06.68 1.66 1.66 0 001.23-.95 1.83 1.83 0 00-.58-.47 22 22 0 00-4.18-.61z"
+            style="transform-origin:381.551px 297.791px" id="prefix__elpjfeuxxa4z" class="prefix__animable"
+            fill="#263238" />
+        <path d="M378 295.92a4.51 4.51 0 01-1.58.71c-.71.08-1.94-.45-2-.8s0-.7.53-.7 3.25.17 3.05.79z"
+            style="transform-origin:376.206px 295.884px" id="prefix__elszvwv1n28qe" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M376.29 297.13c-.85 0-2.2-.51-2.36-1.18a1.06 1.06 0 01.15-.95 1 1 0 01.86-.37s2.85 0 3.44.8a.72.72 0 01.13.63.54.54 0 01-.2.27 4.88 4.88 0 01-1.81.79zm-1.41-1.5a.45.45 0 000 .08 2.93 2.93 0 001.48.42 2.3 2.3 0 00.73-.26 12.3 12.3 0 00-2.17-.24zm3.14.29z"
+            style="transform-origin:376.206px 295.878px" id="prefix__elc3cf6xda1m" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M392.57 298.65s-4.06-1.94-5.2-1.23-1.59 1.85-.88 2.29a14.9 14.9 0 003.35 1.59 9 9 0 004.49-1c.53-.41-1.76-1.65-1.76-1.65z"
+            style="transform-origin:390.279px 299.285px" id="prefix__elzhg2cz3iph" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M390.36 301.85a2.49 2.49 0 01-.65-.07 14.92 14.92 0 01-3.49-1.65 1.17 1.17 0 01-.57-1.05 2.75 2.75 0 011.46-2.09c1.27-.78 4.66.73 5.67 1.21.93.5 2 1.23 2.11 1.88a.7.7 0 01-.26.62 9.63 9.63 0 01-4.27 1.15zm-2.29-4.09a.89.89 0 00-.44.08 1.86 1.86 0 00-1 1.25.21.21 0 00.1.2 14.34 14.34 0 003.21 1.52 8.91 8.91 0 003.82-.74 7.83 7.83 0 00-1.44-1 13 13 0 00-4.25-1.31z"
+            style="transform-origin:390.271px 299.311px" id="prefix__el8n0246iuvee" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M400.94 298.92s-5.2 1.41-4.85 2.11a6.14 6.14 0 002.65 2c.44 0 1.85-.62 2.47-.71s1.58.36 2.46 0 1.15-.52 1-.79-3.02-2.7-3.73-2.61z"
+            style="transform-origin:400.391px 300.974px" id="prefix__el7ud44s7h756" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M398.74 303.56a6.15 6.15 0 01-3.09-2.3.65.65 0 010-.59c.35-.78 3-1.65 5.17-2.24h.07c1-.12 4 2.62 4.18 2.86a.7.7 0 01.1.63c-.13.41-.6.63-1.3.91a3.46 3.46 0 01-1.9.08 3.66 3.66 0 00-.68 0 8.19 8.19 0 00-1.14.34 5.24 5.24 0 01-1.41.31zm-2.07-2.56a6.62 6.62 0 002.1 1.56 7.53 7.53 0 001.05-.32 9 9 0 011.31-.38 3.31 3.31 0 011 .06 2.68 2.68 0 001.38 0 5 5 0 00.55-.24 13.9 13.9 0 00-3-2.23 20.61 20.61 0 00-4.39 1.55z"
+            style="transform-origin:400.392px 300.993px" id="prefix__eljqztzjqwe4j" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M395 300.5s-5 1-5.2 1.5-1.33-1.06-2.12-1.32-2-.7-3.26-1.06-2.64.44-2.56 1a13.29 13.29 0 01-1.76-.61c-1.06-.45-2.11-1-2.11-.45s2.9 3.09 4.32 4.06a21.14 21.14 0 009.34 4.49l1.23.44s.35 1.77 1.76 1.5a2.26 2.26 0 001.77-1.14s4.4.09 6.17-.62 5.81-2.56 7.49-4.5 3.52-5 2.56-4.84a17.83 17.83 0 00-3.27 1.41l-4.67 1.23-1 .79a4.22 4.22 0 00-2.46 0 14 14 0 01-2.47.71z"
+            style="transform-origin:395.442px 304.511px" id="prefix__elm3xjgs14sd" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M394.3 310.55a2.1 2.1 0 01-1.88-1.64l-1-.36a20.21 20.21 0 01-8.78-4.05l-.64-.5c-.44-.3-4.53-3.43-4.53-4.47a.69.69 0 01.3-.59c.45-.3 1.11 0 2.11.41l.39.16c.53.22 1 .38 1.27.47a1.69 1.69 0 01.23-.25 3.12 3.12 0 012.77-.59c.95.27 1.89.59 2.64.85l.64.22a4.39 4.39 0 011.33.94c.13.11.29.26.42.36.44-.32 1.67-.79 5.31-1.5a.56.56 0 01.38.08l3.61 2.44a13.81 13.81 0 002.17-.64 4.45 4.45 0 012.54-.08l.78-.64a.61.61 0 01.18-.09l4.62-1.22a17.18 17.18 0 013.36-1.44.71.71 0 01.76.32c.66 1.17-2.82 5.31-2.85 5.35-2 2.27-6.75 4.26-7.69 4.63-1.58.64-5 .67-6.07.66a3 3 0 01-1.95 1.13 1.84 1.84 0 01-.42.04zM378.82 300a30.45 30.45 0 003.72 3.18c.21.14.44.32.71.52a19.49 19.49 0 008.45 3.89l1.3.46a.48.48 0 01.32.38c0 .13.29 1.26 1.18 1.1a1.81 1.81 0 001.4-.85.54.54 0 01.47-.3s4.32.08 6-.58c2.49-1 5.9-2.74 7.3-4.36a17.44 17.44 0 002.6-3.91 22.55 22.55 0 00-2.69 1.24h-.11l-4.59 1.23-.89.72a.5.5 0 01-.47.09 3.72 3.72 0 00-2.12 0 15.44 15.44 0 01-2.57.73.45.45 0 01-.37-.08l-3.62-2.46a24.29 24.29 0 00-4.66 1.24.67.67 0 01-.4.32c-.43.11-.8-.23-1.33-.7a4.05 4.05 0 00-1-.74l-.64-.21c-.74-.26-1.67-.57-2.6-.84a2 2 0 00-1.93.49.4.4 0 01-.15.41.49.49 0 01-.46.08 14.73 14.73 0 01-1.83-.64l-.4-.18zm11.32 2.29zm.08-.13z"
+            style="transform-origin:395.416px 304.477px" id="prefix__elzbm8qqzwsif" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M384.72 304.29a9.51 9.51 0 012.38.36 3.73 3.73 0 011.94 1.49 6.59 6.59 0 013.09-1 6.16 6.16 0 013.17 1.23s3.35-1.06 4.85 0a7.94 7.94 0 013.17-1.32l1.41-.09s1.85-1.41 3.35-.62"
+            style="transform-origin:396.4px 305.235px" id="prefix__elpguxkb0h5i" class="prefix__animable" fill="#fff" />
+        <path
+            d="M400.15 306.91a.52.52 0 01-.29-.09c-1.06-.75-3.54-.21-4.41.07a.51.51 0 01-.46-.09 5.65 5.65 0 00-2.86-1.12 6.22 6.22 0 00-2.82.88.47.47 0 01-.38.07.5.5 0 01-.31-.22 3.3 3.3 0 00-1.66-1.28 9.33 9.33 0 00-2.24-.34.5.5 0 01-.5-.5.51.51 0 01.5-.5 10.31 10.31 0 012.52.38 4 4 0 011.94 1.32 6.68 6.68 0 012.95-.81 6.35 6.35 0 013.26 1.18c.82-.23 3.24-.81 4.74 0a7.75 7.75 0 013.16-1.23l1.27-.08c.48-.33 2.22-1.38 3.75-.57a.5.5 0 11-.46.88c-1.18-.62-2.8.56-2.82.58a.49.49 0 01-.27.1l-1.41.09a7.58 7.58 0 00-2.92 1.23.47.47 0 01-.28.05z"
+            style="transform-origin:396.426px 305.297px" id="prefix__elie5j8yt2b4d" class="prefix__animable"
+            fill="#263238" />
+        <path d="M392.74 305.09s2.47-1.77 4.41-1.06l1.94.7" style="transform-origin:395.915px 304.476px"
+            id="prefix__elbvm8c6s10b6" class="prefix__animable" fill="#fff" />
+        <path
+            d="M392.74 305.59a.5.5 0 01-.29-.91c.11-.08 2.71-1.91 4.87-1.12l1.94.7a.52.52 0 01.3.65.49.49 0 01-.64.29l-1.94-.7c-1.66-.6-3.92 1-4 1a.45.45 0 01-.24.09z"
+            style="transform-origin:395.912px 304.476px" id="prefix__el2z08d7wcy4w" class="prefix__animable"
+            fill="#263238" />
+        <path d="M386.05 304.47s.35-1.94 3.17-1.59 3.17.88 3.17.88" style="transform-origin:389.22px 303.654px"
+            id="prefix__elfrcc50p77ij" class="prefix__animable" fill="#fff" />
+        <path
+            d="M386.05 305H386a.5.5 0 01-.4-.58s.48-2.4 3.73-2c2.65.33 3.35.83 3.53 1.1a.5.5 0 01-.14.69.51.51 0 01-.7-.14 8.18 8.18 0 00-2.81-.66c-2.25-.29-2.59 1-2.62 1.19a.51.51 0 01-.54.4z"
+            style="transform-origin:389.267px 303.688px" id="prefix__eljxngsl3yk9" class="prefix__animable"
+            fill="#263238" />
+        <path d="M393.36 307.47s.79-1.24 2.73-.36" style="transform-origin:394.725px 307.132px"
+            id="prefix__elp00vumtcxka" class="prefix__animable" fill="#fff" />
+        <path
+            d="M393.36 308a.5.5 0 01-.27-.08.49.49 0 01-.15-.68c.36-.56 1.52-1.38 3.36-.54a.5.5 0 11-.41.91c-1.48-.67-2.05.09-2.11.17a.52.52 0 01-.42.22z"
+            style="transform-origin:394.742px 307.17px" id="prefix__elme0c3e5kcj" class="prefix__animable"
+            fill="#263238" />
+        <path d="M381.29 301.83s.52-.53 2.29.08a4 4 0 012.29 1.68" style="transform-origin:383.58px 302.603px"
+            id="prefix__elfgt9rfd0icc" class="prefix__animable" fill="#fff" />
+        <path
+            d="M385.87 304.09a.5.5 0 01-.45-.28 3.56 3.56 0 00-2-1.42c-1.35-.48-1.8-.19-1.8-.18a.48.48 0 01-.69 0 .52.52 0 010-.72c.13-.12.85-.72 2.81 0a4.52 4.52 0 012.58 1.93.51.51 0 01-.23.67.59.59 0 01-.22 0z"
+            style="transform-origin:383.577px 302.621px" id="prefix__elmgj6xw18qq" class="prefix__animable"
+            fill="#263238" />
+        <path style="transform-origin:405.215px 303.81px" id="prefix__elpu14wp24inm" class="prefix__animable"
+            fill="#fff" d="M404.73 303.24l.97 1.14" />
+        <path d="M405.7 304.88a.52.52 0 01-.38-.17l-1-1.15a.5.5 0 11.76-.65l1 1.15a.5.5 0 01-.38.82z"
+            style="transform-origin:405.198px 303.807px" id="prefix__elqhw58xuz7cc" class="prefix__animable"
+            fill="#263238" />
+        <path d="M408.17 303.68a2.66 2.66 0 012.55-1.41" style="transform-origin:409.445px 302.971px"
+            id="prefix__eloroa4s2u65" class="prefix__animable" fill="#fff" />
+        <path
+            d="M408.17 304.18a.46.46 0 01-.23-.06.5.5 0 01-.22-.67 3.13 3.13 0 013-1.68.5.5 0 01.45.55.48.48 0 01-.55.44 2.21 2.21 0 00-2.06 1.14.48.48 0 01-.39.28z"
+            style="transform-origin:409.42px 302.971px" id="prefix__el6sg0cwuwxxm" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="394.6" cy="216.1" r="12.98" style="transform-origin:394.6px 216.1px" id="prefix__elntls7u9uy1"
+            class="prefix__animable" fill="#263238" />
+        <path
+            d="M394.59 229.57a13.48 13.48 0 1113.48-13.47 13.48 13.48 0 01-13.48 13.47zm0-25.95a12.48 12.48 0 1012.48 12.48 12.49 12.49 0 00-12.48-12.48z"
+            style="transform-origin:394.59px 216.09px" id="prefix__el8a5rk218129" class="prefix__animable"
+            fill="#263238" />
+        <g id="prefix__elp6u368cj36">
+            <circle cx="394.6" cy="200.15" r="7.76" style="transform-origin:394.6px 200.15px" class="prefix__animable"
+                id="prefix__elk3w0sucmp0g" fill="#263238" transform="rotate(-45)" />
+        </g>
+        <path
+            d="M394.59 208.41a8.27 8.27 0 118.27-8.26 8.28 8.28 0 01-8.27 8.26zm0-15.53a7.27 7.27 0 107.27 7.27 7.27 7.27 0 00-7.27-7.27z"
+            style="transform-origin:394.59px 200.14px" id="prefix__elblp6qg7zh3e" class="prefix__animable"
+            fill="#263238" />
+        <path d="M390.13 194.6s-4.86-4.46-10.94-3.64c0 0-.82-3.25 6.08-.82s4.86 4.46 4.86 4.46z"
+            style="transform-origin:384.786px 191.919px" id="prefix__elbw5fzd4jlzc" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M390.13 195.1a.46.46 0 01-.33-.13c-.05 0-4.77-4.29-10.55-3.52a.49.49 0 01-.55-.37 1.82 1.82 0 01.52-1.74c1-.9 3-.79 6.21.33s5.13 2.44 5.44 3.79a1.67 1.67 0 01-.38 1.5.5.5 0 01-.36.14zm-9.43-4.74a15.67 15.67 0 019.21 3.41v-.11c-.12-.45-.81-1.64-4.79-3-3.77-1.33-4.9-.82-5.2-.54a.71.71 0 00-.21.32c.29-.07.66-.08.99-.08z"
+            style="transform-origin:384.783px 191.919px" id="prefix__elklg4b7b6hxd" class="prefix__animable"
+            fill="#263238" />
+        <path d="M398.09 194.6s4.86-4.46 11-3.64c0 0 .81-3.25-6.09-.82s-4.91 4.46-4.91 4.46z"
+            style="transform-origin:403.471px 191.919px" id="prefix__elzaiczjssuen" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M398.09 195.1a.5.5 0 01-.36-.14 1.67 1.67 0 01-.37-1.5c.3-1.35 2.13-2.62 5.43-3.79s5.22-1.23 6.21-.33a1.8 1.8 0 01.52 1.74.5.5 0 01-.55.37c-5.76-.77-10.5 3.48-10.54 3.52a.5.5 0 01-.34.13zm9-5.36a12.21 12.21 0 00-3.92.88c-4 1.4-4.67 2.59-4.78 3a.36.36 0 000 .11c1.42-1.12 5.36-3.78 10.21-3.37a.8.8 0 00-.21-.33 1.87 1.87 0 00-1.39-.29z"
+            style="transform-origin:403.442px 191.911px" id="prefix__elpdaukk62dwb" class="prefix__animable"
+            fill="#263238" />
+        <path d="M394.55 203.12v-1.6a14.34 14.34 0 00-2.56-.24 14.62 14.62 0 00-1.15 29.19z"
+            style="transform-origin:385.988px 215.875px" id="prefix__elsuq98r2wnoo" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M390.88 231a15.12 15.12 0 011.12-30.22 14.62 14.62 0 012.65.25.5.5 0 01.41.5V203.19l-3.67 27.35a.5.5 0 01-.51.46zm1.12-29.22a14.12 14.12 0 00-1.58 28.15l3.6-26.85v-1.14a14.72 14.72 0 00-2.02-.16zm2.52 1.34z"
+            style="transform-origin:385.694px 215.885px" id="prefix__el0prcy8ux42k" class="prefix__animable"
+            fill="#263238" />
+        <path d="M394.64 203.12v-1.6a14.34 14.34 0 012.56-.24 14.62 14.62 0 011.15 29.19z"
+            style="transform-origin:403.202px 215.875px" id="prefix__elu6mt6qjnea9" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M398.31 231a.5.5 0 01-.5-.43l-3.67-27.35V201.56a.5.5 0 01.41-.5 14.7 14.7 0 012.65-.25 15.12 15.12 0 011.15 30.19zm-3.17-27.89l3.6 26.85a14.12 14.12 0 00-1.58-28.15 14.84 14.84 0 00-2.05.16z"
+            style="transform-origin:403.192px 215.905px" id="prefix__eled4pna8578h" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="385.92" cy="222.32" r="3.08" style="transform-origin:385.92px 222.32px" id="prefix__elpltvvc3i6dq"
+            class="prefix__animable" fill="#263238" />
+        <path
+            d="M385.92 225.9a3.58 3.58 0 113.58-3.58 3.58 3.58 0 01-3.58 3.58zm0-6.16a2.58 2.58 0 102.58 2.58 2.59 2.59 0 00-2.58-2.58z"
+            style="transform-origin:385.92px 222.32px" id="prefix__elzg0eezgm1ab" class="prefix__animable"
+            fill="#263238" />
+        <path d="M385.92 212.57a3.08 3.08 0 11-3.08-3.08 3.08 3.08 0 013.08 3.08z"
+            style="transform-origin:382.84px 212.57px" id="prefix__elboxdi114jgj" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M382.84 216.15a3.58 3.58 0 113.58-3.58 3.58 3.58 0 01-3.58 3.58zm0-6.16a2.58 2.58 0 102.58 2.58 2.59 2.59 0 00-2.58-2.57z"
+            style="transform-origin:382.84px 212.57px" id="prefix__elb8d81tuj3ag" class="prefix__animable"
+            fill="#263238" />
+        <path d="M392.85 206.15a3.08 3.08 0 11-3.08-3.07 3.08 3.08 0 013.08 3.07z"
+            style="transform-origin:389.77px 206.16px" id="prefix__el61gdpagdres" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M389.77 209.73a3.58 3.58 0 113.58-3.58 3.58 3.58 0 01-3.58 3.58zm0-6.15a2.58 2.58 0 102.58 2.57 2.58 2.58 0 00-2.58-2.57z"
+            style="transform-origin:389.77px 206.15px" id="prefix__eldb1a2e0zay" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="402.85" cy="222.32" r="3.08" style="transform-origin:402.85px 222.32px" id="prefix__el75zxdm2e2ia"
+            class="prefix__animable" fill="#263238" />
+        <path
+            d="M402.85 225.9a3.58 3.58 0 113.58-3.58 3.58 3.58 0 01-3.58 3.58zm0-6.16a2.58 2.58 0 102.58 2.58 2.59 2.59 0 00-2.58-2.58z"
+            style="transform-origin:402.85px 222.32px" id="prefix__el3fvtz4mfh6v" class="prefix__animable"
+            fill="#263238" />
+        <path d="M402.85 212.57a3.08 3.08 0 103.08-3.08 3.08 3.08 0 00-3.08 3.08z"
+            style="transform-origin:405.93px 212.57px" id="prefix__elgqs9s4wvu6e" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M405.93 216.15a3.58 3.58 0 113.58-3.58 3.58 3.58 0 01-3.58 3.58zm0-6.16a2.58 2.58 0 102.58 2.58 2.59 2.59 0 00-2.58-2.57z"
+            style="transform-origin:405.93px 212.57px" id="prefix__elf3uf5nadqgw" class="prefix__animable"
+            fill="#263238" />
+        <path d="M395.92 206.15a3.08 3.08 0 103.08-3.07 3.08 3.08 0 00-3.08 3.07z"
+            style="transform-origin:399px 206.16px" id="prefix__el7cfydiqjsd" class="prefix__animable" fill="#263238" />
+        <path
+            d="M399 209.73a3.58 3.58 0 113.58-3.58 3.58 3.58 0 01-3.58 3.58zm0-6.15a2.58 2.58 0 102.58 2.57 2.58 2.58 0 00-2.58-2.57z"
+            style="transform-origin:399px 206.15px" id="prefix__elyyel6ebt6j" class="prefix__animable" fill="#263238" />
+        <path d="M396.9 121c0 5.1-2.3 11.95-5.14 11.95s-5.15-6.85-5.15-11.95 2.3-9.23 5.15-9.23 5.14 4.16 5.14 9.23z"
+            style="transform-origin:391.755px 122.36px" id="prefix__el2b2leg26wps" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M391.76 133.48c-3.4 0-5.65-7.49-5.65-12.45 0-5.46 2.48-9.73 5.65-9.73s5.64 4.27 5.64 9.73c0 4.97-2.25 12.45-5.64 12.45zm0-21.18c-2.52 0-4.65 4-4.65 8.73 0 5 2.25 11.45 4.65 11.45S396.4 126 396.4 121c0-4.7-2.13-8.7-4.64-8.7z"
+            style="transform-origin:391.755px 122.39px" id="prefix__el1xw1xu0ldl6" class="prefix__animable"
+            fill="#263238" />
+        <path d="M380.83 124.37c4.42 2.55 9.2 8 7.78 10.43s-8.51 1-12.92-1.52-6.85-6.61-5.43-9.07 6.16-2.39 10.57.16z"
+            style="transform-origin:379.36px 129.232px" id="prefix__elnpib50ldnp" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M385.22 136.57a22 22 0 01-9.78-2.86 14.08 14.08 0 01-5.08-4.74c-1.12-1.88-1.31-3.66-.53-5s2.39-2.09 4.6-2a14.2 14.2 0 016.65 2c4.3 2.48 9.66 8.18 8 11.12-.66 1.04-2.08 1.48-3.86 1.48zm-10.93-13.66c-1.74 0-3 .55-3.59 1.55s-.41 2.44.52 4a13.19 13.19 0 004.72 4.4c4.33 2.5 11 3.77 12.24 1.7s-3.27-7.25-7.6-9.75a13.15 13.15 0 00-6.16-1.89z"
+            style="transform-origin:379.373px 129.266px" id="prefix__elwiicmagac5g" class="prefix__animable"
+            fill="#263238" />
+        <path d="M375.69 140c4.41-2.55 11.5-4 12.92-1.52s-3.36 7.89-7.78 10.43-9.14 2.62-10.57.16 1.01-6.57 5.43-9.07z"
+            style="transform-origin:379.358px 144.032px" id="prefix__elhgocleag0zt" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M374.29 151.32c-2.11 0-3.69-.72-4.46-2s-.59-3.13.53-5a14 14 0 015.08-4.75c4.29-2.48 11.91-4.28 13.6-1.34.77 1.32.15 3.36-1.74 5.75a23.19 23.19 0 01-6.22 5.37 14.2 14.2 0 01-6.65 2zm11-13.67a21 21 0 00-9.32 2.74 13.08 13.08 0 00-4.72 4.39c-.93 1.55-1.11 3-.52 4s1.88 1.6 3.72 1.55a13.15 13.15 0 006.16-1.89 22.26 22.26 0 005.94-5.13c1.57-2 2.19-3.7 1.66-4.62-.45-.69-1.53-1.04-2.95-1.04z"
+            style="transform-origin:379.362px 144.029px" id="prefix__eludgpt353yv" class="prefix__animable"
+            fill="#263238" />
+        <path d="M386.61 152.2c0-5.1 2.3-11.95 5.15-11.95s5.14 6.85 5.14 11.95-2.3 9.23-5.14 9.23-5.15-4.13-5.15-9.23z"
+            style="transform-origin:391.755px 150.84px" id="prefix__elq2xvw3n62no" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M391.76 161.93c-3.17 0-5.65-4.27-5.65-9.73 0-5 2.25-12.45 5.65-12.45s5.64 7.49 5.64 12.45c0 5.46-2.48 9.73-5.64 9.73zm0-21.18c-2.4 0-4.65 6.45-4.65 11.45 0 4.73 2.13 8.73 4.65 8.73s4.64-4 4.64-8.73c0-5-2.25-11.45-4.64-11.45z"
+            style="transform-origin:391.755px 150.84px" id="prefix__elfmxeukrj7um" class="prefix__animable"
+            fill="#263238" />
+        <path d="M402.68 148.86c-4.41-2.54-9.2-8-7.78-10.43s8.51-1 12.93 1.52 6.84 6.61 5.42 9.07-6.15 2.39-10.57-.16z"
+            style="transform-origin:404.151px 143.998px" id="prefix__eloe7u0fd71ds" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M409.22 151.32h-.14a14.2 14.2 0 01-6.65-2 23.34 23.34 0 01-6.22-5.37c-1.89-2.39-2.5-4.43-1.74-5.75 1.69-2.94 9.31-1.14 13.61 1.34a14.1 14.1 0 015.08 4.75c1.12 1.87 1.3 3.65.52 5s-2.34 2.03-4.46 2.03zm-11-13.67c-1.42 0-2.5.31-2.92 1-.52.92.1 2.65 1.67 4.62a22.22 22.22 0 005.93 5.13 13.16 13.16 0 006.17 1.89c1.82.05 3.12-.52 3.72-1.55s.4-2.44-.52-4a13.16 13.16 0 00-4.72-4.39 21 21 0 00-9.3-2.7z"
+            style="transform-origin:404.154px 143.999px" id="prefix__elq95an55n8ga" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M407.83 133.28c-4.42 2.55-11.51 4-12.93 1.52s3.37-7.88 7.78-10.43 9.15-2.62 10.57-.16-1.01 6.52-5.42 9.07z"
+            style="transform-origin:404.15px 129.246px" id="prefix__elp7ezq3ybl4i" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M398.29 136.57c-1.77 0-3.2-.44-3.82-1.52-1.7-2.94 3.67-8.64 8-11.12a14.2 14.2 0 016.65-2c2.22 0 3.82.69 4.6 2s.6 3.13-.52 5a14.16 14.16 0 01-5.08 4.74 22 22 0 01-9.83 2.9zm10.93-13.66h-.12a13.16 13.16 0 00-6.17 1.89c-4.33 2.5-8.79 7.68-7.6 9.75s7.91.8 12.25-1.7a13.27 13.27 0 004.72-4.4c.92-1.55 1.11-3 .52-4s-1.82-1.54-3.6-1.54z"
+            style="transform-origin:404.172px 129.25px" id="prefix__elez8zwwy1zmq" class="prefix__animable"
+            fill="#263238" />
+        <path d="M396.3 136.62a4.54 4.54 0 10-4.54 4.54 4.54 4.54 0 004.54-4.54z"
+            style="transform-origin:391.76px 136.62px" id="prefix__elp2rk4vph2ys" class="prefix__animable"
+            fill="#92e3a9" />
+        <path d="M391.76 141.66a5 5 0 115-5 5.05 5.05 0 01-5 5zm0-9.08a4 4 0 104 4 4 4 0 00-4-4z"
+            style="transform-origin:391.76px 136.66px" id="prefix__el7idcw8n9f6w" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M80.13 346.8a.5.5 0 01-.36-.16l-3-3.16a.42.42 0 01-.09-.14L74 336.81a.5.5 0 01.92-.38l2.7 6.44 2.73 2.92 10.42-.53-7.71-4.2a.49.49 0 01-.23-.28l-4-11.78a.5.5 0 01.31-.64.51.51 0 01.64.31l3.93 11.6 9.09 5a.5.5 0 01-.21.94l-12.42.63z"
+            style="transform-origin:83.521px 337.587px" id="prefix__eltcbl4gty4r8" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M87.29 376.26a.53.53 0 01-.4-.19l-4.41-5.68a.46.46 0 01-.1-.24l-1.69-12.21a.52.52 0 01.15-.43l8.42-8a.5.5 0 01.83.49l-2.92 11.67 1.43 6.73 3.09 4.33a.5.5 0 01-.11.7.51.51 0 01-.7-.11l-3.16-4.42a.64.64 0 01-.08-.19l-1.47-6.94a.45.45 0 010-.23l2.53-10.12-7 6.64 1.63 11.82 4.33 5.57a.52.52 0 01-.08.71.5.5 0 01-.29.1z"
+            style="transform-origin:86.2364px 362.815px" id="prefix__elec7jghtj8p" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M112.1 346.8l-12.41-.63a.49.49 0 01-.46-.39.5.5 0 01.24-.55l9.09-5 3.94-11.6a.5.5 0 01.94.32l-4 11.79a.51.51 0 01-.24.28l-7.7 4.2 10.41.53 2.73-2.92 2.7-6.44a.5.5 0 01.92.38l-2.73 6.53a.71.71 0 01-.1.14l-3 3.16a.48.48 0 01-.33.2z"
+            style="transform-origin:108.749px 337.573px" id="prefix__elhmtr3lyxxyv" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M104.94 376.26a.49.49 0 01-.3-.1.51.51 0 01-.09-.71l4.34-5.57 1.63-11.82-7-6.64 2.53 10.12a.59.59 0 010 .23l-1.48 6.94a.46.46 0 01-.08.19l-3.16 4.42a.5.5 0 01-.81-.59l3.1-4.33 1.42-6.73-2.9-11.67a.5.5 0 01.24-.55.48.48 0 01.59.06l8.42 8a.49.49 0 01.15.43l-1.68 12.21a.56.56 0 01-.1.24l-4.42 5.68a.53.53 0 01-.4.19z"
+            style="transform-origin:105.985px 362.818px" id="prefix__elcqiuvzz9t88" class="prefix__animable"
+            fill="#263238" />
+        <circle cx="95.96" cy="344.26" r="4.03" style="transform-origin:95.96px 344.26px" id="prefix__elh4zqckcyuim"
+            class="prefix__animable" fill="#92e3a9" />
+        <path
+            d="M96 348.78a4.53 4.53 0 114.53-4.52 4.53 4.53 0 01-4.53 4.52zm0-8a3.53 3.53 0 103.53 3.53 3.54 3.54 0 00-3.53-3.58z"
+            style="transform-origin:96px 344.25px" id="prefix__el9wqu56iuqsl" class="prefix__animable" fill="#263238" />
+        <path d="M102.75 352.25a6.79 6.79 0 11-6.75-6.79 6.79 6.79 0 016.75 6.79z"
+            style="transform-origin:95.96px 352.25px" id="prefix__el0w35y5u87fd" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M96 359.54a7.29 7.29 0 117.29-7.29 7.3 7.3 0 01-7.29 7.29zM96 346a6.29 6.29 0 106.29 6.29A6.29 6.29 0 0096 346z"
+            style="transform-origin:96px 352.25px" id="prefix__eln034tdutiz" class="prefix__animable" fill="#263238" />
+        <path
+            d="M110.55 290.7s1.49-10.78-1.16-17.37-13.57-11.46-18.8-12.65-12.45-2.41-12.45-2.41 1.25 18.07 4.79 25 27.62 7.43 27.62 7.43z"
+            style="transform-origin:94.5537px 274.485px" id="prefix__elhdywyzb8yaa" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M110.55 291.2c-1 0-24.42-.64-28.06-7.73-3.54-6.92-4.79-24.42-4.84-25.17a.49.49 0 01.58-.52c.08 0 7.29 1.24 12.48 2.42 4.81 1.09 16.3 5.86 19.15 12.94 2.67 6.64 1.26 17.18 1.2 17.63a.51.51 0 01-.51.43zm-31.86-32.33c.31 3.26 1.6 18.13 4.68 24.13s23.44 7 26.74 7.16c.24-2.09 1.08-11-1.19-16.67-2.55-6.34-13.27-11.16-18.44-12.34-4.27-.95-9.92-1.95-11.79-2.28z"
+            style="transform-origin:94.5669px 274.486px" id="prefix__elbp6vkpujbu" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M90.52 268.64a.5.5 0 01-.32-.11c-1-.84-2.08-1.59-3.06-2.23a.5.5 0 01-.14-.69.49.49 0 01.69-.15c1 .66 2.06 1.43 3.14 2.29a.5.5 0 01-.31.89z"
+            style="transform-origin:88.9676px 267.009px" id="prefix__elriigfztpyx" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M110.55 291.2a.5.5 0 01-.41-.22c-.09-.13-8.81-12.77-18.08-20.89a.49.49 0 010-.7.51.51 0 01.71-.05c9.36 8.2 18.16 21 18.24 21.08a.5.5 0 01-.12.69.52.52 0 01-.34.09z"
+            style="transform-origin:101.506px 280.211px" id="prefix__el16655t713bc" class="prefix__animable"
+            fill="#263238" />
+        <path d="M108.75 290.73a9.06 9.06 0 012.31 3.24 60 60 0 011.88 6.89s2.68-.26 2.31-2.64-4.77-9.46-6.85-10.89z"
+            style="transform-origin:111.843px 294.095px" id="prefix__elvgaq4lsxiq" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M87.47 274.62a.5.5 0 01-.5-.49.49.49 0 01.49-.51l8.82-.2-.21-7.87a.5.5 0 011 0l.22 8.38a.46.46 0 01-.14.36.49.49 0 01-.35.15l-9.32.21z"
+            style="transform-origin:92.1302px 269.85px" id="prefix__el0x6svkew0xc" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M94.65 282.27a.51.51 0 01-.48-.35.51.51 0 01.33-.63l6.92-2.17 1.85-6.08a.51.51 0 01.63-.33.5.5 0 01.33.62l-1.93 6.34a.48.48 0 01-.33.33l-7.17 2.25z"
+            style="transform-origin:99.1998px 277.479px" id="prefix__elt2gtgw3j9ja" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M116.38 206.28c.05-.52.08-1.05.08-1.59 0-9.56-9.11-17.32-20.34-17.32s-20.35 7.76-20.35 17.32a15 15 0 00.82 4.87c2.35-.68 17.3-4.67 39.79-3.28z"
+            style="transform-origin:96.115px 198.465px" id="prefix__el6a301u67y0f" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M76.59 210.06a.49.49 0 01-.47-.34 15.27 15.27 0 01-.85-5c0-9.82 9.35-17.82 20.85-17.82s20.84 8 20.84 17.82a15.73 15.73 0 01-.09 1.64.52.52 0 01-.52.45c-22.24-1.37-36.91 2.47-39.62 3.26zm19.53-22.19c-11 0-19.85 7.55-19.85 16.82a14.44 14.44 0 00.65 4.26c3.65-1 17.92-4.43 39-3.2v-1.06c.08-9.27-8.86-16.82-19.8-16.82z"
+            style="transform-origin:96.115px 198.485px" id="prefix__elowbe8i5s8a" class="prefix__animable"
+            fill="#263238" />
+        <path d="M76.59 209.56s2 2 8.79 2.18 22.21-1.26 25.37-2.2 5.54-1.67 5.63-3.26-21.79-6.63-39.79 3.28z"
+            style="transform-origin:96.4851px 207.669px" id="prefix__elvqeh6ff7zak" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M86.5 212.25h-1.14c-6.89-.16-9-2.24-9.13-2.33a.51.51 0 01-.14-.42.53.53 0 01.26-.37c16.85-9.27 36.74-5.69 39.92-3.69a1.07 1.07 0 01.61.88c-.11 1.94-2.71 2.72-6 3.7-2.88.87-17.03 2.23-24.38 2.23zm-9-2.64c1 .57 3.33 1.53 7.85 1.63 6.86.17 22.18-1.27 25.21-2.18 2.72-.82 5.07-1.52 5.27-2.71-1.52-1.54-21.43-5.59-38.29 3.26zm-1-.05z"
+            style="transform-origin:96.4829px 207.654px" id="prefix__elcfl9gnt8ii" class="prefix__animable"
+            fill="#263238" />
+        <path d="M96.25 198.39a3.86 3.86 0 11-3.85-3.58 3.72 3.72 0 013.85 3.58z"
+            style="transform-origin:92.4002px 198.669px" id="prefix__elg2i9dnru5of" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M92.4 202.47a4.09 4.09 0 114.35-4.08 4.23 4.23 0 01-4.35 4.08zm0-7.16a3.09 3.09 0 103.35 3.08 3.22 3.22 0 00-3.35-3.08z"
+            style="transform-origin:92.66px 198.385px" id="prefix__elej2qutd3fwb" class="prefix__animable"
+            fill="#263238" />
+        <path d="M101.2 191a2.54 2.54 0 11-2.52-2.24 2.39 2.39 0 012.52 2.24z"
+            style="transform-origin:98.6778px 191.298px" id="prefix__el1k22yqdi4su" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M98.68 193.69a2.75 2.75 0 113-2.73 2.89 2.89 0 01-3 2.73zm0-4.47a1.76 1.76 0 102 1.74 1.9 1.9 0 00-2-1.74z"
+            style="transform-origin:98.93px 190.947px" id="prefix__eltul1al9r66p" class="prefix__animable"
+            fill="#263238" />
+        <path d="M109.57 200.05a3.47 3.47 0 11-3.47-3.68 3.57 3.57 0 013.47 3.68z"
+            style="transform-origin:106.104px 199.84px" id="prefix__el71pquj2ccv8" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M106.1 204.22a4.18 4.18 0 114-4.17 4.08 4.08 0 01-4 4.17zm0-7.35a3.18 3.18 0 103 3.18 3.08 3.08 0 00-3-3.18z"
+            style="transform-origin:105.921px 200.044px" id="prefix__el1z2bnpj4mer" class="prefix__animable"
+            fill="#263238" />
+        <path d="M84 202.86a3.55 3.55 0 11-3.53-3.17 3.36 3.36 0 013.53 3.17z"
+            style="transform-origin:80.4704px 203.238px" id="prefix__elq9vab4eichp" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M80.5 206.53a3.69 3.69 0 114-3.67 3.87 3.87 0 01-4 3.67zm0-6.34a2.69 2.69 0 103 2.67 2.87 2.87 0 00-3-2.67z"
+            style="transform-origin:80.81px 202.848px" id="prefix__el0zg8k66wmnxh" class="prefix__animable"
+            fill="#263238" />
+        <path d="M88.94 192.47a2 2 0 11-2-1.58 1.79 1.79 0 012 1.58z" style="transform-origin:86.9845px 192.883px"
+            id="prefix__elep2nj18durr" class="prefix__animable" fill="#92e3a9" />
+        <path
+            d="M87 194.56a2.11 2.11 0 112.45-2.09 2.3 2.3 0 01-2.45 2.09zm0-3.17c-.8 0-1.45.48-1.45 1.08s.65 1.09 1.45 1.09 1.45-.49 1.45-1.09-.67-1.08-1.45-1.08z"
+            style="transform-origin:87.34px 192.467px" id="prefix__el3wmsuwsnrjp" class="prefix__animable"
+            fill="#263238" />
+        <path d="M114.71 199.12c.35 1.18.11 2.3-.53 2.49s-1.47-.61-1.82-1.79-.12-2.3.53-2.49 1.46.6 1.82 1.79z"
+            style="transform-origin:113.534px 199.47px" id="prefix__el5kwlqhnubho" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M114 202.14a1.7 1.7 0 01-1.16-.55 3.82 3.82 0 01-.93-1.63 3.75 3.75 0 01-.12-1.86 1.39 1.39 0 012.5-.75 4 4 0 01.93 1.62 3.91 3.91 0 01.12 1.87 1.52 1.52 0 01-1 1.25 1.34 1.34 0 01-.34.05zm-.88-4.34H113c-.12 0-.23.23-.29.5a3.17 3.17 0 00.77 2.57c.2.19.39.29.52.25s.24-.23.3-.5a2.87 2.87 0 00-.1-1.37 2.94 2.94 0 00-.67-1.2.75.75 0 00-.44-.25z"
+            style="transform-origin:113.563px 199.467px" id="prefix__elae6bfnf8kmg" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M93.27 207.91s1.44.72 1.44 5.48-1.88 13.27-1.88 13.27 1 1.59 1.73 1.73 2.6-1.15 2.6-1.15a3.74 3.74 0 002.6 0c1-.58 2.31-.72 1.73-5.63s-3.32-13.56-3.32-13.56 3.61-3.89 2.89-3-3.75 1-4.48 1.3-3.17-1.44-2.74-.58l.44.87s-5.49 1.3-4.33 1.44a17.37 17.37 0 003.32-.17z"
+            style="transform-origin:95.7109px 216.659px" id="prefix__eli7rcbv85p2" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M94.67 228.9h-.2c-.87-.17-1.79-1.54-2.06-1.95a.5.5 0 01-.06-.38c0-.08 1.86-8.51 1.86-13.16 0-3.52-.81-4.67-1.09-5a16.91 16.91 0 01-3.23.12c-.53-.07-.59-.43-.6-.54 0-.42 0-.7 4.26-1.74l-.15-.3a.65.65 0 010-.79c.34-.35.81-.14 1.58.2a4.88 4.88 0 001.38.47 7.75 7.75 0 011.36-.29 8.64 8.64 0 002.79-.75l.11-.11c.5-.45.6-.36.81-.18s.3.41 0 .82a1.47 1.47 0 01-.32.29c-.55.57-1.6 1.7-2.39 2.55a94.5 94.5 0 013.28 13.39c.52 4.45-.43 5.31-1.72 6l-.26.14a3.79 3.79 0 01-2.77.12 6.18 6.18 0 01-2.58 1.09zm-1.3-2.34c.42.62 1 1.29 1.29 1.34a5.72 5.72 0 002.22-1.07.46.46 0 01.45-.06 3.15 3.15 0 002.18 0l.3-.16c.82-.42 1.67-.86 1.18-5-.56-4.8-3.27-13.38-3.3-13.47a.51.51 0 01.11-.49l1.27-1.36-1.14.2a7.44 7.44 0 00-1.16.24c-.5.19-1.15 0-2.08-.47v.07a.5.5 0 010 .43.53.53 0 01-.34.28l-1.36.33h.17a.58.58 0 01.29.05c.18.09 1.72 1 1.72 5.93.04 4.44-1.51 11.85-1.8 13.21z"
+            style="transform-origin:95.7175px 216.626px" id="prefix__eltircaa86xdi" class="prefix__animable"
+            fill="#263238" />
+        <path d="M83.75 209.27a.5.5 0 01-.06-1l6.2-.72a.5.5 0 01.56.43.51.51 0 01-.44.56l-6.21.72z"
+            style="transform-origin:86.8368px 208.408px" id="prefix__elh0fxnmuiyse" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M88.94 210.43a.5.5 0 01-.23-1l3.29-1.68a.5.5 0 01.67.21.51.51 0 01-.21.68l-3.32 1.73a.46.46 0 01-.2.06z"
+            style="transform-origin:90.5189px 209.069px" id="prefix__el941nwaq13mn" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M102.35 209.56h-.11l-4.19-1a.51.51 0 01-.36-.61.49.49 0 01.6-.36l4.18 1a.5.5 0 01.37.6.5.5 0 01-.49.37z"
+            style="transform-origin:100.265px 208.567px" id="prefix__el21byfmjis94" class="prefix__animable"
+            fill="#263238" />
+        <path d="M105.1 207.54l-5-.14a.5.5 0 010-1l5 .14a.5.5 0 01.48.52.49.49 0 01-.48.48z"
+            style="transform-origin:102.59px 206.97px" id="prefix__elrdxwhlf9e4a" class="prefix__animable"
+            fill="#263238" />
+        <path d="M110 207.4h-3.46a.5.5 0 01-.5-.5.5.5 0 01.5-.5H110a.5.5 0 01.5.5.5.5 0 01-.5.5z"
+            style="transform-origin:108.27px 206.9px" id="prefix__el33j87bnkuov" class="prefix__animable"
+            fill="#263238" />
+        <path d="M94.28 207.11h-.09l-4.19-.73a.5.5 0 11.17-1l4.18.72a.5.5 0 01-.08 1z"
+            style="transform-origin:92.1944px 206.241px" id="prefix__el7ri7c7z4s5y" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M97.52 124.06s1.61-9.46 7.34-14.24 8.09-.85 7.39 1.07-.52 6.86-.19 10.42-.79 5.14-1.88 5.64-6 2-6 2 8.24 1.21 8.82 3.59-.4 6.54-.44 7.62-2.91.56.4 4.85 3.61 5.47 2.52 6-1.68-1.34-3.75-4.08-2.9-4-4.18-4.42-6.08-1.68-6.08-1.68-3.75-12.36-3.95-16.77z"
+            style="transform-origin:106.783px 129.321px" id="prefix__elpl7xoumvqhk" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M115.15 151.56c-.84 0-1.47-.95-2.28-2.19-.42-.64-.89-1.36-1.51-2.18l-.48-.63c-1.67-2.23-2.43-3.25-3.47-3.62-1.24-.46-6-1.65-6-1.67a.49.49 0 01-.35-.33c-.16-.51-3.81-12.43-4-16.86a.41.41 0 010-.11c.07-.39 1.71-9.69 7.51-14.54 3.82-3.19 6-2.51 7-1.82a3.13 3.13 0 011.17 3.45c-.65 1.78-.5 6.61-.16 10.2.4 4.45-1.38 5.78-2.17 6.15s-2.56.92-4.06 1.39c2.65.55 6.72 1.69 7.18 3.6s0 4.55-.23 6.34c-.1.62-.18 1.15-.19 1.41a1.35 1.35 0 01-.7 1.06c-.29.22-.45.35-.48.59s.16 1.18 1.48 2.88c2.56 3.32 3.39 4.84 3.15 5.82a1.34 1.34 0 01-.82.92 1.26 1.26 0 01-.59.14zm-13.25-11.19c1 .27 4.73 1.22 5.85 1.63 1.32.48 2.14 1.57 3.93 3.95l.48.63c.63.85 1.14 1.62 1.55 2.24.89 1.36 1.25 1.85 1.59 1.7s.26-.21.27-.25c.21-.87-2.19-4-3-5-1.28-1.65-1.8-2.77-1.68-3.62a1.83 1.83 0 01.87-1.26c.13-.1.3-.22.3-.29a14.2 14.2 0 01.2-1.52c.26-1.73.65-4.33.25-6-.34-1.41-5.12-2.72-8.41-3.2a.51.51 0 01-.07-1s4.86-1.46 5.9-1.95c.47-.22 2-1.23 1.6-5.14s-.49-8.71.22-10.64a2.11 2.11 0 00-.81-2.29c-1.26-.89-3.37-.25-5.79 1.77-5.31 4.43-7 13.14-7.16 13.89.24 4.05 3.36 14.54 3.91 16.35z"
+            style="transform-origin:106.828px 129.296px" id="prefix__el9lqt51dl0sh" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M105.83 141.93a19.88 19.88 0 004.39-3.67 30 30 0 003-4.42 46.71 46.71 0 01-.6 6.3c0 1.07-2.91.56.4 4.85s3.61 5.47 2.52 6-1.68-1.34-3.75-4.08-2.9-4-4.18-4.42c-.39-.16-1.04-.35-1.78-.56z"
+            style="transform-origin:110.968px 142.46px" id="prefix__elvqbgkkykmg8" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M115.15 151.56c-.84 0-1.47-.95-2.28-2.19-.42-.64-.89-1.36-1.51-2.18l-.48-.63c-1.67-2.23-2.43-3.25-3.47-3.62-.31-.12-.89-.29-1.72-.53a.49.49 0 01-.36-.41.5.5 0 01.23-.49 19.91 19.91 0 004.28-3.57 29 29 0 002.91-4.34.51.51 0 01.56-.25.49.49 0 01.38.46 26.26 26.26 0 01-.42 4.93c-.09.62-.17 1.15-.18 1.41a1.35 1.35 0 01-.7 1.06c-.29.22-.45.35-.48.59s.16 1.18 1.48 2.88c2.56 3.32 3.39 4.84 3.15 5.82a1.34 1.34 0 01-.82.92 1.26 1.26 0 01-.57.14zm-8.15-9.81l.74.25c1.32.48 2.14 1.57 3.93 3.95l.48.63c.63.85 1.14 1.62 1.55 2.24.89 1.36 1.25 1.85 1.59 1.7s.26-.21.27-.25c.21-.87-2.19-4-3-5-1.28-1.65-1.8-2.77-1.68-3.62a1.83 1.83 0 01.87-1.26c.13-.1.3-.22.3-.29a14.2 14.2 0 01.2-1.52c.12-.83.27-1.84.35-2.85a26.11 26.11 0 01-2 2.82 18.5 18.5 0 01-3.6 3.2z"
+            style="transform-origin:110.953px 142.449px" id="prefix__el8dl05nd5ye9" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M111.77 116.12v-.1s-1.36-7.87-7.62-5.53c.25-.23.49-.46.75-.67 5.73-4.79 8.09-.85 7.39 1.07a17.38 17.38 0 00-.52 5.23z"
+            style="transform-origin:108.28px 111.829px" id="prefix__elwwar5w0vy2s" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M111.77 116.62a.5.5 0 01-.47-.33v-.11c0-.12-.69-3.78-3.05-5.13a4.48 4.48 0 00-3.92-.09.51.51 0 01-.6-.2.5.5 0 01.08-.63c.25-.24.5-.47.77-.7 3.82-3.19 6-2.51 7-1.82a3.13 3.13 0 011.17 3.45 16.58 16.58 0 00-.45 5.06.51.51 0 01-.41.5zm-5.46-7.06a4.73 4.73 0 012.4.63 6.77 6.77 0 012.63 3.06 9.87 9.87 0 01.44-2.53 2.11 2.11 0 00-.81-2.29c-1.12-.79-2.91-.37-5 1.13z"
+            style="transform-origin:108.269px 111.826px" id="prefix__el3zs7j7imd2s" class="prefix__animable"
+            fill="#263238" />
+        <path d="M105.8 118.18a2.33 2.33 0 101.15-3.05 2.3 2.3 0 00-1.15 3.05z"
+            style="transform-origin:107.928px 117.242px" id="prefix__elwkjdqvtsul" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M107.88 120a2.8 2.8 0 01-2.54-1.59 2.74 2.74 0 01-.07-2.14 2.85 2.85 0 011.47-1.58 2.94 2.94 0 012.16-.11 2.77 2.77 0 011.66 3.58 2.88 2.88 0 01-1.48 1.57 2.72 2.72 0 01-1.2.27zm.07-4.58a1.86 1.86 0 00-.79.18 1.91 1.91 0 00-1 1 1.76 1.76 0 000 1.37 1.82 1.82 0 002.41.84 1.86 1.86 0 001-1 1.74 1.74 0 00-.05-1.36 1.69 1.69 0 00-1-.91 1.83 1.83 0 00-.52-.14z"
+            style="transform-origin:107.911px 117.213px" id="prefix__elte48ppxogt" class="prefix__animable"
+            fill="#263238" />
+        <path d="M103.68 137.05c.62 1.33 2.51 1.77 4.22 1s2.6-2.52 2-3.85-2.51-1.77-4.22-1-2.62 2.52-2 3.85z"
+            style="transform-origin:106.786px 135.625px" id="prefix__elqu1k76jvnq8" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M106.16 138.91a3.11 3.11 0 01-2.93-1.65 2.86 2.86 0 01.12-2.57 4.54 4.54 0 012.1-1.95 4.43 4.43 0 012.84-.34 2.77 2.77 0 011.92 4.12 4.44 4.44 0 01-2.1 1.95 4.6 4.6 0 01-1.95.44zm1.24-5.61a3.7 3.7 0 00-1.53.35 3.42 3.42 0 00-1.63 1.5 1.92 1.92 0 00-.11 1.69c.51 1.08 2.1 1.4 3.56.73a3.42 3.42 0 001.63-1.5 1.77 1.77 0 00-1.25-2.7 3 3 0 00-.67-.07z"
+            style="transform-origin:106.783px 135.609px" id="prefix__elzsextqvw5s" class="prefix__animable"
+            fill="#263238" />
+        <path d="M104.63 137c.3.65 1.43.77 2.51.26s1.73-1.44 1.42-2.09-1.43-.77-2.51-.27-1.73 1.48-1.42 2.1z"
+            style="transform-origin:106.595px 136.084px" id="prefix__el120if7n4bopg" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M105.83 138.11a1.75 1.75 0 01-1.66-.87c-.42-.92.31-2.13 1.67-2.76a3.51 3.51 0 011.81-.35 1.48 1.48 0 011.14 2.45 3.56 3.56 0 01-1.43 1.17 3.7 3.7 0 01-1.53.36zm-.75-1.29c.16.33 1 .42 1.85 0a2.47 2.47 0 001-.82.67.67 0 00.15-.61.66.66 0 00-.56-.28 2.51 2.51 0 00-1.29.26c-.86.39-1.34 1.09-1.18 1.43z"
+            style="transform-origin:106.602px 136.118px" id="prefix__ellr7ewubdd2" class="prefix__animable"
+            fill="#263238" />
+        <path d="M95.71 124.44s3.41 16 3.44 16.85 1.12 1.71 2 .41-3.26-16.5-4-17.47-1.44.21-1.44.21z"
+            style="transform-origin:98.4911px 133.107px" id="prefix__elpnw442joyo" class="prefix__animable"
+            fill="#a3a3a3" />
+        <path
+            d="M100.15 142.86a1.15 1.15 0 01-.36-.05 1.67 1.67 0 01-1.14-1.5c0-.64-2.07-10.38-3.43-16.76a.6.6 0 010-.35 1.66 1.66 0 011.15-.85 1.21 1.21 0 011.1.57c.58.75 5.17 16.35 4 18a1.67 1.67 0 01-1.32.94zm-3.9-18.31c.5 2.38 3.37 15.9 3.4 16.73a.66.66 0 00.41.57c.28.08.53-.24.66-.43.57-1.27-3.06-15.59-4-16.89-.13-.16-.21-.2-.23-.19a.61.61 0 00-.24.21z"
+            style="transform-origin:98.427px 133.104px" id="prefix__elac2qycf8yqo" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M95.93 124.18a.49.49 0 01-.5-.45 8 8 0 00-3-4.77.49.49 0 01-.06-.7.51.51 0 01.71-.06 8.8 8.8 0 013.32 5.44.5.5 0 01-.46.54z"
+            style="transform-origin:94.326px 121.132px" id="prefix__el8acu2jtxmke" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M97.12 124.73a.51.51 0 01-.48-.36c-.16-.53-1.55-5.28-.14-7.27a.5.5 0 11.81.58c-1 1.35-.11 5.08.29 6.4a.51.51 0 01-.33.63z"
+            style="transform-origin:96.7476px 120.792px" id="prefix__elinp3tyovgld" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M95.71 124.44s-5.45-7.89-12.66-9.82-7.68 2.65-6.24 4.09 3.36 6 4.56 9.37 2.89 4.32 4.09 4.32 6.25-.72 6.25-.72-7 4.57-6.49 7 3.12 5.77 3.6 6.73 2.89-.72 1.68 4.56-1 6.49.24 6.49 1-1.92 1.69-5.28 1-4.81 1.92-5.77 4.8-4.09 4.8-4.09-1.76-12.79-3.44-16.88z"
+            style="transform-origin:87.6528px 135.306px" id="prefix__el97dq6srh7kl" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M90.74 156.93a1.35 1.35 0 01-1.13-.49c-.63-.79-.52-2.52.41-6.61.47-2.1.33-2.91.13-3.23s-.34-.26-.69-.33a1.43 1.43 0 01-1.09-.67c-.11-.23-.41-.68-.75-1.2-1-1.51-2.52-3.81-2.89-5.65s2.82-4.68 5-6.29c-1.56.2-3.55.44-4.27.44s-3.06-.45-4.56-4.65c-1.21-3.4-3.11-7.85-4.45-9.19a3.12 3.12 0 01-.39-3.62c.6-1 2.32-2.58 7.12-1.3 7.31 2 12.72 9.69 12.94 10a.41.41 0 010 .09c1.69 4.1 3.41 16.45 3.48 17a.51.51 0 01-.18.45s-3.84 3.12-4.77 4-1 2-1.62 4.75l-.17.77c-.21 1-.34 1.86-.45 2.62-.21 1.83-.41 3.11-1.67 3.11zm1-25.75a.49.49 0 01.46.33.48.48 0 01-.19.59c-2.78 1.82-6.56 5-6.27 6.45.33 1.66 1.78 3.85 2.74 5.3.38.57.67 1 .82 1.31 0 .05.23.09.4.13a1.84 1.84 0 011.32.77c.46.72.46 2 0 4-.28 1.25-1.15 5.06-.59 5.76 0 0 .09.11.34.11s.5-.6.73-2.21c.11-.73.25-1.64.47-2.68l.16-.77c.59-2.92.87-4.27 1.87-5.27s3.79-3.26 4.63-3.95c-.27-1.87-1.85-12.7-3.35-16.39-.44-.63-5.67-7.8-12.34-9.58-3-.81-5.23-.51-6 .83a2.11 2.11 0 00.23 2.41c1.46 1.46 3.37 5.9 4.68 9.56s3.1 4 3.62 4c1.15 0 6.12-.7 6.17-.71z"
+            style="transform-origin:87.6288px 135.297px" id="prefix__elx6d0gurlati" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M95.71 144.16a19.89 19.89 0 01-5.53-1.49 29.77 29.77 0 01-4.56-2.75 47.78 47.78 0 003.2 5.46c.48 1 2.89-.72 1.68 4.56s-1 6.49.24 6.49 1-1.92 1.69-5.28 1-4.81 1.92-5.77c.27-.27.78-.72 1.36-1.22z"
+            style="transform-origin:90.665px 148.175px" id="prefix__elzez44q36ow" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M90.74 156.93a1.35 1.35 0 01-1.13-.49c-.63-.79-.52-2.52.41-6.61.47-2.1.33-2.91.13-3.23s-.34-.26-.69-.33a1.43 1.43 0 01-1.09-.67c-.11-.23-.41-.68-.75-1.2a26.08 26.08 0 01-2.46-4.29.5.5 0 01.16-.59.48.48 0 01.6 0 28.91 28.91 0 004.47 2.7 20 20 0 005.39 1.44.48.48 0 01.41.35.5.5 0 01-.15.53c-.65.55-1.1 1-1.34 1.19-.78.78-1 2-1.62 4.75l-.17.77c-.21 1-.34 1.86-.45 2.62-.26 1.78-.46 3.06-1.72 3.06zm-3.81-15.51c.5.89 1.06 1.74 1.52 2.43s.67 1 .82 1.31c0 .05.23.09.4.13a1.84 1.84 0 011.32.77c.46.72.46 2 0 4-.28 1.25-1.15 5.06-.59 5.76 0 0 .09.11.34.11s.5-.6.73-2.21c.11-.73.25-1.64.47-2.68l.16-.77c.62-2.92.9-4.27 1.9-5.27.14-.14.33-.32.58-.54a18.3 18.3 0 01-4.58-1.34 27.91 27.91 0 01-3.07-1.7z"
+            style="transform-origin:90.6677px 148.174px" id="prefix__el4fvjia0vycd" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M79.45 123.26v-.12s-2.08-7.71 4.58-8.22c-.32-.11-.64-.21-1-.3-7.2-1.92-7.68 2.65-6.24 4.09a17.45 17.45 0 012.66 4.55z"
+            style="transform-origin:80.0837px 118.708px" id="prefix__eltzqjpymti6" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M79.45 123.76a.51.51 0 01-.46-.3 16.71 16.71 0 00-2.54-4.4 3.12 3.12 0 01-.39-3.62c.6-1 2.32-2.58 7.12-1.3.34.09.67.2 1 .31a.5.5 0 01-.13 1 4.46 4.46 0 00-3.51 1.74c-1.57 2.21-.63 5.82-.62 5.85v.2a.49.49 0 01-.37.53zm.49-9.1c-1.47 0-2.52.43-3 1.28a2.11 2.11 0 00.23 2.41 10.08 10.08 0 011.47 2.11 6.79 6.79 0 011.09-3.88 4.87 4.87 0 012.2-1.71 10.44 10.44 0 00-1.99-.21z"
+            style="transform-origin:80.1367px 118.715px" id="prefix__elfgvx5926vlq" class="prefix__animable"
+            fill="#263238" />
+        <ellipse cx="83.4" cy="122.6" rx="2.33" ry="2.28" style="transform-origin:83.4px 122.6px"
+            id="prefix__ela16bxrnmyud" class="prefix__animable" fill="#263238" />
+        <path
+            d="M83.4 125.38a2.78 2.78 0 112.83-2.78 2.81 2.81 0 01-2.83 2.78zm0-4.56a1.78 1.78 0 101.83 1.78 1.82 1.82 0 00-1.83-1.78z"
+            style="transform-origin:83.45px 122.6px" id="prefix__elzqw482irj8" class="prefix__animable"
+            fill="#263238" />
+        <path d="M95.6 138.82c0 1.47-1.53 2.66-3.41 2.66s-3.42-1.19-3.42-2.66 1.53-2.66 3.42-2.66 3.41 1.19 3.41 2.66z"
+            style="transform-origin:92.185px 138.82px" id="prefix__elzagvn3su2t9" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M92.19 142c-2.16 0-3.92-1.42-3.92-3.16s1.76-3.16 3.92-3.16 3.91 1.42 3.91 3.16-1.75 3.16-3.91 3.16zm0-5.32c-1.61 0-2.92 1-2.92 2.16s1.31 2.16 2.92 2.16 2.91-1 2.91-2.16-1.3-2.18-2.91-2.18z"
+            style="transform-origin:92.185px 138.84px" id="prefix__elsau9mn8lweh" class="prefix__animable"
+            fill="#263238" />
+        <path d="M94.74 139.2c0 .72-1 1.3-2.17 1.3s-2.17-.58-2.17-1.3 1-1.3 2.17-1.3 2.17.58 2.17 1.3z"
+            style="transform-origin:92.57px 139.2px" id="prefix__el3mfxpdkjlhm" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M92.57 141c-1.5 0-2.67-.79-2.67-1.8s1.17-1.8 2.67-1.8 2.67.79 2.67 1.8-1.18 1.8-2.67 1.8zm0-2.6c-.95 0-1.67.43-1.67.8s.72.8 1.67.8 1.67-.43 1.67-.8-.73-.8-1.67-.8z"
+            style="transform-origin:92.57px 139.2px" id="prefix__elbp9mhbsyvi" class="prefix__animable"
+            fill="#263238" />
+    </g>
+    <g id="prefix__freepik--Squares--inject-209" class="prefix__animable prefix__animator-hidden"
+        style="transform-origin:245.255px 241.665px">
+        <path
+            d="M69.57 146.3H51.31a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.5.5 0 01.5.5v18.26a.5.5 0 01-.5.5zm-17.76-1h17.26V128H51.81z"
+            style="transform-origin:60.44px 136.67px" id="prefix__elqvl3xux5dsc" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M69.57 216.3H51.31a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.5.5 0 01.5.5v18.26a.5.5 0 01-.5.5zm-17.76-1h17.26V198H51.81z"
+            style="transform-origin:60.44px 206.67px" id="prefix__eluiylmgu1re" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M69.57 286.29H51.31a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.5.5 0 01.5.5v18.26a.5.5 0 01-.5.5zm-17.76-1h17.26V268H51.81z"
+            style="transform-origin:60.44px 276.66px" id="prefix__elqhzygh57voe" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M69.57 356.29H51.31a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.5.5 0 01.5.5v18.26a.5.5 0 01-.5.5zm-17.76-1h17.26V338H51.81z"
+            style="transform-origin:60.44px 346.66px" id="prefix__el1h697o3ertx" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M439.2 146.3h-18.26a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.5.5 0 01.5.5v18.26a.5.5 0 01-.5.5zm-17.76-1h17.26V128h-17.26z"
+            style="transform-origin:430.07px 136.67px" id="prefix__elznsqf8e71yp" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M439.2 216.3h-18.26a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.5.5 0 01.5.5v18.26a.51.51 0 01-.5.5zm-17.76-1h17.26V198h-17.26z"
+            style="transform-origin:430.07px 206.67px" id="prefix__elj1hroyi9aio" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M439.2 286.29h-18.26a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.51.51 0 01.5.5v18.26a.5.5 0 01-.5.5zm-17.76-1h17.26V268h-17.26z"
+            style="transform-origin:430.07px 276.66px" id="prefix__el9fjhk8w8m4" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M439.2 356.29h-18.26a.5.5 0 01-.5-.5v-18.26a.5.5 0 01.5-.5h18.26a.5.5 0 01.5.5v18.26a.51.51 0 01-.5.5zm-17.76-1h17.26V338h-17.26z"
+            style="transform-origin:430.07px 346.66px" id="prefix__elw5dym1lq8l" class="prefix__animable"
+            fill="#263238" />
+    </g>
+    <g id="prefix__freepik--check-marks--inject-209" class="prefix__animable prefix__animator-hidden"
+        style="transform-origin:251.341px 235.316px">
+        <path
+            d="M60.75 141.25a1.5 1.5 0 01-1.06-.44L55 136.12a1.5 1.5 0 012.12-2.12l3.41 3.41 11.08-16.08a1.5 1.5 0 112.47 1.7L62 140.6a1.5 1.5 0 01-1.1.64z"
+            style="transform-origin:64.4847px 130.945px" id="prefix__elr1ou5g5oklq" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M60.75 281a1.5 1.5 0 01-1.06-.44L55 275.9a1.51 1.51 0 010-2.12 1.49 1.49 0 012.12 0l3.41 3.41 11.08-16.09a1.5 1.5 0 012.47 1.7L62 280.37a1.47 1.47 0 01-1.1.64z"
+            style="transform-origin:64.4417px 270.75px" id="prefix__eljg7l1ybma8" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M434.51 210a1.52 1.52 0 01-1.06-.44l-4.69-4.68a1.5 1.5 0 012.13-2.12l3.41 3.41 11.08-16.09a1.5 1.5 0 012.47 1.7l-12.1 17.57a1.55 1.55 0 01-1.1.65z"
+            style="transform-origin:438.206px 199.735px" id="prefix__elxxwd13umbo" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M434.51 138.44a1.47 1.47 0 01-1.06-.44l-4.69-4.68a1.5 1.5 0 012.13-2.12l3.41 3.41 11.08-16.09a1.5 1.5 0 012.47 1.71l-12.1 17.56a1.52 1.52 0 01-1.1.65z"
+            style="transform-origin:438.22px 128.156px" id="prefix__elg8e3mmic5ot" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M434.51 352.76a1.52 1.52 0 01-1.06-.44l-4.69-4.69a1.5 1.5 0 012.13-2.12l3.41 3.41 11.08-16.08a1.5 1.5 0 012.47 1.7l-12.1 17.57a1.51 1.51 0 01-1.1.64z"
+            style="transform-origin:438.205px 342.495px" id="prefix__ellv6age8kgrk" class="prefix__animable"
+            fill="#92e3a9" />
+    </g>
+    <g id="prefix__freepik--Character--inject-209" class="prefix__animable prefix__animator-active"
+        style="transform-origin:255.816px 305.728px;animation:1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideUp,1.5s Infinite linear floating;animation-delay:0s,2s">
+        <path
+            d="M300 460.69c-4-6.08-12.36-15.41-12.36-15.41s1-48.51 2.66-59.35-3.23-34.43-3-36 1.7-65.59 1.7-65.59l-36.34 1.52-36.33-1.52s1.5 64.11 1.67 65.66-4.76 25.11-3 36 2.66 59.35 2.66 59.35-8.37 9.33-12.37 15.41-2.66 11.8-.76 12.56 5.71 1.33 14.08-5.52a30.61 30.61 0 0010.27-15.41s1.91-1.33 2.86-6.28.76-7.22 1.14-9.32 2.66-8.37 3.42-11.6-.76-8.37.19-16.36 5.52-42.05 5.71-45.09 8-50.79 8-50.79l2.47.19 2.48-.19s7.8 47.75 8 50.79 4.75 37.1 5.7 45.09-.57 13.12.2 16.36 3 9.51 3.42 11.6.19 4.38 1.14 9.32 2.85 6.28 2.85 6.28a30.67 30.67 0 0010.28 15.41c8.37 6.85 12.17 6.28 14.08 5.52s3.18-6.54-.82-12.63z"
+            style="transform-origin:252.661px 379.049px" id="prefix__elukbwmfn4ogq" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M206.74 474.2a6 6 0 01-2.41-.49 3.48 3.48 0 01-1.77-2.35c-.76-2.43-.56-6.58 2.3-10.94 3.69-5.63 11.19-14.1 12.28-15.32-.07-3.39-1-48.76-2.66-59.09-1.27-8.09 1.09-23 2.35-31 .39-2.48.73-4.62.7-5-.2-1.52-1.66-63.06-1.72-65.68a.51.51 0 01.19-.33.57.57 0 01.37-.14l36.34 1.52 36.29-1.54a.57.57 0 01.37.14.51.51 0 01.15.37c-.06 2.62-1.52 64.16-1.72 65.69 0 .34.3 2.48.7 5 1.26 8 3.62 22.92 2.35 31-1.64 10.33-2.59 55.7-2.66 59.09 1.09 1.22 8.59 9.69 12.28 15.32 2.86 4.36 3.06 8.51 2.3 10.94a3.48 3.48 0 01-1.77 2.35c-1.29.52-5.2 2.08-14.58-5.59A31.09 31.09 0 01276 452.6c-.51-.45-2.07-2.15-2.9-6.46a55.5 55.5 0 01-.87-6.75 23.89 23.89 0 00-.27-2.58c-.19-1-.87-3.15-1.59-5.4s-1.45-4.56-1.83-6.18a20.79 20.79 0 01-.09-5.73 55.06 55.06 0 00-.11-10.68c-.38-3.16-1.33-10.47-2.34-18.21-1.52-11.74-3.26-25.05-3.37-26.91-.18-2.82-7.11-45.4-7.91-50.29l-2 .15-2.09-.15c-.8 4.88-7.73 47.47-7.91 50.29-.12 1.86-1.85 15.18-3.38 26.93-1 7.73-2 15-2.33 18.19a55.06 55.06 0 00-.11 10.68 20.79 20.79 0 01-.09 5.73c-.38 1.61-1.12 3.93-1.83 6.17s-1.4 4.38-1.59 5.41a23.89 23.89 0 00-.27 2.58 55.5 55.5 0 01-.87 6.75c-.83 4.31-2.39 6-2.9 6.46a31.09 31.09 0 01-10.4 15.52c-6.16 5-9.95 6.08-12.21 6.08zm10.08-189.34c.53 22.31 1.55 63.88 1.7 65.05a41.8 41.8 0 01-.7 5.25c-1.26 7.95-3.6 22.76-2.35 30.69 1.7 10.75 2.66 58.94 2.67 59.42a.51.51 0 01-.13.35c-.08.09-8.39 9.36-12.32 15.35-2.66 4.06-2.87 7.88-2.18 10.09a2.73 2.73 0 001.19 1.73c1.15.45 4.65 1.85 13.58-5.45a30.45 30.45 0 0010.1-15.13.48.48 0 01.2-.3s1.76-1.33 2.65-6a52.5 52.5 0 00.85-6.64 25 25 0 01.29-2.68c.2-1.09.89-3.25 1.61-5.53s1.45-4.52 1.82-6.1a20.35 20.35 0 00.06-5.44 56.23 56.23 0 01.14-10.82c.37-3.17 1.32-10.47 2.33-18.2 1.53-11.74 3.26-25 3.37-26.86.19-3 7.68-48.89 8-50.85a.48.48 0 01.53-.41l2.47.19 2.4-.19a.48.48 0 01.53.41c.32 2 7.81 47.82 8 50.85.11 1.82 1.84 15.11 3.37 26.84 1 7.74 1.95 15 2.33 18.22a56.23 56.23 0 01.12 10.86 20.35 20.35 0 00.06 5.44c.37 1.58 1.11 3.88 1.82 6.1s1.41 4.44 1.61 5.53a25 25 0 01.29 2.68 52.5 52.5 0 00.85 6.64c.89 4.63 2.64 5.95 2.66 6a.51.51 0 01.19.29 30.45 30.45 0 0010.07 15.1c8.93 7.3 12.43 5.9 13.58 5.45a2.69 2.69 0 001.18-1.73c.7-2.21.49-6-2.17-10.09-3.93-6-12.24-15.26-12.32-15.35a.51.51 0 01-.13-.35c0-.48 1-48.67 2.67-59.42 1.25-7.93-1.09-22.74-2.35-30.69a41.8 41.8 0 01-.7-5.25c.15-1.17 1.17-42.74 1.7-65.05l-35.8 1.5z"
+            style="transform-origin:252.665px 379.034px" id="prefix__elrawm8p8ki1" class="prefix__animable"
+            fill="#263238" />
+        <path d="M240.47 186l-4.57 2.85-3.41 106.24s5.41 4.06 21.39 4.44 22.55-4.06 22.55-4.06l-9.9-108.52z"
+            style="transform-origin:254.46px 242.777px" id="prefix__el75k6wzw5i8j" class="prefix__animable"
+            fill="#fff" />
+        <path
+            d="M255.82 300h-1.95c-16-.38-21.46-4.37-21.68-4.54a.5.5 0 01-.2-.42l3.41-106.24a.5.5 0 01.24-.4l4.56-2.86a.5.5 0 01.29-.07l26.06.95a.5.5 0 01.48.45l9.9 108.52a.5.5 0 01-.22.46c-.26.2-6.35 4.15-20.89 4.15zM233 294.81c1.13.71 7 3.88 20.89 4.21s20.69-3.07 22-3.83l-9.84-107.77-25.47-.93-4.21 2.63z"
+            style="transform-origin:254.461px 242.734px" id="prefix__eljo8fcba12i" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M257.94 291.57a.49.49 0 01-.47-.34.51.51 0 01.31-.64 46.22 46.22 0 0016.71-10.25.49.49 0 01.7 0 .5.5 0 010 .71 47.39 47.39 0 01-17.11 10.51.41.41 0 01-.14.01z"
+            style="transform-origin:266.391px 285.883px" id="prefix__el4lbqdqlut5g" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M244.6 291a.51.51 0 01-.5-.43.5.5 0 01.43-.56 39.44 39.44 0 003.9-.77.5.5 0 01.61.36.51.51 0 01-.37.61c-1.36.34-2.71.6-4 .79z"
+            style="transform-origin:246.575px 290.112px" id="prefix__elf7cp1bhdrpj" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M253.34 288.71a.49.49 0 01-.47-.32.5.5 0 01.3-.64 77.54 77.54 0 0019.58-11 .5.5 0 11.63.78 78.8 78.8 0 01-19.87 11.16.34.34 0 01-.17.02z"
+            style="transform-origin:263.203px 282.676px" id="prefix__elhcwr3b6l8za" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M238.26 187.41l-1.4 126.1a63.43 63.43 0 01-16.36-7.23c-9.13-5.51-11.42-7.61-11.42-7.61l7.23-40.77-.57-38.62-35.5 11.51s13.81-24.83 18.57-29.58 37.25-17.32 39.45-13.8z"
+            style="transform-origin:209.25px 250.153px" id="prefix__elkhqthklfozo" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M236.86 314h-.12a64.68 64.68 0 01-16.5-7.29c-9.07-5.48-11.4-7.58-11.5-7.67a.5.5 0 01-.15-.45l7.23-40.78-.57-37.81-34.85 11.27a.5.5 0 01-.54-.16.48.48 0 01-.06-.56c.57-1 13.9-25 18.65-29.7 4.47-4.47 31.75-15.28 38.58-14.51a2.09 2.09 0 011.66.81.42.42 0 01.07.27l-1.4 126.1a.51.51 0 01-.19.39.5.5 0 01-.31.09zm-27.24-15.53a105.13 105.13 0 0011.14 7.38 66.55 66.55 0 0015.6 7l1.4-125.27a1.65 1.65 0 00-.84-.26c-6.44-.73-33.51 10-37.76 14.23-4.08 4.08-15.11 23.48-17.86 28.36l34.28-11.12a.52.52 0 01.45.07.49.49 0 01.21.4l.57 38.62z"
+            style="transform-origin:209.249px 250.151px" id="prefix__el1l929gg362k" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M232.07 187.37l-.54 1.28s-2.86 26.63-1.14 35.95c1.16 6.36 4.87 14 7.23 19l.64-56.17c-.53-.88-2.89-.77-6.19-.06z"
+            style="transform-origin:234.05px 215.202px" id="prefix__elc949yfutarj" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M237.62 244.08a.51.51 0 01-.45-.28l-.22-.48c-2.36-4.94-5.91-12.4-7.06-18.62-1.7-9.29 1-35 1.14-36.1a.57.57 0 010-.14l.54-1.29a.47.47 0 01.35-.29c5.18-1.12 6.32-.38 6.73.27a.42.42 0 01.07.27l-.64 56.17a.49.49 0 01-.39.48zm-5.6-55.3c-.17 1.55-2.78 26.83-1.14 35.73 1 5.51 4 12.08 6.27 16.91l.61-53.83c-.27-.22-1.33-.62-5.33.21z"
+            style="transform-origin:234.026px 215.191px" id="prefix__els1owm6uzl7k" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M211.34 211.93a.49.49 0 01-.45-.3 10.67 10.67 0 00-4.16-4.68.5.5 0 01-.2-.68.49.49 0 01.67-.2 11.5 11.5 0 014.6 5.15.5.5 0 01-.25.66.54.54 0 01-.21.05z"
+            style="transform-origin:209.156px 208.969px" id="prefix__el8ieqtm43hda" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M208.28 211.17a.47.47 0 01-.28-.09 17.57 17.57 0 00-8.06-3 .49.49 0 01-.47-.52.5.5 0 01.52-.48 18.28 18.28 0 018.57 3.15.5.5 0 01.13.7.49.49 0 01-.41.24z"
+            style="transform-origin:204.124px 209.125px" id="prefix__elurbv1h4t9mc" class="prefix__animable"
+            fill="#263238" />
+        <path d="M215.74 192.45s-1.14 45.09-.57 47.56 1.14 9.52 1.14 9.52L222.4 190s-5.52 2.07-6.66 2.45z"
+            style="transform-origin:218.705px 219.765px" id="prefix__els18b1pcl4js" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M216.31 250a.52.52 0 01-.49-.46c0-.07-.57-7-1.13-9.44s.51-45.84.56-47.69a.49.49 0 01.34-.46c1.12-.37 6.58-2.45 6.64-2.47a.52.52 0 01.48.07.5.5 0 01.19.45l-6.08 59.55a.51.51 0 01-.51.45zm-.08-57.22c-.32 12.78-1 45.13-.58 47.09a45.63 45.63 0 01.67 4.57l5.5-53.74c-1.41.57-4.37 1.68-5.59 2.11z"
+            style="transform-origin:218.716px 219.725px" id="prefix__eldsz5jlo7pwn" class="prefix__animable"
+            fill="#263238" />
+        <path d="M238.26 187.41s4.05 14.33 7.54 18.36c4.94 5.71 10.65 3.81 14.07-3.8 1.63-3.61 3.05-16.17 3.05-16.17z"
+            style="transform-origin:250.59px 197.446px" id="prefix__elrxtsxb1o11" class="prefix__animable"
+            fill="#a3a3a3" />
+        <path
+            d="M251.81 209.59c-2.21 0-4.4-1.19-6.39-3.49-3.53-4.07-7.47-18-7.64-18.55a.51.51 0 01.08-.43.49.49 0 01.37-.21l24.65-1.61a.48.48 0 01.4.15.5.5 0 01.13.4c-.05.52-1.44 12.68-3.08 16.32-1.94 4.31-4.64 6.92-7.62 7.35a5.46 5.46 0 01-.9.07zm-12.89-21.72c.8 2.74 4.27 14.14 7.25 17.57 2 2.34 4.23 3.41 6.39 3.1 2.63-.39 5.07-2.8 6.86-6.78 1.37-3 2.63-12.9 2.93-15.43z"
+            style="transform-origin:250.588px 197.444px" id="prefix__el76byxhpgbgx" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M262.92 185.8s3 51.93 6.66 73.43 1.89 52 1.89 52 13.9-21.39 16.56-25.77 6.09-10.08 6.09-10.08a19 19 0 00-.95-4.38c-1-3.23-4.38-4.94-4.57-5.89s-2.85-45.47-2.85-45.47l39.95 28.92s1.33-.58 5.7-2.67 5.9-8.75 5.33-10.27-30.44-31.58-43.18-39.19-30.82-12.37-30.82-12.37z"
+            style="transform-origin:299.787px 247.645px" id="prefix__elyd9q5k2b82" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M271.47 311.75h-.16a.51.51 0 01-.34-.5c0-.31 1.68-30.71-1.89-51.91s-6.6-72.4-6.66-73.47l-.19-1.7a.5.5 0 01.62-.54c.19.05 18.29 4.86 30.95 12.42s42.78 37.79 43.4 39.44c.72 1.91-1.11 8.76-5.58 10.9S326 249 325.89 249a.51.51 0 01-.49-.05l-39.09-28.3c.93 15.54 2.63 43.42 2.78 44.35a5.25 5.25 0 001.06 1.1 10.79 10.79 0 013.5 4.75 19.18 19.18 0 011 4.52.59.59 0 01-.07.26s-3.43 5.71-6.09 10.08-16.49 25.59-16.6 25.81a.5.5 0 01-.42.23zm-8.16-127l.1 1c0 .52 3.08 52.15 6.65 73.38 3.07 18.27 2.28 43.32 2 50.27 3.24-5 13.33-20.57 15.54-24.2 2.43-4 5.48-9.07 6-10a22.28 22.28 0 00-.92-4.11 9.77 9.77 0 00-3.21-4.28c-.76-.69-1.27-1.15-1.37-1.66-.19-1-2.59-41-2.86-45.53a.5.5 0 01.79-.44L325.76 248c.56-.25 2.14-1 5.43-2.54 4.15-2 5.54-8.41 5.07-9.65-.93-1.85-30.53-31.5-43-38.93-11.09-6.64-26.5-11.15-29.95-12.12z"
+            style="transform-origin:299.79px 247.682px" id="prefix__el47gjka8aff2" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M276.53 276.46a.49.49 0 01-.48-.36.5.5 0 01.34-.62c6.31-1.89 11.06-8.7 11.1-8.77a.5.5 0 01.83.56c-.2.3-5 7.17-11.65 9.17z"
+            style="transform-origin:282.218px 271.475px" id="prefix__elfkpiicelie" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M279.59 269.46a.49.49 0 01-.49-.44.5.5 0 01.43-.56c5.13-.59 6-1.54 6-1.55a.5.5 0 01.68-.15.53.53 0 01.16.71c-.19.3-1.22 1.35-6.72 2z"
+            style="transform-origin:282.77px 268.078px" id="prefix__el842qzt1fsjo" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M288.56 220.23a.44.44 0 01-.16 0 .51.51 0 01-.31-.64l4.38-12.47a.5.5 0 01.63-.31.51.51 0 01.31.64L289 219.9a.48.48 0 01-.44.33z"
+            style="transform-origin:290.75px 213.511px" id="prefix__el3dyi4r986jm" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M290.09 221.55a.5.5 0 01-.26-.08.49.49 0 01-.16-.68 24.43 24.43 0 0110.33-8.73.5.5 0 11.4.91 23.89 23.89 0 00-9.84 8.34.52.52 0 01-.47.24z"
+            style="transform-origin:295.172px 216.772px" id="prefix__elz54ynnb3e1q" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M302.35 212.14a.5.5 0 01-.31-.9c.94-.7 4-1.11 4.62-1.19a.51.51 0 01.56.43.5.5 0 01-.44.56 14.23 14.23 0 00-4.13 1 .51.51 0 01-.3.1z"
+            style="transform-origin:304.532px 211.094px" id="prefix__el5g7wkpnprpd" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M267.33 241.77a87.56 87.56 0 007-17.36c2.67-9.89-2.09-25.49-4.18-32.72-.73-2.52-1.28-4.45-1.71-5.92-3.46-1.09-5.71-1.69-5.71-1.69l.19 1.72s1.86 31.83 4.41 55.97z"
+            style="transform-origin:268.926px 212.925px" id="prefix__eloie5phhg9ot" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M267.33 242.27h-.1a.51.51 0 01-.4-.44c-2.52-23.87-4.39-55.68-4.41-56l-.19-1.69a.5.5 0 01.62-.54s2.31.61 5.74 1.7a.5.5 0 01.33.33c.25.84.53 1.82.86 3l1.1 3.8c2.28 7.86 6.53 22.48 3.94 32.12a87.59 87.59 0 01-7.05 17.45.5.5 0 01-.44.27zm-4-57.51l.1 1c0 .34 1.82 30.68 4.24 54.32a84.75 84.75 0 006.2-15.78c2.52-9.37-1.84-24.37-3.93-31.58l-1.1-3.81c-.3-1-.56-1.94-.78-2.72-2.19-.7-3.87-1.19-4.75-1.43z"
+            style="transform-origin:268.928px 212.927px" id="prefix__elzgbhbm6z0bq" class="prefix__animable"
+            fill="#263238" />
+        <path d="M278.71 189l9.13 60.69s1.52-9.13 1.9-11.8-4.37-45.66-4.37-45.66z"
+            style="transform-origin:284.236px 219.345px" id="prefix__elcjb53mpcx" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M287.84 250.22a.52.52 0 01-.5-.43l-9.13-60.69a.51.51 0 01.72-.52l6.65 3.23a.51.51 0 01.28.4c.2 1.76 4.76 43.09 4.38 45.78s-1.89 11.72-1.91 11.81a.5.5 0 01-.49.42zm-8.5-60.33l8.52 56.62c.48-2.9 1.15-7 1.39-8.66.29-2-2.7-30.33-4.35-45.26z"
+            style="transform-origin:284.235px 219.377px" id="prefix__el5zvxvpf9y9p" class="prefix__animable"
+            fill="#263238" />
+        <path d="M267.57 167.46s4.25-1.7 4.46 2.33-5.09 9.77-5.09 9.77z" style="transform-origin:269.488px 173.332px"
+            id="prefix__el67vcigwg2fr" class="prefix__animable" fill="#a3a3a3" />
+        <path
+            d="M266.94 180.06a.45.45 0 01-.2 0 .49.49 0 01-.3-.48l.63-12.11a.54.54 0 01.32-.44c.09 0 2.3-.9 3.82.07a3.18 3.18 0 011.32 2.71c.22 4.2-5 9.89-5.23 10.13a.46.46 0 01-.36.12zm1.12-12.24l-.55 10.3c1.48-1.83 4.17-5.54 4-8.3a2.21 2.21 0 00-.86-1.91 3.44 3.44 0 00-2.59-.09z"
+            style="transform-origin:269.488px 173.361px" id="prefix__ellmu6dh8qaa" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M241 139.64s-9.53 4.46-11 11.46 2.34 19.12 2.34 19.12-3.83-2.34-4.89 1.49 1.7 7.85 3.4 8.49a7.16 7.16 0 003.61.21l3.82 8.71s12.32 8.5 16.57 7.65 9.35-6.8 11.26-9.35 2.33-28.25 2.55-31.64-1.28-10.84-6.16-14.23-16.59-5.55-21.5-1.91z"
+            style="transform-origin:247.947px 167.29px" id="prefix__el9jwshvhuvem" class="prefix__animable"
+            fill="#a3a3a3" />
+        <path
+            d="M254.2 197.32c-4.86 0-15.74-7.45-16.22-7.79a.39.39 0 01-.17-.21l-3.67-8.32a7.31 7.31 0 01-3.48-.3c-1.94-.73-4.83-5.07-3.71-9.1a3.23 3.23 0 011.87-2.35 3.94 3.94 0 012.7.09c-.89-3.14-3.28-12.39-2-18.31 1.49-7 10.47-11.41 11.28-11.8 5.18-3.77 17-1.54 22 1.94 5.28 3.67 6.58 11.47 6.37 14.67 0 .64-.08 2.08-.15 4-.44 13.35-1.05 26-2.49 27.9-.65.87-6.52 8.53-11.56 9.54a4.15 4.15 0 01-.77.04zm-15.53-8.53c3.47 2.38 12.79 8.13 16.06 7.49 4.68-.94 10.33-8.32 11-9.16 1.45-1.94 2-19.74 2.29-27.34.07-1.94.12-3.39.16-4 .18-2.9-1.07-10.4-5.95-13.79-4.66-3.25-16.11-5.44-20.87-1.92l-.08.05c-.1 0-9.35 4.44-10.77 11.12s2.29 18.74 2.32 18.86a.48.48 0 01-.16.54.52.52 0 01-.57 0 3.9 3.9 0 00-2.88-.5 2.3 2.3 0 00-1.26 1.69c-1 3.67 1.71 7.38 3.09 7.89a6.75 6.75 0 003.32.2.5.5 0 01.57.28zm2.33-49.15z"
+            style="transform-origin:247.945px 167.296px" id="prefix__el8olh41b97es" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M259.3 168.6a.48.48 0 01-.33-.13.5.5 0 010-.7 5.23 5.23 0 013.37-1.66 4.68 4.68 0 013.43 1.44.5.5 0 010 .7.5.5 0 01-.71 0 3.71 3.71 0 00-2.7-1.16 4.33 4.33 0 00-2.67 1.32.52.52 0 01-.39.19z"
+            style="transform-origin:262.37px 167.355px" id="prefix__elmrk3jo4fxl" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M262.48 141.55c-4.89-3.4-16.57-5.53-21.45-1.91 0 0-9.56 4.46-11.05 11.46s2.34 19.12 2.34 19.12c.71.82 1.51 1.44 1.73.44.42-1.91-.22-4.88-.43-8.28s1.28-3 1.49-7.43-.43-7.44 3.4-10.41 8.92 1.49 14 2.12 8.92-3.82 11.26-2.12 3.82 5.31 3.61 9.35-.42 4 .43 7.43c.22.87.4 1.6.57 2.21.13-3.75.21-6.73.28-7.73.19-3.42-1.3-10.86-6.18-14.25z"
+            style="transform-origin:249.156px 154.466px" id="prefix__elb73bdk3vywc" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M233.57 171.66c-.47 0-1-.36-1.66-1.13a.54.54 0 01-.12-.33c-.48-1.58-3.71-12.52-2.3-19.2 1.52-7.17 10.92-11.63 11.32-11.82 5.08-3.76 16.95-1.53 21.95 2 5.28 3.67 6.58 11.47 6.37 14.67 0 .64-.08 2.08-.15 4l-.12 3.71a.5.5 0 01-1 .11c-.16-.61-.35-1.34-.57-2.22a14 14 0 01-.54-5.87c0-.48.07-1 .1-1.71.2-3.77-1.14-7.27-3.4-8.92-.92-.66-2.29-.07-4 .69-1.91.83-4.28 1.87-7 1.53a23.57 23.57 0 01-5.49-1.65c-3.18-1.24-5.92-2.32-8.16-.58-3 2.37-3.08 4.63-3.14 8.05 0 .63 0 1.29-.06 2a10.91 10.91 0 01-1 4.3 5.68 5.68 0 00-.54 3.08c.07 1.12.19 2.18.3 3.2a18 18 0 01.12 5.22 1 1 0 01-.72.88.83.83 0 01-.19-.01zm-.8-1.67a2.74 2.74 0 00.73.64v-.09a17 17 0 00-.14-4.9c-.11-1-.23-2.11-.3-3.25a6.68 6.68 0 01.62-3.53 9.87 9.87 0 00.87-4c0-.69 0-1.34.06-2 .06-3.44.11-6.16 3.53-8.81 2.69-2.1 6-.81 9.13.43a23 23 0 005.26 1.59c2.44.3 4.58-.63 6.47-1.46s3.63-1.58 5-.57a7.17 7.17 0 011.25 1.16 11.57 11.57 0 00-3.11-3.32c-4.66-3.25-16.1-5.44-20.87-1.92-.18.09-9.43 4.49-10.85 11.17-1.33 6.59 2.03 17.87 2.35 18.87zm35.08-17.91a15.59 15.59 0 010 1.81c0 .67-.07 1.24-.1 1.72A11.93 11.93 0 00268 160v-.16c.07-1.95.12-3.4.16-4a16.41 16.41 0 00-.31-3.76z"
+            style="transform-origin:249.144px 154.45px" id="prefix__el6yc3apbwf6x" class="prefix__animable"
+            fill="#263238" />
+        <path d="M245.69 168.36c.18 1.39-.24 2.6-.94 2.69s-1.41-1-1.59-2.37.24-2.6.94-2.69 1.41 1.01 1.59 2.37z"
+            style="transform-origin:244.425px 168.52px" id="prefix__elc2af8w6utpi" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M253.33 179.17a4.14 4.14 0 01-.72 0 2 2 0 01-1.62-1 .49.49 0 01.22-.67.5.5 0 01.67.22 1.11 1.11 0 00.89.49 7.78 7.78 0 005.32-1.68c.64-.65-.32-2.73-1.1-4.41a13.42 13.42 0 01-1.38-3.9c-.23-2.77 3-5.61 3.14-5.73a.5.5 0 11.66.75s-3 2.63-2.81 4.89a13.1 13.1 0 001.3 3.57c1.05 2.26 2 4.4.9 5.54a8.93 8.93 0 01-5.47 1.93z"
+            style="transform-origin:255.265px 170.768px" id="prefix__elpvd2kc513fs" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M254.3 183.32a11.69 11.69 0 01-6.54-1.85.51.51 0 01-.14-.7.5.5 0 01.69-.14c4.22 2.81 9.51 1.23 9.56 1.22a.5.5 0 01.29 1 13.93 13.93 0 01-3.86.47z"
+            style="transform-origin:253.036px 181.935px" id="prefix__elieuz7474wgi" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M240.39 164.56a.52.52 0 01-.38-.17.51.51 0 01.05-.71c.15-.13 3.69-3.15 9.22-.93a.5.5 0 11-.37.92c-4.94-2-8.06.65-8.19.77a.52.52 0 01-.33.12z"
+            style="transform-origin:244.772px 163.249px" id="prefix__el5vw95n9ako8" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M266.51 164.77a.49.49 0 01-.41-.22 5.12 5.12 0 00-4.84-1.9.5.5 0 01-.55-.44.49.49 0 01.43-.56 6.12 6.12 0 015.79 2.34.51.51 0 01-.14.7.57.57 0 01-.28.08z"
+            style="transform-origin:263.859px 163.175px" id="prefix__elszaxazp8sm" class="prefix__animable"
+            fill="#263238" />
+        <path d="M226.77 220h-.26a2 2 0 01-1.72-2.25l4.21-31.46a2 2 0 114 .53l-4.19 31.39a2 2 0 01-2.04 1.79z"
+            style="transform-origin:228.895px 202.269px" id="prefix__el39r8bdb67fs" class="prefix__animable"
+            fill="#263238" />
+        <g id="prefix__el2ih3lu372ss">
+            <circle cx="233.08" cy="167.94" r="18.8" style="transform-origin:233.08px 167.94px" class="prefix__animable"
+                id="prefix__elv64z6hj6dvp" fill="#263238" transform="rotate(-69.34)" />
+        </g>
+        <path
+            d="M233.08 187.24a19.31 19.31 0 1119.3-19.3 19.33 19.33 0 01-19.3 19.3zm0-37.61a18.31 18.31 0 1018.3 18.31 18.34 18.34 0 00-18.3-18.31z"
+            style="transform-origin:233.07px 167.93px" id="prefix__elql9jt3n60so" class="prefix__animable"
+            fill="#263238" />
+        <g id="prefix__el6vl6ffqvqi4">
+            <circle cx="233.08" cy="167.94" r="16.05" style="transform-origin:233.08px 167.94px"
+                class="prefix__animable" id="prefix__elafe7y1al5o" fill="#d4d4d4" transform="rotate(-13.38)" />
+        </g>
+        <path
+            d="M233.08 184.49a16.55 16.55 0 1116.55-16.55 16.58 16.58 0 01-16.55 16.55zm0-32.1a15.55 15.55 0 1015.55 15.55 15.57 15.57 0 00-15.55-15.55z"
+            style="transform-origin:233.08px 167.94px" id="prefix__elx5k7xxz019" class="prefix__animable"
+            fill="#263238" />
+        <path d="M235.9 168.36c0 2.91-1.42 5.27-3.18 5.27s-3.19-2.36-3.19-5.27 1.43-5.28 3.19-5.28 3.18 2.36 3.18 5.28z"
+            style="transform-origin:232.715px 168.355px" id="prefix__elwu66nj5ex7" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M242.77 156s-4-3.74-9.06-3.76-10 4-10.57 5.63.25.37 3.1-1 7.4-1.86 8.85-1.43 4.61 3.48 6.52 2.66 1.16-2.1 1.16-2.1z"
+            style="transform-origin:232.943px 155.44px" id="prefix__el3rzfjz2yr3t" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M230.53 177.32a.51.51 0 01-.48-.35.51.51 0 01.33-.63 20.26 20.26 0 006.2-3.29.5.5 0 01.64.76 20.49 20.49 0 01-6.54 3.48.4.4 0 01-.15.03z"
+            style="transform-origin:233.693px 175.143px" id="prefix__el3tafk4kx5wg" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M219.54 208.24s2.46-12.17 3.46-13.12a20.8 20.8 0 017-3.05c1.14 0 5.7 3.05 6.08 3.81s-1 3.42-1 3.42-.57 9.71-.95 10.28a14.71 14.71 0 01-2.28 1.9 16.88 16.88 0 00-3.24 2.28 29 29 0 01-7 4c-1.91.76-6.28 5.89-6.28 5.89l-3.81-11z"
+            style="transform-origin:223.833px 207.86px" id="prefix__eltp525onc0z" class="prefix__animable"
+            fill="#a3a3a3" />
+        <path
+            d="M215.36 224.15h-.1a.53.53 0 01-.38-.33l-3.8-11a.5.5 0 01.23-.6l7.79-4.26c.64-3.13 2.56-12.2 3.51-13.16s6.06-3.19 7.4-3.19 6.05 3.12 6.53 4.08-.45 2.87-.9 3.78c-.27 4.47-.66 9.86-1 10.42a13.17 13.17 0 01-2.42 2 16.68 16.68 0 00-3.18 2.24 29.73 29.73 0 01-7.19 4.09c-1.46.59-4.89 4.36-6.08 5.76a.52.52 0 01-.41.17zm-3.2-11.29l3.39 9.81c1.29-1.46 4.3-4.74 5.9-5.38a28.41 28.41 0 006.89-3.9 17.09 17.09 0 013.34-2.36 13.3 13.3 0 002.1-1.73c.2-.51.6-5.56.86-10a.7.7 0 01.06-.19 7.22 7.22 0 001-3c-.39-.69-4.73-3.53-5.64-3.53a21.16 21.16 0 00-6.69 2.9c-.54.61-2.1 7-3.29 12.87a.49.49 0 01-.25.34zm7.38-4.62z"
+            style="transform-origin:223.863px 207.88px" id="prefix__el7uo3zibunpa" class="prefix__animable"
+            fill="#263238" />
+        <path d="M235.14 199.8a.47.47 0 01-.25-.07l-4.19-2.47a.5.5 0 01.51-.86l4.19 2.47a.5.5 0 01-.26.93z"
+            style="transform-origin:233.054px 198.067px" id="prefix__el5fuz8vr3uav" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M183.17 229.6l28.38-17 4.8 14.44s-20.82 18.14-25.57 22.71-10.85 6.08-14.08 5.51-4.57-3.61-4-8.37 7.4-16.63 8.36-17.58"
+            style="transform-origin:194.461px 233.987px" id="prefix__eluuz7b09mdwg" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M178.11 255.9a8.77 8.77 0 01-1.5-.12c-3.46-.61-5-3.78-4.4-8.93.58-4.87 7.47-16.86 8.49-17.88a.5.5 0 11.71.71c-1 1-7.66 12.73-8.21 17.29-.39 3.21-.08 7.18 3.58 7.82 3.3.58 9.19-1.11 13.65-5.38s23-20.43 25.35-22.51l-4.5-13.53L183.42 230a.5.5 0 01-.51-.86l28.39-17a.5.5 0 01.43 0 .51.51 0 01.3.31l4.8 14.44a.51.51 0 01-.15.54c-.21.18-20.87 18.18-25.56 22.69-4.12 3.93-9.38 5.78-13.01 5.78z"
+            style="transform-origin:194.469px 233.996px" id="prefix__el14pni3khbnmi" class="prefix__animable"
+            fill="#263238" />
+        <path d="M318.47 233.17L293.17 271l10.42 9.23s31.05-33.39 33-35.67 3-6.28 2.28-8.37-11-8.37-11-8.37"
+            style="transform-origin:316.134px 254.025px" id="prefix__elu6oi8iqc75" class="prefix__animable"
+            fill="#92e3a9" />
+        <path
+            d="M303.59 280.75a.5.5 0 01-.33-.12l-10.43-9.23a.51.51 0 01-.08-.65l25.3-37.86a.51.51 0 01.7-.14.49.49 0 01.13.69l-25.06 37.5 9.74 8.62c3.35-3.61 30.83-33.18 32.6-35.3s2.88-6 2.19-7.88c-.51-1.4-6.91-5.72-10.82-8.11a.5.5 0 11.52-.86c1.07.65 10.45 6.43 11.24 8.63s-.29 6.37-2.37 8.86c-1.88 2.27-31.69 34.33-33 35.7a.51.51 0 01-.33.15z"
+            style="transform-origin:316.109px 254.043px" id="prefix__el50tr47j4qfj" class="prefix__animable"
+            fill="#263238" />
+        <path
+            d="M293.17 271s-10.09 6.47-11.8 7.42-.57 6.28-.19 7.23a41.83 41.83 0 003.42 5.35c.77.95 2.67 2.66 3.24 2.66s4-.57 4.75-1.33 1.72-2.66 1.53-3.23-2.1.19-2.1.19 6.28-5.71 7.61-8.56l1.34-2.86z"
+            style="transform-origin:290.712px 282.33px" id="prefix__ely2bzyzg5bi" class="prefix__animable"
+            fill="#a3a3a3" />
+        <path
+            d="M287.84 294.16c-.94 0-3.08-2.16-3.63-2.85a41.66 41.66 0 01-3.49-5.45c-.25-.61-1.83-6.61.41-7.86 1.68-.93 11.67-7.33 11.77-7.4a.5.5 0 01.6 0l7.8 6.85a.5.5 0 01.12.58l-1.33 2.86c-1 2.1-4.43 5.58-6.38 7.45a1.13 1.13 0 01.47.09.77.77 0 01.41.46c.3.89-.92 3-1.64 3.74-.95.98-4.56 1.53-5.11 1.53zm5.28-22.51c-1.76 1.12-9.95 6.37-11.51 7.23-1.22.68-.47 5.34 0 6.61a41.41 41.41 0 003.35 5.2 10.46 10.46 0 002.86 2.47c.54 0 3.79-.59 4.38-1.18a6.31 6.31 0 001.4-2.6 5.36 5.36 0 00-1.43.37.5.5 0 01-.52-.83c.06-.06 6.22-5.68 7.49-8.41l1.17-2.51z"
+            style="transform-origin:290.706px 282.33px" id="prefix__elqynbpjumyzc" class="prefix__animable"
+            fill="#263238" />
+    </g>
+    <defs>
+        <filter id="prefix__active" height="200%">
+            <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="2" />
+            <feFlood flood-color="#32DFEC" flood-opacity="1" result="PINK" />
+            <feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE" />
+            <feMerge>
+                <feMergeNode in="OUTLINE" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <filter id="prefix__hover" height="200%">
+            <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="2" />
+            <feFlood flood-color="red" flood-opacity=".5" result="PINK" />
+            <feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE" />
+            <feMerge>
+                <feMergeNode in="OUTLINE" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+            <feColorMatrix values="10000000000010" />
+        </filter>
+    </defs>
+</svg>

@@ -1,12 +1,14 @@
 body {
     /* background-color: rgb(211, 211, 201); */
 }
+
 .wrapper {
     display: flex;
     position: relative;
     justify-content: flex-end;
     background-color: #C8D7D4;
 }
+
 .bg-image {
     position: absolute;
     top:0;
@@ -63,7 +65,7 @@ body {
     color: red;
 } */
 
-#name {
+/* #name {
     color: rgb(219, 135, 52);
 }
 
@@ -77,4 +79,4 @@ body {
 
 #password_confirmation {
     color: rgb(219, 135, 52);
-}
+} */

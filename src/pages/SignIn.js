@@ -2,20 +2,21 @@ import React, { useContext } from 'react'
 import '../styles/Signin.css'
 import logo2 from '../myimages/sonlogo.svg'
 import photo1 from '../myimages/photo1.svg'
+import Navbar from '../components/Navbar'
 
 
- 
+
 
 
 import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useState } from "react"
-import { Link } from 'react-router-dom'     
+import { Link } from 'react-router-dom'
 import { AuthContext } from '../AuthContext/authContext'
 
 
 const SignIn = () => {
-    const {logIn} = useContext(AuthContext)
+    const { logIn } = useContext(AuthContext)
     const [isDisabled, setIsDisabled] = useState(false)
 
     const navigate = useNavigate()
@@ -38,40 +39,43 @@ const SignIn = () => {
 
         window.alert(json.messages)
         if (json.success) {
-            
+
             logIn(json.token)
             navigate('/')
         }
     }
-    
+
 
 
     return (
-        <div class='wrapper'>
-            
-            <div class='bg-image'>
-                <img id='personal' src={photo1} alt='' />
-            </div>
-            <div class='registration-form'>
-                <div id='form-div' className='w-100'>
-                    <div className=' mb-4'>
-                        <img id='logo2' src={logo2} alt='' />
-                    </div>
-                    <h1 className='mb-2'>Create Account</h1>
-                    <div className='form-field mb-3 d-flex flex-column align-items-start'>
-                        <label htmlFor='name' className='mb-2'>Name Or Email</label>
-                        <input placeholder='Type UserName Or Email' type='text' id="name" ref={accountRef} className='form-control' />
-                    </div>
-                    
-                    <div className='form-field mb-3  d-flex flex-column align-items-start'>
-                        <label htmlFor='Password' className='mb-2'>Password</label>
-                        <input placeholder='Yor Password' type='password' ref={passwordRef} id="password" className='form-control' />
-                    </div>
+        <div>
+            <Navbar />
+            <div class='wrapper'>
 
-                   
-                    <div className='row'>
-                        <div className='col-6'>
-                            <Link className='btn btn-primary w-100' onClick={signIn} to='/'>Login</Link>
+                <div class='bg-image'>
+                    <img id='personal' src={photo1} alt='' />
+                </div>
+                <div class='registration-form'>
+                    <div id='form-div' className='w-100'>
+                        <div className=' mb-4'>
+                            <img id='logo2' src={logo2} alt='' />
+                        </div>
+                        <h1 className='mb-2'>Create Account</h1>
+                        <div className='form-field mb-3 d-flex flex-column align-items-start'>
+                            <label htmlFor='name' className='mb-2'>Name Or Email</label>
+                            <input placeholder='Type UserName Or Email' type='text' id="name" ref={accountRef} className='form-control' />
+                        </div>
+
+                        <div className='form-field mb-3  d-flex flex-column align-items-start'>
+                            <label htmlFor='Password' className='mb-2'>Password</label>
+                            <input placeholder='Yor Password' type='password' ref={passwordRef} id="password" className='form-control' />
+                        </div>
+
+
+                        <div className='row'>
+                            <div className='col-6'>
+                                <Link className='btn btn-primary w-100' onClick={signIn} to='/'>Login</Link>
+                            </div>
                         </div>
                     </div>
                 </div>

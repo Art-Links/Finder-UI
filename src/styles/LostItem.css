@@ -1,11 +1,57 @@
 #main-div{
-    background-color: #C8D7D4;
+    background-color: #b9c6c4;
     display: inline-grid;
 }
+
 #form{
     height: fit-content;
     width: fit-content;
 }
+
+.wrapper {
+    background-color: #C8D7D4;
+}
+
+.registration-forms {
+    padding: 10px 20px;
+    max-width: 100%;
+    width: 400px;
+    background-color: rgba(0,0,0,0.05);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+@media screen and (max-width: 576px) {
+    .registration-forms {
+        width: 100%;
+    }
+}
+
+
+.registration-forms img {
+    width: 120px;
+}
+
+.registration-forms .form-control::placeholder {
+    color: #CCC;
+}
+
+#logos2 {
+    margin-top: 30px;
+}
+
+.bg-images {
+    position: absolute;
+    top: 90px;
+    left:0;
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+}
+
 #myFile {
     background-color: white;
     width: 350px;
@@ -16,5 +62,5 @@
 #inputCity{
     resize: none;
     outline: none;
-    height: 120px;
+    height: 60px;
 }
