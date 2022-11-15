@@ -40,7 +40,7 @@ const SignUp = () => {
 
         if (json.success) {
             // go to sign in
-            navigate('/')
+            navigate('/signin')
         }
     }
 
@@ -80,7 +80,7 @@ const SignUp = () => {
                                 <Link className='btn btn-dark w-100' to='/signin'>Go To Login</Link>
                             </div>
                             <div className='col-6'>
-                                <button className='btn btn-primary w-100' disabled={isDisabled} onClick={signUp}>{isDisabled ? 'Please Wait' : 'Register'}</button>
+                                <Link to='/signin' className='btn btn-primary w-100' disabled={isDisabled} onClick={signUp}>{isDisabled ? 'Please Wait' : 'Register'}</Link>
                             </div>
                         </div>
                     </div>
