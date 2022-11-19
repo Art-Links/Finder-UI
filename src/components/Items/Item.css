@@ -1,14 +1,8 @@
-#name {
-    color: orange;
-}
-
-.card {
-    width: 18rem;
-}
 
 .cards {
-    display: flex;
     gap: 20px;
+    display: inline-block;
+    margin: 10px;
 }
 
 .item {
@@ -16,3 +10,13 @@
     width: 18rem;
     border-radius: 5px;
 }
+
+#imgs { 
+    max-width: 100%;
+}
+
+#imgIcon {
+    width: 70px;
+    border-radius: 50px;
+}
+

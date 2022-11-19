@@ -41,7 +41,7 @@ const SignIn = () => {
         if (json.success) {
 
             logIn(json.token)
-            navigate('/categories')
+            navigate('/')
         }
     }
 

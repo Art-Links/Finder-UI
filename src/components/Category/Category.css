@@ -1,0 +1,14 @@
+.cat {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 18rem;
+    background-color: aqua;
+}
+
+#names {
+    color: brown;
+}
+
+#img {
+    max-width: 100%;
+}

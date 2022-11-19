@@ -3,16 +3,18 @@ import '../styles/LostItem.css'
 import logo2 from '../myimages/sonlogo.svg'
 import photo from '../myimages/Uplode.svg'
 import Navbar from '../components/Navbar'
-
-
+import { AuthContext } from '../AuthContext/authContext'
 
 import { useRef } from 'react'
 import { useState } from 'react'
+import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 const LostItem = () => {
 
+
+  const { token } = useContext(AuthContext)
   const [isDisabled, setIsDisabled] = useState(false)
 
   const navigate = useNavigate()
@@ -41,7 +43,8 @@ const LostItem = () => {
 
       }),
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`,
       }
     })
     const json = await response.json()
@@ -51,7 +54,7 @@ const LostItem = () => {
 
     if (json.success) {
       // go to sign in
-      navigate('/')
+      navigate('/items')
     }
   }
   return (

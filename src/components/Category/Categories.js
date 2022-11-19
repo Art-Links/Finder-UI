@@ -16,7 +16,7 @@ const Categories = () => {
             })
             const json = await Category.json()
             console.log(json)
-            window.alert(json.messages)
+            // window.alert(json.messages)
             if (json?.success) {
                 setCategories(json?.data)
             }
