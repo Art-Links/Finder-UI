@@ -28,7 +28,7 @@ const SignUp = () => {
                 userName: userNameRef.current.value,
                 email: emailRef.current.value,
                 password: passwordRef.current.value,
-                passwordConfirmation: passwordConfirmationRef.current.value,
+                passwordConfirmation: passwordConfirmationRef.current.value
             }),
             headers: {
                 'Content-Type': 'application/json'

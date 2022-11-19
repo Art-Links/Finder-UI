@@ -21,6 +21,9 @@ const LostItem = () => {
   const latRef = useRef()
   const lngRef = useRef()
   const descriptionRef = useRef()
+  const questionsRef = useRef()
+  const placeIdRef = useRef()
+  const categoryIdRef = useRef()
 
   const lostitme = async () => {
     setIsDisabled(true)
@@ -31,7 +34,11 @@ const LostItem = () => {
         blurImage: blurImageRef.current.value,
         lat: latRef.current.value,
         lng: lngRef.current.value,
-        description: descriptionRef.current.value
+        description: descriptionRef.current.value,
+        questions: questionsRef.current.value,
+        placeId: placeIdRef.current.value,
+        categoryId : categoryIdRef.current.value
+
       }),
       headers: {
         'Content-Type': 'application/json'
@@ -50,7 +57,7 @@ const LostItem = () => {
   return (
 
     <div>
-        <Navbar />
+      <Navbar />
       <div className='wrapper'>
         <div class='bg-images'>
           <img id='personal' src={photo} alt='' />
@@ -68,6 +75,10 @@ const LostItem = () => {
               <input placeholder='Type The Name For Item' type="email" className="form-control" ref={nameRef} id="inputEmail4" />
             </div>
             <div className="col-md-12">
+              <label for="input" className="form-label d-flex flex-column align-items-start">Photo</label>
+              <input ref={blurImageRef} type="file" id="myFile" name="filename" />
+            </div>
+            <div className="col-md-12">
               <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label>
               <input type="text" ref={latRef} className="form-control" id="inputPassword4" placeholder='Latitude' />
             </div>
@@ -79,30 +90,23 @@ const LostItem = () => {
               <label for="inputCity" className="form-label d-flex flex-column align-items-start">description</label>
               <textarea type="text" ref={descriptionRef} className="form-control" id="inputCity" placeholder='Please Descrip How You Found It ?!' />
             </div>
-            {/* <div className="col-md-12">
-          <label for="inputState" className="form-label">State</label>
-          <select id="inputState" className="form-select">
-            <option selected>Choose...</option>
-            <option>Ankara</option>
-            <option>Istanbul</option>
-            <option>Adana</option>
-            <option>Adalar</option>
-            <option>Bolo</option>
-            <option>Karabuk</option>
-            <option>Yalova</option>
-            <option>Bursa</option>
-            <option>Sabanga</option>
-            <option>Antalya</option>
-            <option>Kastamono</option>
-            <option>Kars</option>
-            <option>Trabzon</option>
-            <option>Rize</option>
-            
-            </select>
-          </div> */}
-            <div className="col-md-12">
-              <label for="input" className="form-label d-flex flex-column align-items-start">Photo</label>
-              <input ref={blurImageRef} type="file" id="myFile" name="filename" />
+            <div className='d-flex'>
+              <div className="col-6 nas">
+                <label for="inputAddress" className="form-label d-flex flex-column align-items-start">placeId</label>
+                <input type="text" ref={placeIdRef} className="form-control" id="inputAddress" placeholder="placeId" />
+              </div>
+              <div className="col-6">
+                <label for="inputAddress" className="form-label d-flex flex-column align-items-start">categoryId</label>
+                <input type="text" ref={categoryIdRef} className="form-control" id="inputAddress" placeholder="placeId" />
+              </div>
+            </div>
+            <div className="col-12">
+              <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 1</label>
+              <input type="text" ref={questionsRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
+            </div>
+            <div className="col-12">
+              <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 2</label>
+              <input type="text" ref={questionsRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
             </div>
             <dr />
             <dr />

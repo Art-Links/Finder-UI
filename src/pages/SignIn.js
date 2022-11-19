@@ -41,7 +41,7 @@ const SignIn = () => {
         if (json.success) {
 
             logIn(json.token)
-            navigate('/')
+            navigate('/categories')
         }
     }
 
@@ -74,7 +74,7 @@ const SignIn = () => {
 
                         <div className='row'>
                             <div className='col-6'>
-                                <Link className='btn btn-primary w-100' onClick={signIn} to='/'>Login</Link>
+                                <button className='btn btn-primary w-100' disabled={isDisabled} onClick={signIn} >Login</button>
                             </div>
                         </div>
                     </div>
