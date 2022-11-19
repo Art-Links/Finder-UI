@@ -31,7 +31,7 @@ const Navbar = () => {
                     </li>
                     </>:
                     <li>
-                        <Link class="link" to={'/signOut'}>Sign Out</Link>
+                        <Link class="link" to={'/'}>Sign Out</Link>
                     </li>}
                     {/* <li>
                         <div class="circle-shadow">

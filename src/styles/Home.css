@@ -134,6 +134,7 @@ header {
     display: flex;
     align-items: center;
     padding-left: 15px;
+    padding-right: 15px;
     background-color: #282828;
     opacity: 85%;
 }
@@ -267,6 +268,14 @@ footer {
     border-bottom: 1px solid lightgray;
 }
 
+#go-up {
+    width: 30px;
+    height: 30px;
+    color: gray;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
 .upper-footer p {
     color: gray;
     font-size: 14px;
@@ -300,6 +309,9 @@ footer {
     display: flex;
 }
 
+#By {
+    margin-right: 10px;
+}
 .lower-right-footer li {
     margin-left: 15px;
 }

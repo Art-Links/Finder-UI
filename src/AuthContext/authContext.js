@@ -23,7 +23,7 @@ const AuthProvider = ({ children }) => {
 
     }
     
-        console.log(handleClick)
+        // console.log(handleClick)
     
     return (
         <AuthContext.Provider value={{

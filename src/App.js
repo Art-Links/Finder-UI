@@ -7,6 +7,10 @@ import Subnavbar from './pages/Subnavbar';
 import Profile from './pages/Profile';
 import Map from '../src/components/Map';
 import LostItem from './pages/LostItem';
+import Categories from './components/Category/Categories'
+import Items from './components/Items/Items';
+
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,8 @@ function App() {
         <Route path="/subnavbar" element={<Subnavbar />} />
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/lostitem" element={<LostItem/>}/>
+        <Route path="/category" element={<Categories/>}/>
+        <Route path="/items" element={<Items/>}/>
         <Route path="/Map" element={<Map />} />
 
       </Routes>
