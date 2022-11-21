@@ -7,7 +7,14 @@
 li {
     list-style-type: none;
 }
-
+.places-container {
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%);
+    
+}
 #maps {
     position: absolute;
     z-index: 10;
