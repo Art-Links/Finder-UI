@@ -5,9 +5,13 @@
     margin: 10px;
 }
 
+
+.card {
+    width: 18rem;
+}
+
 .item {
     border: 1px solid lightgrey;
-    width: 18rem;
     border-radius: 5px;
 }
 
@@ -19,4 +23,3 @@
     width: 70px;
     border-radius: 50px;
 }
-

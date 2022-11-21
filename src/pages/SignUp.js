@@ -47,7 +47,6 @@ const SignUp = () => {
 
     return (
         <div>
-            <Navbar />
             <div class='wrapper'>
                 <div class='bg-image'>
                     <img id='personal' src={photo} alt='' />
@@ -76,11 +75,11 @@ const SignUp = () => {
                             <input placeholder='Password Confirmation' type='password' ref={passwordConfirmationRef} id="password_confirmation" className='form-control' />
                         </div>
                         <div className='row'>
-                            <div className='col-6'>
-                                <Link className='btn btn-dark w-100' to='/signin'>Go To Login</Link>
+                            <div className='col-6 mb-4'>
+                                <button className='btn btn-dark w-100' to='/signin'>Go To Login</button>
                             </div>
                             <div className='col-6'>
-                                <Link to='/signin' className='btn btn-primary w-100' disabled={isDisabled} onClick={signUp}>{isDisabled ? 'Please Wait' : 'Register'}</Link>
+                                <button to='/signin' className='btn btn-primary w-100' disabled={isDisabled} onClick={signUp}>{isDisabled ? 'Please Wait' : 'Register'}</button>
                             </div>
                         </div>
                     </div>

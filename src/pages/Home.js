@@ -1,5 +1,5 @@
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+// import Footer from '../components/Footer';
+// import Navbar from '../components/Navbar';
 
 import Map from '../components/Map';
 
@@ -24,11 +24,8 @@ const Home = () => {
 
     return (
         <div className='home-page'>
-            <Navbar />
             <Map lat={coords?.lat} long={coords?.long}/>
-            <Footer />
         </div>
-
     )
 }
 export default Home;

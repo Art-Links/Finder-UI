@@ -9,13 +9,15 @@ import Map from '../src/components/Map';
 import LostItem from './pages/LostItem';
 import Categories from './components/Category/Categories'
 import Items from './components/Items/Items';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
-        
         <Route exact path="/" element={<Home />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
@@ -25,9 +27,8 @@ function App() {
         <Route path="/category" element={<Categories/>}/>
         <Route path="/items" element={<Items/>}/>
         <Route path="/Map" element={<Map />} />
-
       </Routes>
-
+      <Footer />
     </div>
   );
 }
