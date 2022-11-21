@@ -34,7 +34,8 @@ export default function Places() {
 function Map() {
     // const center = useMemo(() => ({ lat: 43.45, lng: -80.49 }), []);
     const [selected, setSelected] = useState({ lat: 43.45, lng: -80.49 });
-    const [center, setCenter] = useState({ lat:  41.0082376, lng: 25.2798 });
+    const [center, setCenter] = useState({ lat:  41.0082376, lng: 25.2798 
+     });
     const refMap = useRef(null);
 
 //   const handleBoundsChanged = () => {
@@ -49,7 +50,7 @@ function Map() {
         {selected && <div  className="places-container">{selected.lat}</div>}
             <GoogleMap
             ref={refMap}
-                zoom={15}
+                zoom={13}
                 center={selected}
                 mapContainerClassName="map-container"
                 // onBoundsChanged={useCallback(handleBoundsChanged)}
