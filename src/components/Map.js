@@ -9,7 +9,7 @@ import SearchSection from '../components/SearchSection';
 
 import { useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
-import {MarkerF} from '@react-google-maps/api'
+import { MarkerF } from '@react-google-maps/api'
 import usePlacesAutocomplete, { getGeocode, getLatLng, } from "use-places-autocomplete";
 
 import {
@@ -33,27 +33,26 @@ export default function Places() {
 
 function Map() {
     // const center = useMemo(() => ({ lat: 43.45, lng: -80.49 }), []);
-    const [selected, setSelected] = useState({ lat: 43.45, lng: -80.49 });
-    const [center, setCenter] = useState({ lat:  41.0082376, lng: 25.2798 
-     });
+    const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
+    // const [center, setCenter] = useState({ lat:  41.0082376, lng: 25.2798 });
     const refMap = useRef(null);
 
-//   const handleBoundsChanged = () => {
-//     const mapCenter = refMap.current.getCenter(); //get map center
-//     setCenter(selected);
-//   };
+    //   const handleBoundsChanged = () => {
+    //     const mapCenter = refMap.current.getCenter(); //get map center
+    //     setCenter(selected);
+    //   };
     return (
         <>
             <div className="places-container">
-                <PlacesAutocomplete setSelected={setSelected} selected={selected}/>
+                <PlacesAutocomplete setSelected={setSelected} selected={selected} />
             </div>
-        {selected && <div  className="places-container">{selected.lat}</div>}
+            {/* {selected && <div  className="places-container">{selected.lat}</div>} */}
             <GoogleMap
-            ref={refMap}
-                zoom={13}
+                ref={refMap}
+                zoom={9.5}
                 center={selected}
                 mapContainerClassName="map-container"
-                // onBoundsChanged={useCallback(handleBoundsChanged)}
+            // onBoundsChanged={useCallback(handleBoundsChanged)}
             >
                 {selected && <MarkerF position={selected} />}
             </GoogleMap>
@@ -84,14 +83,14 @@ const PlacesAutocomplete = ({ setSelected, selected }) => {
         setSelected({ lat, lng });
         console.log(selected)
     };
-const handleChange = (e) => {
-    // console.log('change fired')
-    // console.log(status, "status")
-    // console.log(e.target.value)z
-    // console.log('#'.repeat(10))
-    setValue(e.target.value)
+    const handleChange = (e) => {
+        // console.log('change fired')
+        // console.log(status, "status")
+        // console.log(e.target.value)z
+        // console.log('#'.repeat(10))
+        setValue(e.target.value)
 
-}
+    }
     return (
         <Combobox onSelect={handleSelect} className='1111' >
             <ComboboxInput
@@ -101,7 +100,7 @@ const handleChange = (e) => {
                 className="combobox-input"
                 placeholder="Search an address"
             />
-            <ComboboxPopover className="222" style={{zIndex: 9999999999}}>
+            <ComboboxPopover className="222" style={{ zIndex: 9999999999 }}>
                 <ComboboxList apiKey='AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
                     {status === "OK" &&
                         data.map(({ place_id, description }) => (

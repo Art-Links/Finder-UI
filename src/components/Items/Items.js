@@ -2,6 +2,8 @@ import { useContext, useState } from "react"
 import { AuthContext } from '../../AuthContext/authContext'
 import { useEffect } from "react"
 import Item from "./Item"
+import Footer from '../Footer'
+import './Item.css'
 
 
 const Items = () => {
@@ -11,7 +13,7 @@ const Items = () => {
             const Item = await fetch('http://localhost:3000/items', {
                 method: 'Get',
                 headers: {
-                'Content-Type': 'application/json',
+                    'Content-Type': 'application/json',
                 }
             })
             const json = await Item.json()

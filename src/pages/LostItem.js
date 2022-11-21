@@ -60,7 +60,6 @@ const LostItem = () => {
   return (
 
     <div>
-      <Navbar />
       <div className='wrapper'>
         <div class='bg-images'>
           <img id='personal' src={photo} alt='' />
@@ -107,13 +106,13 @@ const LostItem = () => {
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 1</label>
               <input type="text" ref={questionsRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
             </div>
-            <div className="col-12">
+            <div className="col-12 mb-2">
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 2</label>
               <input type="text" ref={questionsRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
             </div>
             <dr />
             <dr />
-            <div className='col-12'>
+            <div className='col-12 mb-3'>
               <button className='btn btn-primary w-100' disabled={isDisabled} onClick={lostitme}>Submit</button>
             </div>
           </form>

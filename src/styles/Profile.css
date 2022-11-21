@@ -1,6 +1,7 @@
-.wrapper {
-    /* background-color: rgb(211, 211, 201); */
-} 
+/* .wrapper {
+    background-color: rgb(211, 211, 201);
+}  */
+
 .wrapper {
     display: flex;
     position: relative;

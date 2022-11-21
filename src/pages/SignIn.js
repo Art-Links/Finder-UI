@@ -49,7 +49,6 @@ const SignIn = () => {
 
     return (
         <div>
-            <Navbar />
             <div class='wrapper'>
 
                 <div class='bg-image'>

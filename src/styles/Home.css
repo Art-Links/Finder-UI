@@ -7,7 +7,14 @@
 li {
     list-style-type: none;
 }
-
+.places-container {
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%);
+    
+}
 #maps {
     position: absolute;
     z-index: 10;
@@ -251,9 +258,10 @@ header {
 footer {
     background-color: #F2F2F2;
     height: 50px;
-    position: absolute;
-    bottom: -60px;
     width: 100%;
+    position: absolute;
+    /* bottom: -60px;
+    width: 100%; */
 }
 
 
@@ -407,6 +415,11 @@ footer {
     }
 
 }
+
+/* .hed {
+    padding: 66px;
+} */
+
 
 @media only screen and (max-width: 400px) {
     .logo-img {
