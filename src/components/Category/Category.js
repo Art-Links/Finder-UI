@@ -7,9 +7,9 @@ const Category = ({ data }) => {
     return (
         <>
             <div className="cat">
-                <Link to={'/items'}>
+                <Link className="at" to={'/items'}>
                     <img src={data?.icon} id="img" />
-                    <h4 id="names">{data?.name}</h4>
+                    <h5 id="names">{data?.name}</h5>
                 </Link>
             </div>
         </>

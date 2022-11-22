@@ -4,6 +4,7 @@ import Logo from '../myimages/sonlogo.svg'
 import { useContext } from 'react'
 import { AuthContext } from '../AuthContext/authContext'
 import Menue from './Menue'
+import '../styles/Navbar.css'
 
 const Navbar = () => {
     const { loggedIn } = useContext(AuthContext)
@@ -11,18 +12,18 @@ const Navbar = () => {
     console.log("Signed in at navbar", loggedIn)
     return (
         <header className='hed'>
-            <nav class="navbar1 d-flex">
+            <nav class="navbar d-flex">
                 <div id='div-logo'>
                     <Link to={'/'}>
                         <img id="logo-img" src={Logo} alt="" />
                     </Link>
                 </div>
-                <ul>
-            <Menue/>
-
+                <ul className='ul'>
+                    <Menue />
                     {(!loggedIn) ?
                         <>
                             <li>
+
                                 {/* <a class="link" href="">SignUp</a> */}
                                 <Link class="link" to={'/signup'}>Sign Up</Link>
                             </li>

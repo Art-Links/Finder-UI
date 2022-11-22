@@ -1,14 +1,37 @@
 .cat {
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     border-radius: 5px;
-    width: 18rem;
-    background-color: aqua;
+    width: 15rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.at {
+    display: flex;
+    align-items: center;
+    /* justify-content:space-between; */
+    gap: 15px;
+    padding: 5px;
+}
+
+.at:hover {
+    background-color: gray;
 }
 
 #names {
-    color: brown;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+#names:hover {
+    color: white;
 }
 
 #img {
-    max-width: 100%;
+    width: 15%;
+    border-radius: 3px;
 }

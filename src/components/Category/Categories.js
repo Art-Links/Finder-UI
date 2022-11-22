@@ -11,7 +11,7 @@ const Categories = () => {
             const Category = await fetch('http://localhost:3000/category', {
                 method: 'Get',
                 headers: {
-                'Content-Type': 'application/json',
+                    'Content-Type': 'application/json',
                 }
             })
             const json = await Category.json()

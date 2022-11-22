@@ -49,7 +49,7 @@ function Map() {
             {/* {selected && <div  className="places-container">{selected.lat}</div>} */}
             <GoogleMap
                 ref={refMap}
-                zoom={14}
+                zoom={9.5}
                 center={selected}
                 mapContainerClassName="map-container"
             // onBoundsChanged={useCallback(handleBoundsChanged)}
