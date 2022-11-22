@@ -426,7 +426,7 @@ footer {
 }
 
 .hed {
-    z-index: 100;position: absolute;
+    z-index: 100;position: relative;
 
 }
 
