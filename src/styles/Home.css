@@ -425,9 +425,10 @@ footer {
 
 }
 
-/* .hed {
-    padding: 66px;
-} */
+.hed {
+    z-index: 100;position: absolute;
+
+}
 
 
 @media only screen and (max-width: 400px) {

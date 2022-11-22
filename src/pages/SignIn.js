@@ -7,7 +7,6 @@ import Navbar from '../components/Navbar'
 
 
 
-
 import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useState } from "react"
@@ -50,7 +49,6 @@ const SignIn = () => {
     return (
         <div>
             <div class='wrapper'>
-
                 <div class='bg-image'>
                     <img id='personal' src={photo1} alt='' />
                 </div>
