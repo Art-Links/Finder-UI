@@ -28,7 +28,7 @@ const Menue = () => {
                 <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Category
                 </button>
-                <div className="dropdown-menu" id='show' aria-labelledby="dropdownMenuButton">
+                <div className="dropdown-menu">
                     <div id="all-posts">
                         {categories?.length > 0 && (
                             <ul>
