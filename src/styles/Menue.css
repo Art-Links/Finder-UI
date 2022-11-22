@@ -1,3 +1,9 @@
 #dropdownMenuButton{
 z-index: 100;
+background-color: #282828;
+border: 0.5px solid #282828;
+}
+
+#show {
+    padding: 0px;
 }
