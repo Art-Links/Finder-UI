@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../myimages/sonlogo.svg'
 import { useContext } from 'react'
 import { AuthContext } from '../AuthContext/authContext'
+import Menue from './Menue'
 
 const Navbar = () => {
     const { loggedIn } = useContext(AuthContext)
@@ -17,6 +18,8 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <ul>
+            <Menue/>
+
                     {(!loggedIn) ?
                         <>
                             <li>
