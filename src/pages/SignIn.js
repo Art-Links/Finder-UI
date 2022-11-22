@@ -3,7 +3,7 @@ import '../styles/Signin.css'
 import logo2 from '../myimages/sonlogo.svg'
 import photo1 from '../myimages/photo1.svg'
 import Navbar from '../components/Navbar'
-
+import Menue from '../../src/components/Menue'
 
 
 
@@ -50,7 +50,7 @@ const SignIn = () => {
     return (
         <div>
             <div class='wrapper'>
-
+            <Menue/>
                 <div class='bg-image'>
                     <img id='personal' src={photo1} alt='' />
                 </div>

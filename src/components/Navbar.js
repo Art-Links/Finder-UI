@@ -4,10 +4,6 @@ import Logo from '../myimages/sonlogo.svg'
 import { useContext } from 'react'
 import { AuthContext } from '../AuthContext/authContext'
 
-
-
-
-
 const Navbar = () => {
     const { loggedIn } = useContext(AuthContext)
     const { logOut } = useContext(AuthContext)

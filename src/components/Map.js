@@ -49,7 +49,7 @@ function Map() {
             {/* {selected && <div  className="places-container">{selected.lat}</div>} */}
             <GoogleMap
                 ref={refMap}
-                zoom={9.5}
+                zoom={14}
                 center={selected}
                 mapContainerClassName="map-container"
             // onBoundsChanged={useCallback(handleBoundsChanged)}
@@ -111,14 +111,6 @@ const PlacesAutocomplete = ({ setSelected, selected }) => {
         </Combobox>
     );
 };
-
-
-
-
-
-
-
-
 
 
 
