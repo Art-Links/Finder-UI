@@ -34,7 +34,7 @@ export default function Places() {
 function Map() {
     // const center = useMemo(() => ({ lat: 43.45, lng: -80.49 }), []);
     const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
-    // const [center, setCenter] = useState({ lat:  41.0082376, lng: 25.2798 });
+    // const [center, setCenter] = useState({ lat:  41.0082376, lng: 25.2798 });                                           
     const refMap = useRef(null);
 
     //   const handleBoundsChanged = () => {
@@ -92,13 +92,13 @@ const PlacesAutocomplete = ({ setSelected, selected }) => {
 
     }
     return (
-        <Combobox onSelect={handleSelect} className='1111' >
+        <Combobox onSelect={handleSelect} className='hus' >
             <ComboboxInput
                 value={value}
                 onChange={(e) => handleChange(e)}
                 disabled={!ready}
                 className="combobox-input"
-                placeholder="Search an address"
+                placeholder="Finder Search"
             />
             <ComboboxPopover className="222" style={{ zIndex: 9999999999 }}>
                 <ComboboxList apiKey='AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
