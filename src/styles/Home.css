@@ -11,7 +11,7 @@ li {
     z-index: 4;
     position: absolute;
     top: 70%;
-    right: 30%;
+    right: 35%;
     transform: translateY(-50%);
 }
 .combobox-input {
