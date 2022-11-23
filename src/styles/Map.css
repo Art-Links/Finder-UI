@@ -16,4 +16,9 @@
     height: 100%;
 }
 
+.combobox-input::placeholder {
+    color: lightgray;
+}
+
+
 

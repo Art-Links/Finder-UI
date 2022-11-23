@@ -4,6 +4,7 @@ import React, { useRef, useState, useEffect, useContext, useCallback } from 'rea
 import { AppContext } from '../AuthContext/AppContext';
 import SearchSection from '../components/SearchSection';
 
+
 // import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 
@@ -22,37 +23,30 @@ import {
 import "@reach/combobox/styles.css";
 
 export default function Places() {
+    const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });   
+    return (<Map  selected={selected} >
+        <PlacesAutocomplete setSelected={setSelected} selected={selected} />
+        </Map >)
+}
+
+export function Map({children, selected, setSelected}) {
+
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: process.env.apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw',
         libraries: ["places"],
-    });
+    });                                         
 
     if (!isLoaded) return <div>Loading...</div>;
-    return <Map />;
-}
-
-function Map() {
-    // const center = useMemo(() => ({ lat: 43.45, lng: -80.49 }), []);
-    const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
-    // const [center, setCenter] = useState({ lat:  41.0082376, lng: 25.2798 });                                           
-    const refMap = useRef(null);
-
-    //   const handleBoundsChanged = () => {
-    //     const mapCenter = refMap.current.getCenter(); //get map center
-    //     setCenter(selected);
-    //   };
+    
     return (
         <>
             <div className="places-container">
-                <PlacesAutocomplete setSelected={setSelected} selected={selected} />
+            {children}
             </div>
-            {/* {selected && <div  className="places-container">{selected.lat}</div>} */}
             <GoogleMap
-                ref={refMap}
                 zoom={9.5}
-                center={selected}
+                center={selected || { lat: 41.015137, lng: 28.979530 }}
                 mapContainerClassName="map-container"
-            // onBoundsChanged={useCallback(handleBoundsChanged)}
             >
                 {selected && <MarkerF position={selected} />}
             </GoogleMap>
@@ -60,17 +54,20 @@ function Map() {
     );
 }
 
-const PlacesAutocomplete = ({ setSelected, selected }) => {
-    const {
+
+export const  PlacesAutocomplete = ({ setSelected, selected }) => {
+    let {
         ready,
         value,
         setValue,
         suggestions: { status, data },
         clearSuggestions,
-    } = usePlacesAutocomplete();
+    } = usePlacesAutocomplete({
+        initOnMount: true, // Disable initializing when the component mounts, default is true
+      });
 
+    
     const handleSelect = async (address) => {
-        console.log(address, '1111')
         setValue(address, false);
         clearSuggestions();
 
@@ -84,13 +81,10 @@ const PlacesAutocomplete = ({ setSelected, selected }) => {
         console.log(selected)
     };
     const handleChange = (e) => {
-        // console.log('change fired')
-        // console.log(status, "status")
-        // console.log(e.target.value)z
-        // console.log('#'.repeat(10))
         setValue(e.target.value)
 
     }
+    
     return (
         <Combobox onSelect={handleSelect} className='hus' >
             <ComboboxInput

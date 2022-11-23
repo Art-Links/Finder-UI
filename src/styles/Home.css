@@ -15,10 +15,10 @@ li {
     transform: translateY(-50%);
 }
 .combobox-input {
-    width: 500px;
+    width: 350px;
     border-radius: 10px;
-    background-color: #282828;
-    opacity: 60%;
+    background-color: #282828b6;
+    /* opacity: 60%; */
     padding: 5px;
     border: 1px solid lightgray;
     color: lightgray;
@@ -198,12 +198,12 @@ footer {
     background-color: #F2F2F2;
     height: 50px;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
     /* bottom: -60px;
     width: 100%; */
 }
-
-
 
 .footer-content {
     padding: 10px;

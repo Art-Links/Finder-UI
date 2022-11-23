@@ -3,6 +3,9 @@ import '../styles/LostItem.css'
 import logo2 from '../myimages/sonlogo.svg'
 import photo from '../myimages/Uplode.svg'
 import Navbar from '../components/Navbar'
+import {Map} from '../components/Map';
+import {PlacesAutocomplete} from '../components/Map';
+
 import { AuthContext } from '../AuthContext/authContext'
 
 import { useRef } from 'react'
@@ -10,13 +13,15 @@ import { useState } from 'react'
 import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 const LostItem = () => {
 
 
   const { token } = useContext(AuthContext)
   const [isDisabled, setIsDisabled] = useState(false)
-
+  const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
+  const {loading} = useLoadScript
   const navigate = useNavigate()
   const nameRef = useRef()
   const blurImageRef = useRef()
@@ -80,13 +85,13 @@ const LostItem = () => {
               <label for="input" className="form-label d-flex flex-column align-items-start">Photo</label>
               <input ref={blurImageRef} type="file" id="myFile" name="filename" />
             </div>
-            <div className="col-md-12">
-              <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label>
-              <input type="text" ref={latRef} className="form-control" id="inputPassword4" placeholder='Latitude' />
-            </div>
             <div className="col-12">
-              <label for="inputAddress" className="form-label d-flex flex-column align-items-start">lng</label>
-              <input type="text" ref={lngRef} className="form-control" id="inputAddress" placeholder="Longitude" />
+              <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Place</label>
+              <PlacesAutocomplete setSelected={setSelected} selected={selected}  />
+            </div>
+            <div className="col-md-12">
+              {/* <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label> */}
+              <Map selected={selected} />
             </div>
             <div className="col-md-12">
               <label for="inputCity" className="form-label d-flex flex-column align-items-start">description</label>
@@ -110,8 +115,8 @@ const LostItem = () => {
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 2</label>
               <input type="text" ref={questionsRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
             </div>
-            <dr />
-            <dr />
+            {/* <dr />
+            <dr /> */}
             <div className='col-12 mb-3'>
               <button className='btn btn-primary w-100' disabled={isDisabled} onClick={lostitme}>Submit</button>
             </div>
