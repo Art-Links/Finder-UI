@@ -25,7 +25,7 @@ function App() {
         <Route path="/subnavbar" element={<Subnavbar />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/lostitem" element={<LostItem />} />
-        <Route path="/category" element={<Categories />} />
+        {/* <Route path="/category" element={<Categories />} /> */}
         <Route path="/items" element={<Items />} />
         <Route path="/Map" element={<Map />} />
       </Routes>
