@@ -7,6 +7,7 @@
 li {
     list-style-type: none;
 }
+
 .places-container {
     z-index: 4;
     position: absolute;
@@ -14,6 +15,7 @@ li {
     right: 35%;
     transform: translateY(-50%);
 }
+
 .combobox-input {
     width: 350px;
     border-radius: 10px;
@@ -24,10 +26,11 @@ li {
     color: lightgray;
 
 }
+
 #maps {
     position: absolute;
     z-index: 10;
-    
+
 }
 
 a {
@@ -185,8 +188,9 @@ body {
 .main-logo {
     width: 300px;
 }
-#myList{
-    height:35px;
+
+#myList {
+    height: 35px;
     width: 270px;
     border-radius: 50px;
     margin-right: 5px;
@@ -260,6 +264,7 @@ footer {
 #By {
     margin-right: 10px;
 }
+
 .lower-right-footer li {
     margin-left: 15px;
 }
@@ -286,7 +291,7 @@ footer {
 /* Mobile and Tablet */
 @media only screen and (max-width: 650px) {
 
-    .places-container{
+    .places-container {
         right: 20%;
     }
 
@@ -361,14 +366,96 @@ footer {
 }
 
 .hed {
-    z-index:100;
+    z-index: 100;
     position: relative;
     opacity: 100%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 390px) {
     .logo-img {
         margin-top: -52;
         width: 80px;
+    }
+
+    .places-container {
+        right: 8%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
+    }
+
+    .places-container {
+        right: 7%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
+    }
+
+    .places-container {
+        right: 4%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
+    }
+
+    .places-container {
+        right: 1.5%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
+    }
+
+    .places-container {
+        right: 28%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
+    }
+
+    .places-container {
+        right: 18%;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
+    }
+
+    .places-container {
+        margin-right: 298px;
+        width: 1px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .logo-img {
+        margin-top: -52;
+        width: 80px;
+    }
+
+    .places-container {
+        margin-right: 298px;
+        width: 1px;
     }
 }
