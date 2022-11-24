@@ -30,6 +30,23 @@ export default function Places() {
 }
 
 export function Map({children, selected, setSelected}) {
+    const [Items, setItems] = useState()
+    useEffect(() => {
+        const getItems = async () => {
+            const Item = await fetch('http://localhost:3000/items', {
+                method: 'Get',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            const json = await Item.json()
+            console.log(json)
+            if (json?.success) {
+                setItems(json?.data)
+            }
+        }
+        getItems()
+    }, [])
 
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: process.env.apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw',
@@ -37,6 +54,7 @@ export function Map({children, selected, setSelected}) {
     });                                         
 
     if (!isLoaded) return <div>Loading...</div>;
+    console.log(Items)
     
     return (
         <>
@@ -48,7 +66,9 @@ export function Map({children, selected, setSelected}) {
                 center={selected || { lat: 41.015137, lng: 28.979530 }}
                 mapContainerClassName="map-container"
             >
-                {selected && <MarkerF position={selected} />}
+                {Items?.length > 0 && Items?.map((item) => (
+                    <MarkerF position={{lat: parseFloat(item?.latX), lng: parseFloat( item?.longY)}} />
+                ))}
             </GoogleMap>
         </>
     );
