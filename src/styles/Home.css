@@ -11,7 +11,7 @@ li {
     z-index: 4;
     position: absolute;
     top: 70%;
-    right: 30%;
+    right: 35%;
     transform: translateY(-50%);
 }
 .combobox-input {
@@ -198,11 +198,11 @@ footer {
     background-color: #F2F2F2;
     height: 50px;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     z-index: 10;
-    /* bottom: -60px;
-    width: 100%; */
+    /* bottom: -60px; */
+    /* width: 100%; */
 }
 
 .footer-content {

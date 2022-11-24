@@ -14,7 +14,7 @@ border: 0.5px solid #282828;
 }
 
 #all-posts {
-    position: absolute;
+    /* position: absolute; */
     border-radius: 5px;
     top: 10px;
 }

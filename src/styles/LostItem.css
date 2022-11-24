@@ -1,9 +1,9 @@
-#main-div{
+#main-div {
     background-color: #b9c6c4;
     display: inline-grid;
 }
 
-#form{
+#form {
     height: fit-content;
     width: fit-content;
 }
@@ -20,7 +20,7 @@
     padding: 10px 20px;
     max-width: 100%;
     width: 400px;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@
 .bg-images {
     position: absolute;
     top: 90px;
-    left:0;
+    left: 0;
     width: 100%;
     max-width: 800px;
     height: 100vh;
@@ -60,11 +60,20 @@
     background-color: white;
     width: 350px;
     border-radius: 3px;
-    
+
 }
 
-#inputCity{
+#inputCity {
     resize: none;
     outline: none;
     height: 60px;
+}
+
+.MP {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.mP {
+    border-radius: 10px;
 }
