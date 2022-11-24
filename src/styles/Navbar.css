@@ -69,3 +69,9 @@ ul{
     text-align: center;
     line-height: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar .ul li {
+        display: none;
+    }
+}
