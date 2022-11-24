@@ -28,6 +28,15 @@
     z-index: 3;
 }
 
+#personal{
+    display: flex;
+    position:fixed;
+      top: 40px;
+      bottom: 40px;
+      height: 650px;
+      right: 70px;
+}
+
 @media screen and (max-width: 576px) {
     .registration-forms {
         width: 100%;
