@@ -34,10 +34,9 @@
 #personal{
     display: flex;
     position:fixed;
-      top: 40px;
-      bottom: 40px;
-      height: 650px;
-      right: 70px;
+      top: 7%;
+      height: 85%;
+      right: 10%;
 }
 
 @media screen and (max-width: 576px) {
