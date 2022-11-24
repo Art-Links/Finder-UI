@@ -81,17 +81,15 @@ const LostItem = () => {
               <label for="inputEmail4" className="form-label d-flex flex-column align-items-start">Name</label>
               <input placeholder='Type The Name For Item' type="email" className="form-control" ref={nameRef} id="inputEmail4" />
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 mb-3">
               <label for="input" className="form-label d-flex flex-column align-items-start">Photo</label>
               <input ref={blurImageRef} type="file" id="myFile" name="filename" />
             </div>
-            <div className="col-12">
+            <div className="col-md-12 MP">
+              {/* <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label> */}
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Place</label>
               <PlacesAutocomplete setSelected={setSelected} selected={selected}  />
-            </div>
-            <div className="col-md-12">
-              {/* <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label> */}
-              <Map selected={selected} />
+              <Map className="mP" selected={selected} />
             </div>
             <div className="col-md-12">
               <label for="inputCity" className="form-label d-flex flex-column align-items-start">description</label>
