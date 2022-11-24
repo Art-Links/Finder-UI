@@ -356,10 +356,10 @@ footer {
 }
 
 .hed {
-    z-index: 100;position: relative;
+    z-index:100;
+    position: relative;
 
 }
-
 
 @media only screen and (max-width: 400px) {
     .logo-img {
