@@ -3,8 +3,8 @@ import '../styles/LostItem.css'
 import logo2 from '../myimages/sonlogo.svg'
 import photo from '../myimages/Uplode.svg'
 import Navbar from '../components/Navbar'
-import {Map} from '../components/Map';
-import {PlacesAutocomplete} from '../components/Map';
+import { Map } from '../components/Map';
+import { PlacesAutocomplete } from '../components/Map';
 
 import { AuthContext } from '../AuthContext/authContext'
 
@@ -14,6 +14,8 @@ import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import Category from '../components/Category/Category'
+import Menue from '../components/Menue'
 
 const LostItem = () => {
 
@@ -21,7 +23,7 @@ const LostItem = () => {
   const { token } = useContext(AuthContext)
   const [isDisabled, setIsDisabled] = useState(false)
   const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
-  const {loading} = useLoadScript
+  const { loading } = useLoadScript
   const navigate = useNavigate()
   const nameRef = useRef()
   const blurImageRef = useRef()
@@ -38,17 +40,17 @@ const LostItem = () => {
       method: 'post',
       body: JSON.stringify({
         name: nameRef.current.value,
-        blurImage: blurImageRef.current.value,
+        blurImage: blurImageRef.current.files[0],
         lat: latRef.current.value,
         lng: lngRef.current.value,
         description: descriptionRef.current.value,
         questions: questionsRef.current.value,
         placeId: placeIdRef.current.value,
-        categoryId : categoryIdRef.current.value
+        categoryId: categoryIdRef.current.value
 
       }),
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'multipart/form-data',
         'Authorization': `Bearer ${token}`,
       }
     })
@@ -88,7 +90,7 @@ const LostItem = () => {
             <div className="col-md-12 MP">
               {/* <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label> */}
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Place</label>
-              <PlacesAutocomplete setSelected={setSelected} selected={selected}  />
+              <PlacesAutocomplete setSelected={setSelected} selected={selected} />
               <Map className="mP" selected={selected} />
             </div>
             <div className="col-md-12">
@@ -96,18 +98,18 @@ const LostItem = () => {
               <textarea type="text" ref={descriptionRef} className="form-control" id="inputCity" placeholder='Please Descrip How You Found It ?!' />
             </div>
             <div className='d-flex'>
-              <div className="col-6 nas">
+              <div className="col-3 men">
+                <label for="inputAddress" className="form-label d-flex flex-column align-items-start">categories</label>
+                <Menue />
+              </div>
+              <div className="col-8 nas">
                 <label for="inputAddress" className="form-label d-flex flex-column align-items-start">placeId</label>
                 <input type="text" ref={placeIdRef} className="form-control" id="inputAddress" placeholder="placeId" />
-              </div>
-              <div className="col-6">
-                <label for="inputAddress" className="form-label d-flex flex-column align-items-start">categoryId</label>
-                <input type="text" ref={categoryIdRef} className="form-control" id="inputAddress" placeholder="placeId" />
               </div>
             </div>
             <div className="col-12">
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 1</label>
-              <input type="text" ref={questionsRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
+              <input type="text" ref={questionsRef} ref={categoryIdRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
             </div>
             <div className="col-12 mb-2">
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 2</label>

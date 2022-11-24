@@ -3,6 +3,9 @@
     display: inline-grid;
 }
 
+.men {
+    margin-right: 30px;
+}
 #form {
     height: fit-content;
     width: fit-content;
