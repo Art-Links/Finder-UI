@@ -39,6 +39,7 @@
       right: 10%;
 }
 
+
 @media screen and (max-width: 576px) {
     .registration-forms {
         width: 100%;
@@ -55,7 +56,7 @@
 }
 
 #logos2 {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .bg-images {

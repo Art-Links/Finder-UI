@@ -10,7 +10,7 @@ li {
 .places-container {
     z-index: 4;
     position: absolute;
-    top: 70%;
+    top: 50%;
     right: 35%;
     transform: translateY(-50%);
 }
@@ -27,6 +27,7 @@ li {
 #maps {
     position: absolute;
     z-index: 10;
+    
 }
 
 a {
@@ -358,7 +359,7 @@ footer {
 .hed {
     z-index:100;
     position: relative;
-
+    opacity: 100%;
 }
 
 @media only screen and (max-width: 400px) {

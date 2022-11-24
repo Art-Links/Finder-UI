@@ -19,6 +19,9 @@
 .combobox-input::placeholder {
     color: lightgray;
 }
+.places-container{
+    margin-top: 120px;
+}
 
 
 
