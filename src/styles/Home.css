@@ -286,6 +286,10 @@ footer {
 /* Mobile and Tablet */
 @media only screen and (max-width: 650px) {
 
+    .places-container{
+        right: 20%;
+    }
+
     /* navbar11 */
     .navbar11 ul {
         font-size: 10px;
