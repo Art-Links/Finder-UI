@@ -7,10 +7,10 @@ import Subnavbar from './pages/Subnavbar';
 import Profile from './pages/Profile';
 import Map from '../src/components/Map';
 import LostItem from './pages/LostItem';
-import Categories from './components/Category/Categories'
 import Items from './components/Items/Items';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import SingelCategory from './components/Category/SingelCategory/SingelCategory';
 
 
 
@@ -28,6 +28,7 @@ function App() {
         {/* <Route path="/category" element={<Categories />} /> */}
         <Route path="/items" element={<Items />} />
         <Route path="/Map" element={<Map />} />
+        <Route path="/items/:id" element={<SingelCategory />} />
       </Routes>
       <Footer />
     </div>

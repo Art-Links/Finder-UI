@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Menue.css'
 import { useEffect, useState } from 'react'
-import Category from './Category/Category'
+import Cat from './Cat'
 
 const Menue = () => {
     const [categories, setCategories] = useState()
@@ -58,7 +58,7 @@ const Menue = () => {
                         {categories?.length > 0 && (
                             <ul>
                                 {categories?.map((category, i) => (
-                                    <Category key={i} data={category} />
+                                    <Cat key={i} category={category} />
                                 ))}
                             </ul>
                         )}
