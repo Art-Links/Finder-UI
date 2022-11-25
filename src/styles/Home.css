@@ -371,6 +371,7 @@ footer {
     opacity: 100%;
 }
 
+
 @media only screen and (max-width: 390px) {
     .logo-img {
         margin-top: -52;

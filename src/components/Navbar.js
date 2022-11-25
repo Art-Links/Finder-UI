@@ -4,11 +4,13 @@ import Logo from '../myimages/sonlogo.svg'
 import { useContext } from 'react'
 import { AuthContext } from '../AuthContext/authContext'
 import Menue from './Menue'
+import ResponsiveNavbar from './ResponsiveNavbar'
 import '../styles/Navbar.css'
 
 const Navbar = () => {
     const { loggedIn } = useContext(AuthContext)
     const { logOut } = useContext(AuthContext)
+    // console.log("Signed in at navbar", loggedIn)
     return (
         <header className='hed'>
             <nav class="navbar d-flex">
@@ -18,12 +20,11 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <ul className='ul'>
+                    <ResponsiveNavbar />
                     <Menue />
                     {(!loggedIn) ?
                         <>
-                            <li>
-
-                                {/* <a class="link" href="">SignUp</a> */}
+                            <li className='Signup'>
                                 <Link class="link" to={'/signup'}>Sign Up</Link>
                             </li>
                             <li>
@@ -33,19 +34,14 @@ const Navbar = () => {
                         <li>
                             <a onClick={logOut} class="link" to={'/'}>Sign Out</a>
                         </li>}
-                    {/* <li>
-                        <div class="circle-shadow">
-                            <a class="menu-icon" href=""><i class="fas fa-bars"></i></a>
-                        </div>
-                    </li> */}
-                    <li>
+                    <li className='key-icon'>
                         <Link to='/lostitem' id="key-icon" class="fa-solid fa-circle-plus"></Link>
                     </li>
-                    <li>
+                    
                         <div class="circle-shadow">
                             <Link to='/profile' class="user-icon" href=""><span>E</span></Link>
                         </div>
-                    </li>
+                    
                 </ul>
             </nav>
         </header>
