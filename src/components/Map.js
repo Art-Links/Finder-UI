@@ -30,8 +30,10 @@ export default function Places() {
 }
 
 export function Map({children, selected, setSelected}) {
+
     const [Items, setItems] = useState()
     useEffect(() => {
+        
         const getItems = async () => {
             const Item = await fetch('http://localhost:3000/items', {
                 method: 'Get',
@@ -47,6 +49,7 @@ export function Map({children, selected, setSelected}) {
         }
         getItems()
     }, [])
+
 
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: process.env.apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw',

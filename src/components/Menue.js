@@ -26,28 +26,6 @@ const Menue = () => {
     return (
         <>
 
-{/* 
-            <select
-                className="custom-select tm-select-accounts m-2 p-2"
-                id="categoryId"
-                // onChange={(e) =>
-                //     setItemData({
-                //         ...itemData,
-                //         categoryId: e.target.value,
-                //     })
-                // }
-            >
-                {categories?.length ? (
-                    categories.map((Category, i) => (
-                        <option key={i} value={Category.id}>
-                            {Category.name}
-                        </option>
-                    ))
-                ) : (
-                    
-                    <p>No categories currently</p>
-                )}
-            </select> */}
             <div className="dropdown">
                 <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Category
