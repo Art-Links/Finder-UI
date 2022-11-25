@@ -9,7 +9,6 @@ import '../styles/Navbar.css'
 const Navbar = () => {
     const { loggedIn } = useContext(AuthContext)
     const { logOut } = useContext(AuthContext)
-    console.log("Signed in at navbar", loggedIn)
     return (
         <header className='hed'>
             <nav class="navbar d-flex">

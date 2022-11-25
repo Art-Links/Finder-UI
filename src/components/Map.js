@@ -40,7 +40,7 @@ export function Map({children, selected, setSelected}) {
                 }
             })
             const json = await Item.json()
-            console.log(json)
+            // console.log(json)
             if (json?.success) {
                 setItems(json?.data)
             }
@@ -54,8 +54,6 @@ export function Map({children, selected, setSelected}) {
     });                                         
 
     if (!isLoaded) return <div>Loading...</div>;
-    console.log(Items)
-    
     return (
         <>
             <div className="places-container">
@@ -66,6 +64,7 @@ export function Map({children, selected, setSelected}) {
                 center={selected || { lat: 41.015137, lng: 28.979530 }}
                 mapContainerClassName="map-container"
             >
+                <MarkerF position={selected} />
                 {Items?.length > 0 && Items?.map((item) => (
                     <MarkerF position={{lat: parseFloat(item?.latX), lng: parseFloat( item?.longY)}} />
                 ))}
@@ -92,13 +91,9 @@ export const  PlacesAutocomplete = ({ setSelected, selected }) => {
         clearSuggestions();
 
         const results = await getGeocode({ address });
-        console.log('results: ', results)
         const { lat, lng } = await getLatLng(results[0]);
-        console.log('lat: ', lat)
-        console.log('lng: ', lng)
 
         setSelected({ lat, lng });
-        console.log(selected)
     };
     const handleChange = (e) => {
         setValue(e.target.value)
