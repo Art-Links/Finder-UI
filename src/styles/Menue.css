@@ -1,5 +1,5 @@
 #dropdownMenuButton{
-z-index: 100;
+z-index: 60;
 background-color: #282828;
 border: 0.5px solid #282828;
 }
@@ -12,7 +12,6 @@ border: 0.5px solid #282828;
    min-width: 0px;
    padding: 0px;
 }
-
 #all-posts {
     /* position: absolute; */
     border-radius: 5px;
