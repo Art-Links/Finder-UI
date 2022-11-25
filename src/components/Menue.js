@@ -22,11 +22,11 @@ const Menue = () => {
         }
         getCategories()
     }, [])
+    console.log(categories)
     return (
         <>
 
-
-            <label htmlFor="categoryId"> Category </label>
+{/* 
             <select
                 className="custom-select tm-select-accounts m-2 p-2"
                 id="categoryId"
@@ -47,7 +47,7 @@ const Menue = () => {
                     
                     <p>No categories currently</p>
                 )}
-            </select>
+            </select> */}
             <div className="dropdown">
                 <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Category

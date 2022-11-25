@@ -8,7 +8,7 @@ import { PlacesAutocomplete } from '../components/Map';
 
 import { AuthContext } from '../AuthContext/authContext'
 
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { useState } from 'react'
 import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
@@ -19,7 +19,7 @@ import Menue from '../components/Menue'
 
 const LostItem = () => {
 
-
+  const [categories, setCategories] = useState()
   const { token } = useContext(AuthContext)
   const [isDisabled, setIsDisabled] = useState(false)
   const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
@@ -27,26 +27,47 @@ const LostItem = () => {
   const navigate = useNavigate()
   const nameRef = useRef()
   const blurImageRef = useRef()
-  const latRef = useRef()
-  const lngRef = useRef()
+  // const latRef = useRef()
+  // const lngRef = useRef()
   const descriptionRef = useRef()
   const questionsRef = useRef()
-  const placeIdRef = useRef()
+  // const placeIdRef = useRef()
   const categoryIdRef = useRef()
 
   const lostitme = async () => {
     setIsDisabled(true)
+    const getCategories = async () => {
+      const Category = await fetch('http://localhost:3000/category', {
+        method: 'Get',
+        headers: {
+          'Content-Type': 'application/json',
+        }
+      })
+      const json = await Category.json()
+      console.log(json)
+      // window.alert(json.messages)
+      if (json?.success) {
+        setCategories(json?.data)
+      }
+    }
+    // useEffect(() => {
+    //   getCategories()
+    // }, [])
+
+
+
     const response = await fetch('http://localhost:3000/items', {
       method: 'post',
       body: JSON.stringify({
         name: nameRef.current.value,
         blurImage: blurImageRef.current.files[0],
-        lat: latRef.current.value,
-        lng: lngRef.current.value,
+        lat: 46576,
+        lng: 687627,
         description: descriptionRef.current.value,
         questions: questionsRef.current.value,
-        placeId: placeIdRef.current.value,
-        categoryId: categoryIdRef.current.value
+        // placeId: placeIdRef.current.value,
+        categoryId: categoryIdRef.current.value,
+
 
       }),
       headers: {
@@ -100,16 +121,18 @@ const LostItem = () => {
             <div className='d-flex'>
               <div className="col-3 men">
                 <label for="inputAddress" className="form-label d-flex flex-column align-items-start">categories</label>
-                <Menue />
+                <div>
+                </div>
               </div>
-              <div className="col-8 nas">
+              {/* <div className="col-8 nas">
                 <label for="inputAddress" className="form-label d-flex flex-column align-items-start">placeId</label>
                 <input type="text" ref={placeIdRef} className="form-control" id="inputAddress" placeholder="placeId" />
-              </div>
+              </div> */}
             </div>
+            <Menue />
             <div className="col-12">
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 1</label>
-              <input type="text" ref={questionsRef} ref={categoryIdRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
+              <input type="text" ref={questionsRef} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
             </div>
             <div className="col-12 mb-2">
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 2</label>
@@ -118,7 +141,7 @@ const LostItem = () => {
             {/* <dr />
             <dr /> */}
             <div className='col-12 mb-3'>
-              <button className='btn btn-primary w-100' disabled={isDisabled} onClick={lostitme}>Submit</button>
+              <button className='btn btn-primary w-100' onClick={lostitme}>Submit</button>
             </div>
           </form>
         </div>

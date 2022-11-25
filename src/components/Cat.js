@@ -22,7 +22,6 @@ const Cat = ({category}) => {
     useEffect(() => {
         getCategories()
     }, [])
-    console.log("nnnnnnnnnnnnnnnnnnnnnnn",categories)
     return (
         <>
              <div className="cat">

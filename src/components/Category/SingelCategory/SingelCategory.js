@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
+import './SingelCategory.css'
 
 
 
@@ -43,18 +44,16 @@ const SingelCategory = () => {
                                         <div className="card">
                                             <img src={item?.img} className='card' />
                                             <div key={i}>
-                                                <div>{item?.name}</div>
+                                                <h4 className="itemName">{item?.name}</h4>
                                                 <p className="card-text">{item?.des}</p>
                                                 <a href="#" className="btn btn-primary">Go somewhere</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
                             )
                         })}
                     </ul>
-
                 </div>
             </div >
 
