@@ -38,16 +38,25 @@ const SingelCategory = () => {
                     <ul>
                         {items?.map((item, i) => {
                             return (
-                                <div key={i}>
-                                    <div>{item?.name}</div>
-                                    <img src={item?.img} />
+                                <div className="cards">
+                                    <div className="container">
+                                        <div className="card">
+                                            <img src={item?.img} className='card' />
+                                            <div key={i}>
+                                                <div>{item?.name}</div>
+                                                <p className="card-text">{item?.des}</p>
+                                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
                             )
                         })}
                     </ul>
 
                 </div>
-            </div>
+            </div >
 
         </>
     )
