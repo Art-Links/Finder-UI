@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@googlemaps/react-wrapper": "^1.1.35",
+    "@mui/material": "^5.10.15",
     "@reach/combobox": "^0.18.0",
     "@react-google-maps/api": "^2.17.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
     "country-state-city": "^3.1.2",
+    "dayjs": "^1.11.6",
     "gsap": "^3.11.3",
     "react": "^18.2.0",
     "react-dimmer": "^1.0.7",

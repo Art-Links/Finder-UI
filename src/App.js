@@ -11,6 +11,7 @@ import Items from './components/Items/Items';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SingelCategory from './components/Category/SingelCategory/SingelCategory';
+import SingelItem from './components/Items/SingelItem';
 
 
 
@@ -28,7 +29,8 @@ function App() {
         {/* <Route path="/category" element={<Categories />} /> */}
         <Route path="/items" element={<Items />} />
         <Route path="/Map" element={<Map />} />
-        <Route path="/items/:id" element={<SingelCategory />} />
+        <Route path="/singel/:id" element={<SingelCategory />} />
+        <Route path="/item/:id" element={<SingelItem />} />
       </Routes>
       <Footer />
     </div>

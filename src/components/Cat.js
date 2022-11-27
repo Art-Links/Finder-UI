@@ -25,7 +25,7 @@ const Cat = ({category}) => {
     return (
         <>
              <div className="cat">
-                <Link className="at" to={`/items/${category?.id}`}>
+                <Link className="at" to={`/singel/${category?.id}`}>
                     <img src={category?.icon} id="img" />
                     <h5 id="names">{category?.name}</h5>
                 </Link>

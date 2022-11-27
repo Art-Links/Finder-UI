@@ -4,6 +4,8 @@ import logo2 from '../myimages/sonlogo.svg'
 import photo from '../myimages/Uplode.svg'
 import Navbar from '../components/Navbar'
 import Places, { PlacesAutocomplete } from '../components/Map';
+import { MarkerF } from '@react-google-maps/api'
+
 
 import { AuthContext } from '../AuthContext/authContext'
 
@@ -37,72 +39,75 @@ const LostItem = () => {
 
 
 
+
+
   const categoryIdRef = useRef()
   const [cord, setCord] = useState({
     lat: 0,
-    lng:0
-})
+    lng: 0
+  })
 
 
-function Map({ center, zoom, setCord, setPlace }) {
-  const mapRef = useRef(null)
-  const [map, setMap] = useState()
-  console.log(center)
-  useEffect(() => {
+  function Map({ center, zoom, setCord, setPlace }) {
+    const mapRef = useRef(null)
+    const [map, setMap] = useState()
+    console.log(center)
+    useEffect(() => {
       setMap(new window.google.maps.Map(mapRef.current, {
-          center,
-          zoom,
+        center,
+        zoom,
       }));
-  }, []);
-  useEffect(() => {
+    }, []);
+    useEffect(() => {
       if (map) {
-          map.addListener("click", (mapsMouseEvent) => {
-            setPlace(mapsMouseEvent?.placeId)
-              const coordinates = mapsMouseEvent.latLng.toJSON()
-              setCord({
-                lat: coordinates.lat,
-                lng: coordinates.lng
-              })
-          });
+        map.addListener("click", (mapsMouseEvent) => {
+          setPlace(mapsMouseEvent?.placeId)
+          const coordinates = mapsMouseEvent.latLng.toJSON()
+          setCord({
+            lat: coordinates.lat,
+            lng: coordinates.lng
+          })
+        });
       }
       console.log(cord)
-  }, [map])
-  return (<div ref={mapRef} style={{ height: '400px' }} />)
-}
-
-
-  
-  const [categories, setCategories] = useState()
-  const getCategories = async () => {
-      const Category = await fetch(`http://localhost:3000/category`, {
-          method: 'Get',
-          headers: {
-              'Content-Type': 'application/json',
-          }
-      })
-      const json = await Category.json()
-      if (json?.success) {
-          setCategories(json?.data)
-      }
+    }, [map])
+    return (<div ref={mapRef} style={{ height: '400px' }} />)
   }
 
-  useEffect(()=>{
+
+
+  const [categories, setCategories] = useState()
+  const getCategories = async () => {
+    const Category = await fetch(`http://localhost:3000/category`, {
+      method: 'Get',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    })
+    const json = await Category.json()
+    if (json?.success) {
+      setCategories(json?.data)
+    }
+  }
+
+  useEffect(() => {
     getCategories()
-  },[])
+  }, [])
 
   const lostitme = async () => {
     setIsDisabled(true)
     const form = new FormData()
-    form.append("name",nameRef.current.value)
-    form.append('blurImage',blurImageRef.current.files[0])
-    form.append('lat',cord.lat)
-    form.append('lng',cord.lng)
-    form.append('description',descriptionRef.current.value)
-    form.append('questions', [questions1Ref.current.value, questions2Ref.current.value])
-    form.append('placeId',place)
-    form.append('categoryId',categoryIdRef.current.value)
+    form.append("name", nameRef.current.value)
+    form.append('blurImage', blurImageRef.current.files[0])
+    form.append('lat', cord.lat)
+    form.append('lng', cord.lng)
+    form.append('description', descriptionRef.current.value)
+    form.append('questions', [questions1Ref.current.value])
+    form.append('questions', [questions2Ref.current.value])
+    form.append('placeId', place)
+    form.append('categoryId', categoryIdRef.current.value)
     console.log(form)
-    
+
 
     const response = await fetch('http://localhost:3000/items', {
       method: 'post',
@@ -119,10 +124,10 @@ function Map({ center, zoom, setCord, setPlace }) {
 
     if (json.success) {
       // go to sign in
-      navigate('/items')
+      navigate('/')
     }
   }
-  
+
   return (
 
     <div>
@@ -138,7 +143,7 @@ function Map({ center, zoom, setCord, setPlace }) {
             <div>
               <h3>Add an Item</h3>
             </div>
-          
+
             <div class="col-md-12">
               <label for="inputEmail4" className="form-label d-flex flex-column align-items-start">Name</label>
               <input placeholder='Type The Name For Item' type="email" className="form-control" name="email" ref={nameRef} id="inputEmail4" />
@@ -151,8 +156,8 @@ function Map({ center, zoom, setCord, setPlace }) {
               {/* <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label> */}
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Place</label>
               <PlacesAutocomplete setSelected={setSelected} selected={selected} />
-              <Wrapper apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
-                <Map className="mP" setCord={setCord} center={selected} zoom={12} setPlace={setPlace}/>
+              <Wrapper apiKey='AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
+                <Map className="mP" setCord={setCord} center={selected} zoom={9} setPlace={setPlace} />
               </Wrapper>
             </div>
             <div className="col-md-12">
@@ -162,11 +167,11 @@ function Map({ center, zoom, setCord, setPlace }) {
             <div className='d-flex'>
               <div className="col-3 men">
                 <label for="inputAddress" className="form-label d-flex flex-column align-items-start">categories</label>
-                <select ref={categoryIdRef}>
+                <select className='select' ref={categoryIdRef}>
                   {
-                   categories?.length >0 && categories?.map(category =>(
-                    <option key={category?.id} value={category?.id}>{category?.name}</option>
-                   ))  
+                    categories?.length > 0 && categories?.map(category => (
+                      <option key={category?.id} value={category?.id}>{category?.name}</option>
+                    ))
                   }
                 </select>
               </div>
@@ -175,7 +180,6 @@ function Map({ center, zoom, setCord, setPlace }) {
                 <input type="text" ref={placeIdRef} className="form-control" id="inputAddress" placeholder="placeId" />
               </div> */}
             </div>
-            <Menue />
             <div className="col-12">
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 1</label>
               <input type="text" ref={questions1Ref} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
@@ -187,7 +191,7 @@ function Map({ center, zoom, setCord, setPlace }) {
             {/* <dr />
             <dr /> */}
             <div className='col-12 mb-3'>
-              <button className='btn btn-primary w-100'  onClick={lostitme}>Submit</button>
+              <button className='btn btn-primary w-100' onClick={lostitme}>Submit</button>
             </div>
           </form>
         </div>

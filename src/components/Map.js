@@ -3,27 +3,18 @@ import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import React, { useRef, useState, useEffect, useContext, useCallback } from 'react';
 import { AppContext } from '../AuthContext/AppContext';
 import SearchSection from '../components/SearchSection';
-
-
-// import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-
-
 import { useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import { MarkerF } from '@react-google-maps/api'
 import usePlacesAutocomplete, { getGeocode, getLatLng, } from "use-places-autocomplete";
-
-import {
-    Combobox,
-    ComboboxInput,
-    ComboboxPopover,
-    ComboboxList,
-    ComboboxOption,
-} from "@reach/combobox";
+import { Combobox,ComboboxInput,ComboboxPopover,ComboboxList,ComboboxOption,} from "@reach/combobox";
 import "@reach/combobox/styles.css";
+import { useNavigate } from 'react-router-dom';
+
+
 
 export default function Places() {
-    const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });   
+    const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
     return (<Map  selected={selected} >
         <PlacesAutocomplete setSelected={setSelected} selected={selected} />
         </Map >)
@@ -32,6 +23,7 @@ export default function Places() {
 export function Map({children, selected, setSelected}) {
 
     const [Items, setItems] = useState()
+    const Navigate = useNavigate()
     useEffect(() => {
         
         const getItems = async () => {
@@ -55,8 +47,9 @@ export function Map({children, selected, setSelected}) {
         googleMapsApiKey: process.env.apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw',
         libraries: ["places"],
     });                                         
-
+    
     if (!isLoaded) return <div>Loading...</div>;
+    
     return (
         <>
             <div className="places-container">
@@ -69,7 +62,7 @@ export function Map({children, selected, setSelected}) {
             >
                 <MarkerF position={selected} />
                 {Items?.length > 0 && Items?.map((item) => (
-                    <MarkerF position={{lat: parseFloat(item?.latX), lng: parseFloat( item?.longY)}} />
+                    <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{lat: parseFloat(item?.latX), lng: parseFloat( item?.longY)}} />
                 ))}
             </GoogleMap>
         </>

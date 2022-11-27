@@ -57,7 +57,7 @@ const SignIn = () => {
                         <div className=' mb-4'>
                             <img id='logo2' src={logo2} alt='' />
                         </div>
-                        <h1 className='mb-2'>Create Account</h1>
+                        <h1 className='mb-2'>Log In</h1>
                         <div className='form-field mb-3 d-flex flex-column align-items-start'>
                             <label htmlFor='name' className='mb-2'>Name Or Email</label>
                             <input placeholder='Type UserName Or Email' type='text' id="name" ref={accountRef} className='form-control' />

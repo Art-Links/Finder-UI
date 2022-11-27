@@ -5,6 +5,7 @@ import photo2 from '../myimages/photo2.svg'
 import { Link, useNavigate } from 'react-router-dom'
 import { useState, useRef, useEffect, useContext } from 'react'
 import { AuthContext } from "../AuthContext/authContext"
+import RequstedAnswers from '../components/RequstedAnswers/RequstedAnswers'
 
 
 
@@ -95,9 +96,7 @@ const Profile = () => {
     return (
         <div>
             <div class='wrapper'>
-                <div class='bg-image'>
-                    <img id='personal' src={photo2} alt='' />
-                </div>
+             <RequstedAnswers />
                 <div class='registration-form'>
                     <div id='form-div' className='w-100'>
                         <div className=' mb-4'>

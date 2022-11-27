@@ -2,11 +2,30 @@
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Volkhov', serif;
+    display: flex;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+.time {
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+
+#button {
+    margin-right: 110px;
+    padding: 10px;
 }
 
 .card-text {
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Volkhov', serif;
-
+    word-break: normal;
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    margin-right: 10px;
 }

@@ -10,7 +10,7 @@ const ItemCategory = ({ data }) => {
                     <div className="card-body">
                         <h5 className="card-title">{data?.item?.name}</h5>
                         <p className="card-text">{data?.item?.des}</p>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <a href="#" id='bottun' className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>

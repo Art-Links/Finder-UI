@@ -1,5 +1,7 @@
 import { Link, useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
+import dayjs from 'dayjs'
+import relativTime from 'dayjs/plugin/relativeTime'
 import './SingelCategory.css'
 
 
@@ -22,10 +24,17 @@ const SingelCategory = () => {
             setItems(json?.data)
         }
     }
+    const Time = (date) => {
+        dayjs.extend(relativTime)
+        return dayjs(date).fromNow()
+    }
+
     useEffect(() => {
         getItems()
     }, [id])
     console.log(items)
+
+
     return (
         <>
             <div className="">
@@ -44,9 +53,16 @@ const SingelCategory = () => {
                                         <div className="card">
                                             <img src={item?.img} className='card' />
                                             <div key={i}>
-                                                <h4 className="itemName">{item?.name}</h4>
+                                                <div className="itemName mt-2">
+                                                    <h5 >{item?.name}</h5>
+                                                </div>
+                                                <div className="time">
+                                                    <p>{Time(item?.createdAt)}</p>
+                                                </div>
                                                 <p className="card-text">{item?.des}</p>
-                                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                <div id="button">
+                                                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
