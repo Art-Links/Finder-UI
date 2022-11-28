@@ -2,13 +2,11 @@ import React from 'react'
 import '../styles/Signup.css'
 import logo2 from '../myimages/sonlogo.svg'
 import photo from '../myimages/photo.svg'
-import Navbar from '../components/Navbar'
 
 
 import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useState } from "react"
-import { Link } from 'react-router-dom'
 
 
 const SignUp = () => {

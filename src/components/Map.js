@@ -62,8 +62,10 @@ export function Map({children, selected, setSelected}) {
             >
                 <MarkerF position={selected} />
                 {Items?.length > 0 && Items?.map((item) => (
-                    <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{lat: parseFloat(item?.latX), lng: parseFloat( item?.longY)}} />
-                ))}
+                        <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{lat: parseFloat(item?.latX), lng: parseFloat( item?.longY)}} />
+                       
+                    
+                    ))}
             </GoogleMap>
         </>
     );

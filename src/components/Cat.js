@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 
 
-const Cat = ({category}) => {
+const Cat = ({ category }) => {
     const { id } = useParams()
     const [categories, setCategories] = useState()
     const getCategories = async () => {
@@ -24,7 +24,7 @@ const Cat = ({category}) => {
     }, [])
     return (
         <>
-             <div className="cat">
+            <div className="cat">
                 <Link className="at" to={`/singel/${category?.id}`}>
                     <img src={category?.icon} id="img" />
                     <h5 id="names">{category?.name}</h5>

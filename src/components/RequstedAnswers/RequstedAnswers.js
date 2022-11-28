@@ -7,18 +7,23 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { useEffect, useState } from 'react';
+import { useContext } from 'react';
+import { AuthContext } from '../../AuthContext/authContext';
 
 
 
 
 const RequstedAnswers = () => {
     const [items, setItems] = useState([])
+    const { token } = useContext(AuthContext)
     useEffect(() => {
         const getItems = async () => {
             const Item = await fetch(`http://localhost:3000/forms`, {
                 method: 'Get',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`,
+
                 }
             })
             const json = await Item.json()
@@ -30,27 +35,31 @@ const RequstedAnswers = () => {
         getItems()
     }, [])
     return (
-        <TableContainer component={Paper}>
+        <TableContainer style={{
+            width: '900px'
+        }} component={Paper}>
             <Table sx={{ minWidth: 650 }} aria-label="caption table">
-                <caption>Requsted Items</caption>
+                <caption style={{fontWeight: 'bolder'}}>Requsted Items</caption>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Requsted User</TableCell>
-                        <TableCell align="right">Item</TableCell>
-                        <TableCell align="right">Answer For Question 1</TableCell>
-                        <TableCell align="right">Answer For Question 2</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}}>Requsted User</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}} align="right">Item</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}} align="right">Answer For Question 1</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}} align="right">Answer For Question 2</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
                     {items.map((item) => (
-                        <TableRow key={item.name}>
+                        <TableRow key={item?.id}>
                             <TableCell component="th" scope="row">
-                                {item.name}
+                                {item?.User?.userName}
                             </TableCell>
-                            <TableCell align="right">{item.calories}</TableCell>
-                            <TableCell align="right">{item.fat}</TableCell>
-                            <TableCell align="right">{item.carbs}</TableCell>
-                            <TableCell align="right">{item.protein}</TableCell>
+                            <TableCell align="right">{item?.Item?.name}</TableCell>
+                            {item?.answers &&  JSON.parse(item.answers)?.map(ans =>(
+                                <TableCell align="right">{ans?.answer}</TableCell>
+                            )) 
+                                
+                            }
                         </TableRow>
                     ))}
                 </TableBody>

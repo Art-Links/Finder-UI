@@ -1,10 +1,43 @@
 .itemName {
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Volkhov', serif;
+    font-weight: bolder;
     display: flex;
     justify-content: start;
     margin-left: 15px;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+#answer {
+    background-color: rgba(233, 233, 233, 0.345);
+    width: 330px;
+    margin-left: 10px;
+}
+
+.carde{
+    filter: blur(8px);
+    transition: .3s all linear;
+    scale: 0.9;
+    /* height: 700px; */
+}
+
+.card {
+    width: 350px;
+    scale: 0.9;
+    transition: .3s all linear;
+}
+
+.card:hover {
+    background-color: #C8D7D4;
+    color: #282828;
+    transform: scale(1.1);
 }
 
 .time {
@@ -13,11 +46,20 @@
     margin-left: 10px;
     font-family: 'Quicksand', sans-serif;
     color: gray;
+    bottom: 10px;
+}
+
+.Submit {
+    width: 150px;
 }
 
 #button {
-    margin-right: 110px;
+    margin-right: 250px;
     padding: 10px;
+}
+
+.butto {
+    width: 100px;
 }
 
 .card-text {
@@ -25,7 +67,6 @@
     font-family: 'Roboto', sans-serif;
     word-break: normal;
     display: flex;
-    justify-content: start;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
 }

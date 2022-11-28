@@ -3,12 +3,15 @@ import { useState, useEffect } from "react"
 import dayjs from 'dayjs'
 import relativTime from 'dayjs/plugin/relativeTime'
 import './SingelCategory.css'
+import { useNavigate } from 'react-router-dom';
+
 
 
 
 const SingelCategory = () => {
     const { id } = useParams()
     const [items, setItems] = useState([])
+    const Navigate = useNavigate()
     console.log("inside single category")
     const getItems = async () => {
         const Items = await fetch(`http://localhost:3000/category/items/${id}`, {
@@ -38,20 +41,14 @@ const SingelCategory = () => {
     return (
         <>
             <div className="">
-
                 <div id="all-posts">
-
-
-                    {/* {items?.map((item, i) => (
-                        item?.img
-                    ))} */}
                     <ul>
                         {items?.map((item, i) => {
                             return (
                                 <div className="cards">
                                     <div className="container">
                                         <div className="card">
-                                            <img src={item?.img} className='card' />
+                                            <img src={item?.img} className='carde' />
                                             <div key={i}>
                                                 <div className="itemName mt-2">
                                                     <h5 >{item?.name}</h5>
@@ -61,7 +58,7 @@ const SingelCategory = () => {
                                                 </div>
                                                 <p className="card-text">{item?.des}</p>
                                                 <div id="button">
-                                                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                    <a href="#" onClick={() => Navigate(`/item/${item?.id}`)} className="btn btn-primary butto">go</a>
                                                 </div>
                                             </div>
                                         </div>

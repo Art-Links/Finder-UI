@@ -3,6 +3,7 @@ import './auth.css'
 
 export const AuthContext = createContext()
 
+
 const AuthProvider = ({ children }) => {
     const [likeState, setLikeState] = useState(false);
     const [token, setToken] = useState(window.localStorage.getItem('token'))

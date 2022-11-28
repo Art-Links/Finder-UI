@@ -32,26 +32,29 @@ const SingelItem = () => {
         getItem()
     }, [])
 
-
+console.log(item)
     return (
         <>
             <div className="">
-                <div id="all-posts">
-                    <div className="cards">
-                        <div className="container">
-                            <div className="card">
-                                <img src={item?.img} className='card' />
-                                <div key={item?.id}>
-                                    <div className="itemName mt-2">
-                                        <h5 >{item?.name}</h5>
+                <div className="cards">
+                    <div className="container">
+                        <div className="card">
+                            <img src={item?.img} className='card' />
+                            <div key={item?.id}>
+                                <div className="itemName mt-2">
+                                    <h5 >{item?.name}</h5>
+                                </div>
+                                <div className="time">
+                                    <p>{Time(item?.createdAt)}</p>
+                                </div>
+                                <p className="card-text">{item?.des}</p>
+                                {item?.questions?.map(question => (
+                                    <div key={question?.id}>
+                                        <p>{question?.question}</p>
                                     </div>
-                                    <div className="time">
-                                        <p>{Time(item?.createdAt)}</p>
-                                    </div>
-                                    <p className="card-text">{item?.des}</p>
-                                    <div id="button">
-                                        <a href="#" className="btn btn-primary">Go somewhere</a>
-                                    </div>
+                                ))}
+                                <div id="button">
+                                    <a href="#" className="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>

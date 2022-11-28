@@ -12,10 +12,15 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SingelCategory from './components/Category/SingelCategory/SingelCategory';
 import SingelItem from './components/Items/SingelItem';
+import { AuthContext } from './AuthContext/authContext';
+import { useContext } from 'react';
 
 
 
 function App() {
+
+  const { loggedIn } = useContext(AuthContext)
+
   return (
     <div className="App">
       <Navbar />
@@ -23,9 +28,9 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/subnavbar" element={<Subnavbar />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/lostitem" element={<LostItem />} />
+        {/* <Route path="/subnavbar" element={<Subnavbar />} /> */}
+        {loggedIn && <Route path="/profile" element={<Profile />} />}
+        {loggedIn && <Route path="/lostitem" element={<LostItem />} />}
         {/* <Route path="/category" element={<Categories />} /> */}
         <Route path="/items" element={<Items />} />
         <Route path="/Map" element={<Map />} />
