@@ -7,7 +7,7 @@ import { useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import { MarkerF } from '@react-google-maps/api'
 import usePlacesAutocomplete, { getGeocode, getLatLng, } from "use-places-autocomplete";
-import { Combobox,ComboboxInput,ComboboxPopover,ComboboxList,ComboboxOption,} from "@reach/combobox";
+import { Combobox, ComboboxInput, ComboboxPopover, ComboboxList, ComboboxOption, } from "@reach/combobox";
 import "@reach/combobox/styles.css";
 import { useNavigate } from 'react-router-dom';
 
@@ -15,17 +15,17 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Places() {
     const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
-    return (<Map  selected={selected} >
+    return (<Map selected={selected} >
         <PlacesAutocomplete setSelected={setSelected} selected={selected} />
-        </Map >)
+    </Map >)
 }
 
-export function Map({children, selected, setSelected}) {
+export function Map({ children, selected, setSelected }) {
 
     const [Items, setItems] = useState()
     const Navigate = useNavigate()
     useEffect(() => {
-        
+
         const getItems = async () => {
             const Item = await fetch('http://localhost:3000/items', {
                 method: 'Get',
@@ -46,33 +46,31 @@ export function Map({children, selected, setSelected}) {
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: process.env.apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw',
         libraries: ["places"],
-    });                                         
-    
+    });
+
     if (!isLoaded) return <div>Loading...</div>;
-    
+
     return (
         <>
             <div className="places-container">
-            {children}
+                {children}
             </div>
             <GoogleMap
-                zoom={9.5}
+                zoom={10}
                 center={selected || { lat: 41.015137, lng: 28.979530 }}
                 mapContainerClassName="map-container"
             >
                 <MarkerF position={selected} />
                 {Items?.length > 0 && Items?.map((item) => (
-                        <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{lat: parseFloat(item?.latX), lng: parseFloat( item?.longY)}} />
-                       
-                    
-                    ))}
+                        <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }} />
+                ))}
             </GoogleMap>
         </>
     );
 }
 
 
-export const  PlacesAutocomplete = ({ setSelected, selected }) => {
+export const PlacesAutocomplete = ({ setSelected, selected }) => {
     let {
         ready,
         value,
@@ -81,9 +79,9 @@ export const  PlacesAutocomplete = ({ setSelected, selected }) => {
         clearSuggestions,
     } = usePlacesAutocomplete({
         initOnMount: true, // Disable initializing when the component mounts, default is true
-      });
+    });
 
-    
+
     const handleSelect = async (address) => {
         setValue(address, false);
         clearSuggestions();
@@ -97,7 +95,7 @@ export const  PlacesAutocomplete = ({ setSelected, selected }) => {
         setValue(e.target.value)
 
     }
-    
+
     return (
         <Combobox onSelect={handleSelect} className='hus' >
             <ComboboxInput

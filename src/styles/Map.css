@@ -5,6 +5,7 @@
     min-height: calc(100vh - 60px);
 }
 
+
 .div:hover {
     color: rgba(0, 0, 0, .5);
 }

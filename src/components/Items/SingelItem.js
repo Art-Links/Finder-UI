@@ -36,16 +36,17 @@ const SingelItem = () => {
 
 
 
-    const [answers, setAnswers] = useState([{id: 0, answer:''},{id: 0, answers:''}])
+    const [answers, setAnswers] = useState([{id: 0, answer:''},{id: 0, answer:''}])
     const { token } = useContext(AuthContext)
     const navigate = useNavigate()
-    console.log(answers)
-    const Answer = async () => {
-        
+
+    const Answer = async (id) => {
+        console.log('::',answers)
         const answer = await fetch(`http://localhost:3000/forms`, {
             method: 'post',
             body: JSON.stringify({
                 answers,
+                itemId:id
             }),
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -55,7 +56,7 @@ const SingelItem = () => {
         const json = await answer.json()
         window.alert(json.messages.join(', '))
         if (json.success) {
-            navigate('/')
+            window.alert(json.messages)
         }
     }
 
@@ -83,14 +84,14 @@ const SingelItem = () => {
                                                     const newAnswers = [...answers]
                                                     newAnswers[index] = {
                                                         id: question?.id,
-                                                        answers: e.target.value
+                                                        answer: e.target.value
                                                     }
                                                     setAnswers([...newAnswers])
                                                 }} />
                                         </div>
                                     ))}
                                     <div id="button">
-                                        <a href="#" onClick={Answer} className="btn btn-primary mt-4 mb-3 Submit">Submit</a>
+                                        <a href="#" onClick={()=>Answer(item?.id)} className="btn btn-primary mt-4 mb-3 Submit">Submit</a>
                                     </div>
                                 </div>
                             </div>
