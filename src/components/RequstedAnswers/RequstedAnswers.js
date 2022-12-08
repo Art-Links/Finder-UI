@@ -30,6 +30,7 @@ const RequstedAnswers = () => {
             // window.alert(json.messages)
             if (json?.success) {
                 setItems(json?.data)
+                console.log(json.data)
             }
         }
         getItems()

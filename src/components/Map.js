@@ -17,7 +17,10 @@ export default function Places() {
     const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
     return (<Map selected={selected} >
         <PlacesAutocomplete setSelected={setSelected} selected={selected} />
+<<<<<<< HEAD
 
+=======
+>>>>>>> cbcf1bb026a83d03a712eab628500f5d5dfac0c3
     </Map >)
 }
 
@@ -57,7 +60,7 @@ export function Map({ children, selected, setSelected }) {
                 {children}
             </div>
             <GoogleMap
-                zoom={9.5}
+                zoom={10}
                 center={selected || { lat: 41.015137, lng: 28.979530 }}
                 mapContainerClassName="map-container"
 
@@ -67,16 +70,25 @@ export function Map({ children, selected, setSelected }) {
                 {/* icon:"http://maps.google.com/mapfiles/ms/icons/blue-dot.png" */}
 
                 {Items?.length > 0 && Items?.map((item) => (
+<<<<<<< HEAD
                     <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }}
                     />
                 ))}
 
+=======
+                        <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }} />
+                ))}
+>>>>>>> cbcf1bb026a83d03a712eab628500f5d5dfac0c3
             </GoogleMap>
 
         </>
     );
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cbcf1bb026a83d03a712eab628500f5d5dfac0c3
 export const PlacesAutocomplete = ({ setSelected, selected }) => {
     let {
         ready,
@@ -103,6 +115,10 @@ export const PlacesAutocomplete = ({ setSelected, selected }) => {
         setValue(e.target.value)
 
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> cbcf1bb026a83d03a712eab628500f5d5dfac0c3
     return (
         <Combobox onSelect={handleSelect} className='hus' >
             <ComboboxInput

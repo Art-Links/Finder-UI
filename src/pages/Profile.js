@@ -2,7 +2,7 @@ import '../styles/Profile.css'
 import user from '../myimages/user.png'
 import logo2 from '../myimages/sonlogo.svg'
 import photo2 from '../myimages/photo2.svg'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useState, useRef, useEffect, useContext } from 'react'
 import { AuthContext } from "../AuthContext/authContext"
 import RequstedAnswers from '../components/RequstedAnswers/RequstedAnswers'
@@ -59,10 +59,11 @@ const Profile = () => {
         })
         const json = await response.json()
         setLoading(false)
-        window.alert(json.messages.join(', '))
+        window.alert(json.messages)
         if (json.success) {
-            logOut()
-            if (!loggedIn) navigate('/signin')
+        window.alert(json.messages)
+        navigate('/')
+
         }
     }
 
@@ -92,11 +93,11 @@ const Profile = () => {
     //         })
     //     }
     // }
-    
+
     return (
         <div>
             <div class='wrapper'>
-             <RequstedAnswers />
+                <RequstedAnswers />
                 <div class='registration-form'>
                     <div id='form-div' className='w-100'>
                         <div className=' mb-4'>
@@ -128,12 +129,12 @@ const Profile = () => {
                             <input placeholder='Password Confirmation' type='password' id="password_confirmation" onChange={(e) => setCurrentUser({ ...currentUser, new_password_confirmation: e.target.value })} className='form-control' />
                         </div>
                         {/* <div className='row'> */}
-                            {/* <div className='col-5'>
+                        {/* <div className='col-5'>
                         <Link className='btn btn-dark w-100' to='/signin'>Go To Login</Link>
                     </div> */}
-                            <div className='col-12 mb-4'>
-                                    <button onClick={updateProfile} disabled={loading} className='btn btn-primary w-100'>{loading ? 'Updateing' : 'Update'}</button>
-                            </div>
+                        <div className='col-12 mb-4'>
+                            <button onClick={updateProfile} className='btn btn-primary w-100'>{loading ? 'Updateing' : 'Update'}</button>
+                        </div>
                         {/* </div> */}
                     </div>
                 </div>
