@@ -7,6 +7,7 @@ import Map from '../components/Map';
 
 import '../styles/Home.css'
 import { useEffect, useState } from 'react';
+import { LoadScriptNext } from '@react-google-maps/api';
 
 
 const Home = () => {
@@ -21,11 +22,25 @@ const Home = () => {
             }) 
         })
     },[])
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+        loader.style.display = "none"
+    })
 
     return (
+        <>
+        {/* <div id='preloader'></div> */}
         <div className='home-page'>
             <Map lat={coords?.lat} long={coords?.long}/>
         </div>
+
+
+        <script>
+           
+        </script>
+
+
+        </>
     )
 }
 export default Home;

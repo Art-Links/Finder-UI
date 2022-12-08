@@ -264,6 +264,7 @@ footer {
 
 #By {
     margin-right: 10px;
+
 }
 
 .lower-right-footer li {
@@ -366,11 +367,26 @@ footer {
 
 }
 
+.footercontent {
+    color: #282828;
+    padding: 5px;
+}
+
 .hed {
     z-index: 100;
     position: relative;
     opacity: 100%;
 }
+
+/* HOme main page */
+/* #preloader{
+    background: #000 url(../myimages/loader.gif) no-repeat center center ;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+} */
 
 
 @media only screen and (max-width: 390px) {
@@ -450,6 +466,7 @@ footer {
         width: 1px;
     }
 }
+
 @media only screen and (max-width: 420px) {
     .logo-img {
         margin-top: -52;
@@ -459,5 +476,26 @@ footer {
     .places-container {
         margin-right: 298px;
         width: 1px;
+    }
+}
+
+/* footer */
+@media only screen and (max-width: 590px) {
+    #By {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    #go-up {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    #footer {
+        display: flex;
+        align-items: center;
+        height: 43px;
     }
 }
