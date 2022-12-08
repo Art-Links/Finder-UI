@@ -59,16 +59,20 @@ export function Map({ children, selected, setSelected }) {
                 zoom={10}
                 center={selected || { lat: 41.015137, lng: 28.979530 }}
                 mapContainerClassName="map-container"
+
             >
-                <MarkerF position={selected} />
+
+                <MarkerF position={selected} />,
+                {/* icon:"http://maps.google.com/mapfiles/ms/icons/blue-dot.png" */}
+
                 {Items?.length > 0 && Items?.map((item) => (
                         <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }} />
                 ))}
             </GoogleMap>
+
         </>
     );
 }
-
 
 export const PlacesAutocomplete = ({ setSelected, selected }) => {
     let {
@@ -88,6 +92,7 @@ export const PlacesAutocomplete = ({ setSelected, selected }) => {
 
         const results = await getGeocode({ address });
         const { lat, lng } = await getLatLng(results[0]);
+        
 
         setSelected({ lat, lng });
     };
@@ -95,7 +100,6 @@ export const PlacesAutocomplete = ({ setSelected, selected }) => {
         setValue(e.target.value)
 
     }
-
     return (
         <Combobox onSelect={handleSelect} className='hus' >
             <ComboboxInput
