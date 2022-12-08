@@ -44,7 +44,7 @@ const ResponsiveNavbar = () => {
                                         <Link  className="link dropdown-item" to={'/signup'}>Sign Up</Link>
                                         <Link className="link dropdown-item" to={'/signin'}>Sign In</Link>
                                 </> :
-                                    <a onClick={logOut} className="link dropdown-item" to={'/'}>Sign Out</a>
+                                    <Link onClick={logOut} className="link dropdown-item" to={'/'}>Sign Out</Link>
                                 }
                                 <Link to='/lostitem'  id="plus-icon" className=" fa-solid fa-circle-plus"></Link>
                             </ul>

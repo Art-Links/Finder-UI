@@ -32,7 +32,7 @@ const Navbar = () => {
                             </li>
                         </> :
                         <li>
-                            <a onClick={logOut} class="link" to={'/signin'}>Sign Out</a>
+                            <Link onClick={logOut} class="link" to={'/signin'}>Sign Out</Link>
                         </li>}
                     <li className='key-icon'>
                         <Link to='/lostitem' id="key-icon" class="fa-solid fa-circle-plus"></Link>
