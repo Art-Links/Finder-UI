@@ -13,6 +13,7 @@ import { AuthContext } from '../../AuthContext/authContext';
 
 
 
+
 const RequstedAnswers = () => {
     const [items, setItems] = useState([])
     const { token } = useContext(AuthContext)
@@ -36,8 +37,11 @@ const RequstedAnswers = () => {
         getItems()
     }, [])
     return (
-        <TableContainer style={{
-            width: '900px'
+        <TableContainer id='alo' style={{
+            width: 'fit-content',
+            height: '100%',
+            display: 'flex',
+            justify_content: 'start',
         }} component={Paper}>
             <Table sx={{ minWidth: 650 }} aria-label="caption table">
                 <caption style={{fontWeight: 'bolder'}}>Requsted Items</caption>

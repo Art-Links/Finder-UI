@@ -65,13 +65,15 @@ const LostItem = () => {
           const coordinates = mapsMouseEvent.latLng.toJSON()
           setCord({
             lat: coordinates.lat,
-            lng: coordinates.lng
+            lng: coordinates.lng,
           })
         });
       }
       console.log(cord)
     }, [map])
-    return (<div ref={mapRef} style={{ height: '400px' }} />)
+    return ( 
+    <div ref={mapRef} style={{ height: '400px' }} />
+    )
   }
 
 

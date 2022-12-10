@@ -43,7 +43,7 @@ export function Map({ children, selected, setSelected }) {
     }, [])
 
 
-    const { isLoaded } = useLoadScript({
+    const { isLoaded, data } = useLoadScript({
         googleMapsApiKey: process.env.apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw',
         libraries: ["places"],
     });
@@ -59,14 +59,14 @@ export function Map({ children, selected, setSelected }) {
                 zoom={10}
                 center={selected || { lat: 41.015137, lng: 28.979530 }}
                 mapContainerClassName="map-container"
-
             >
 
                 <MarkerF position={selected} />,
                 {/* icon:"http://maps.google.com/mapfiles/ms/icons/blue-dot.png" */}
-
                 {Items?.length > 0 && Items?.map((item) => (
-                        <MarkerF onClick={() => Navigate(`/item/${item?.id}`)} position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }} />
+                    <div>
+                        <Marker className='MarkerF' onClick={() => Navigate(`/item/${item?.id}`)} position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }}/> 
+                    </div>
                 ))}
             </GoogleMap>
 
@@ -92,7 +92,7 @@ export const PlacesAutocomplete = ({ setSelected, selected }) => {
 
         const results = await getGeocode({ address });
         const { lat, lng } = await getLatLng(results[0]);
-        
+
 
         setSelected({ lat, lng });
     };

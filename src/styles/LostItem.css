@@ -53,6 +53,11 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    .bg-images {
+        opacity: .2;
+    }
+}
 
 .registration-forms img {
     width: 120px;

@@ -61,8 +61,8 @@ const Profile = () => {
         setLoading(false)
         window.alert(json.messages)
         if (json.success) {
-        window.alert(json.messages)
-        navigate('/')
+            window.alert(json.messages)
+            navigate('/')
 
         }
     }
@@ -96,13 +96,12 @@ const Profile = () => {
 
     return (
         <div>
-            <div class='wrapper'>
-                <RequstedAnswers />
-                <div class='registration-form'>
+            <div className='wrapper'>
+                <div className='answers'>
+                    <RequstedAnswers />
+                </div>
+                <div className='registration-form'>
                     <div id='form-div' className='w-100'>
-                        <div className=' mb-4'>
-                            <img id='user' src={user} alt='' />
-                        </div>
                         <div className=' mb-4'>
                             <img id='logo2' src={logo2} alt='' />
                         </div>

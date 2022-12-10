@@ -2,55 +2,48 @@
     background-color: rgb(211, 211, 201);
 }  */
 
-.wrapper {
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-}
-.bg-image {
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    max-width: 800px;
-    height: 100vh;
-}
+
 
 .registration-form {
     padding: 10px 20px;
     max-width: 100%;
     width: 400px;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     min-height: 100vh;
     display: flex;
     align-items: center;
     position: relative;
     z-index: 3;
 }
+
 .registration-form .form-control::placeholder {
     color: #CCC;
 }
-#user{
+
+#user {
     width: 45%;
     /* margin-top: -100px; */
 }
-@media screen and (max-width: 768px) {
-    .bg-image {
-        opacity: .2;
-    }
-}
+
 
 
 @media screen and (max-width: 576px) {
     .registration-form {
         width: 100%;
     }
+
+    .answers {
+        display: none;
+    }
+}
+
+.answers {
+    position: absolute; 
+    left: 0;
+    height: 100%;
 }
 
 
-.registration-form img {
-    width: 120px;
-}
 .title {
     font-weight: 600;
 }
