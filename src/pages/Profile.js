@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import { useState, useRef, useEffect, useContext } from 'react'
 import { AuthContext } from "../AuthContext/authContext"
 import RequstedAnswers from '../components/RequstedAnswers/RequstedAnswers'
+import Info from './Info'
 
 
 
@@ -61,8 +62,8 @@ const Profile = () => {
         setLoading(false)
         window.alert(json.messages)
         if (json.success) {
-        window.alert(json.messages)
-        navigate('/')
+            window.alert(json.messages)
+            navigate('/')
 
         }
     }
@@ -96,6 +97,7 @@ const Profile = () => {
 
     return (
         <div>
+            <Info />
             <div class='wrapper'>
                 <RequstedAnswers />
                 <div class='registration-form'>

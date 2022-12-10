@@ -14,6 +14,7 @@ import SingelCategory from './components/Category/SingelCategory/SingelCategory'
 import SingelItem from './components/Items/SingelItem';
 import { AuthContext } from './AuthContext/authContext';
 import { useContext } from 'react';
+import Info from './pages/Info';
 
 
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Map" element={<Map />} />
         <Route path="/singel/:id" element={<SingelCategory />} />
         <Route path="/item/:id" element={<SingelItem />} />
+        <Route path="/info" element={<Info />} />
       </Routes>
       <Footer />
     </div>
