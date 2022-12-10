@@ -29,17 +29,9 @@ const Home = () => {
 
     return (
         <>
-        {/* <div id='preloader'></div> */}
         <div className='home-page'>
             <Map lat={coords?.lat} long={coords?.long}/>
         </div>
-
-
-        <script>
-           
-        </script>
-
-
         </>
     )
 }

@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import { useState, useRef, useEffect, useContext } from 'react'
 import { AuthContext } from "../AuthContext/authContext"
 import RequstedAnswers from '../components/RequstedAnswers/RequstedAnswers'
+import Info from './Info'
 
 
 
@@ -96,11 +97,10 @@ const Profile = () => {
 
     return (
         <div>
-            <div className='wrapper'>
-                <div className='answers'>
-                    <RequstedAnswers />
-                </div>
-                <div className='registration-form'>
+            <Info />
+            <div class='wrapper'>
+                <RequstedAnswers />
+                <div class='registration-form'>
                     <div id='form-div' className='w-100'>
                         <div className=' mb-4'>
                             <img id='logo2' src={logo2} alt='' />
