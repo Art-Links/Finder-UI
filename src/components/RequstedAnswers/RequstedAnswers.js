@@ -38,19 +38,19 @@ const RequstedAnswers = () => {
     }, [])
     return (
         <TableContainer id='alo' style={{
-            width: 'fit-content',
+            width: '100%',
             height: '100%',
             display: 'flex',
             justify_content: 'start',
         }} component={Paper}>
             <Table sx={{ minWidth: 650 }} aria-label="caption table">
-                <caption style={{fontWeight: 'bolder'}}>Requsted Items</caption>
+                <caption style={{ fontWeight: 'bolder' }}>Requsted Items</caption>
                 <TableHead>
                     <TableRow>
-                        <TableCell style={{fontWeight: 'bold'}}>Requsted User</TableCell>
-                        <TableCell style={{fontWeight: 'bold'}} align="right">Item</TableCell>
-                        <TableCell style={{fontWeight: 'bold'}} align="right">Answer For Question 1</TableCell>
-                        <TableCell style={{fontWeight: 'bold'}} align="right">Answer For Question 2</TableCell>
+                        <TableCell style={{ fontWeight: 'bold' }}>Requsted User</TableCell>
+                        <TableCell style={{ fontWeight: 'bold' }} align="right">Item</TableCell>
+                        <TableCell style={{ fontWeight: 'bold' }} align="right">Answer For Question 1</TableCell>
+                        <TableCell style={{ fontWeight: 'bold' }} align="right">Answer For Question 2</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -60,10 +60,12 @@ const RequstedAnswers = () => {
                                 {item?.User?.userName}
                             </TableCell>
                             <TableCell align="right">{item?.Item?.name}</TableCell>
-                            {item?.answers &&  JSON.parse(item.answers)?.map(ans =>(
-                                <TableCell align="right">{ans?.answer}</TableCell>
-                            )) 
-                                
+                            {item?.answers && JSON.parse(item.answers)?.map(ans => (
+                                <>
+                                        <TableCell align="right">{ans?.question}</TableCell>
+                                        <TableCell align="row">{ans?.answer}</TableCell>
+                                </>
+                            ))
                             }
                         </TableRow>
                     ))}

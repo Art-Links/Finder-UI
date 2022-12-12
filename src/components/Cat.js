@@ -13,7 +13,7 @@ const Cat = ({ category }) => {
             }
         })
         const json = await Items.json()
-        console.log(json)
+        // console.log(json)
         // window.alert(json.messages)
         if (json?.success) {
             setCategories(json?.data)

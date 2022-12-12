@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Info.css'
 import Photo from '../myimages/breacelet.jpg'
 import { Link } from 'react-router-dom'
+import RequstedAnswers from '../components/RequstedAnswers/RequstedAnswers'
 
 const Info = () => {
     return (
@@ -26,6 +27,9 @@ const Info = () => {
                         <h5 className='a' href="#">We<i classname="fa fa-twitter"></i></h5 >
                         <h5 className='a' href="#">Are<i classname="fa fa-linkedin"></i></h5 >
                         <h5 className='a' href="#">The Finder<i classname="fa fa-facebook"></i></h5 >
+                    </div>
+                    <div>
+                        <RequstedAnswers />
                     </div>
                 </div>
             </div>
