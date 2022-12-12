@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/LostItem.css'
 import logo2 from '../myimages/sonlogo.svg'
 import photo from '../myimages/Uplode.svg'
-import Navbar from '../components/Navbar'
 import Places, { PlacesAutocomplete } from '../components/Map';
 import { MarkerF } from '@react-google-maps/api'
 
@@ -13,7 +12,6 @@ import { useRef, useEffect } from 'react'
 import { useState } from 'react'
 import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
@@ -28,13 +26,9 @@ const LostItem = () => {
   const navigate = useNavigate()
   const nameRef = useRef()
   const blurImageRef = useRef()
-  // const latRef = useRef()
-  // const lngRef = useRef()
   const descriptionRef = useRef()
   const questions1Ref = useRef()
   const questions2Ref = useRef()
-
-  // const placeIdRef = useRef()
   const [place, setPlace] = useState("")
 
 
@@ -155,7 +149,6 @@ const LostItem = () => {
               <input ref={blurImageRef} type="file" id="myFile" name="blurImage" />
             </div>
             <div className="col-md-12 MP">
-              {/* <label for="inputPassword4" className="form-label d-flex flex-column align-items-start">lat</label> */}
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Place</label>
               <PlacesAutocomplete setSelected={setSelected} selected={selected} />
               <Wrapper apiKey='AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw'>
@@ -177,10 +170,6 @@ const LostItem = () => {
                   }
                 </select>
               </div>
-              {/* <div className="col-8 nas">
-                <label for="inputAddress" className="form-label d-flex flex-column align-items-start">placeId</label>
-                <input type="text" ref={placeIdRef} className="form-control" id="inputAddress" placeholder="placeId" />
-              </div> */}
             </div>
             <div className="col-12">
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 1</label>
@@ -190,8 +179,6 @@ const LostItem = () => {
               <label for="inputAddress" className="form-label d-flex flex-column align-items-start">Questions 2</label>
               <input type="text" ref={questions2Ref} className="form-control" id="inputAddress" placeholder="Ask Your Question" />
             </div>
-            {/* <dr />
-            <dr /> */}
             <div className='col-12 mb-3'>
               <button className='btn btn-primary w-100' onClick={lostitme}>Submit</button>
             </div>

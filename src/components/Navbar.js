@@ -39,7 +39,7 @@ const Navbar = () => {
                     </li>
                     
                         <div class="circle-shadow">
-                            <Link to='/profile' class="user-icon" href=""><span>E</span></Link>
+                            <Link to='/info' class="user-icon" href=""><span>E</span></Link>
                         </div>
                     
                 </ul>

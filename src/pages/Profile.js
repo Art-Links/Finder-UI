@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom'
 import { useState, useRef, useEffect, useContext } from 'react'
 import { AuthContext } from "../AuthContext/authContext"
 import RequstedAnswers from '../components/RequstedAnswers/RequstedAnswers'
-import Info from './Info'
 
 
 
@@ -97,9 +96,10 @@ const Profile = () => {
 
     return (
         <div>
-            <Info />
             <div class='wrapper'>
-                <RequstedAnswers />
+                <div className='answers'>
+                    <RequstedAnswers />
+                </div>
                 <div class='registration-form'>
                     <div id='form-div' className='w-100'>
                         <div className=' mb-4'>

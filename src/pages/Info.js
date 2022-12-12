@@ -1,34 +1,36 @@
 import React from 'react'
 import '../styles/Info.css'
+import Photo from '../myimages/breacelet.jpg'
+import { Link } from 'react-router-dom'
 
 const Info = () => {
     return (
         <>
-            <div>
-                <link rel="stylesheet"
-                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
-                <h2 style="text-align:center">User Profile Card</h2>
-
-                <div class="card">
-                    <img src="H:\pictures\artwork_Alice__Madness_Returns_Cheshire_Cat_1920x1200.jpg" alt="John"/>
-                        <img id="avatar" src="H:\pictures\artwork_Alice__Madness_Returns_Cheshire_Cat_1920x1200.jpg" alt="John"/>
-                            <span id="edit-avatar" class="material-symbols-outlined">edit</span>
-                            <div id="information">
-                                <h1>Emad & Abdullmalek</h1>
-                                <p class="title">CEO & Founder, Example</p>
-                                <p>Harvard University</p>
-                            </div>
-                            <div style="margin: 24px 0;">
-                                <a href="#">Hello<i class="fa fa-dribbble"></i></a>
-                                <a href="#">We<i class="fa fa-twitter"></i></a>
-                                <a href="#">Are<i class="fa fa-linkedin"></i></a>
-                                <a href="#">The Finder<i class="fa fa-facebook"></i></a>
-                            </div>
+            <div className='container emad'>
+                <h2 className='h2'>User Profile Card</h2>
+                <div classname="cardss">
+                    <div className='personal'>
+                        <img id='bg' src={Photo} />
+                        <div>
+                            <img id="avatar" src={Photo} />
+                            <Link to={'/profile'}><span id="edit-avatar" className="material-symbols-outlined">edit</span></Link>
                         </div>
+                    </div>
+                    <div id="information">
+                        <h1>Emad & Abdullmalek</h1>
+                        <p classname="title">CEO & Founder, Example</p>
+                        <p>Harvard University</p>
+                    </div>
+                    <div classnameName='por'>
+                        <h5 className='a' href="#">Hello We Are The Finder<i classname="fa fa-dribbble"></i></h5 >
+                        <h5 className='a' href="#">We<i classname="fa fa-twitter"></i></h5 >
+                        <h5 className='a' href="#">Are<i classname="fa fa-linkedin"></i></h5 >
+                        <h5 className='a' href="#">The Finder<i classname="fa fa-facebook"></i></h5 >
+                    </div>
                 </div>
-            </>
-            )
+            </div>
+        </>
+    )
 }
 
-            export default Info
+export default Info
