@@ -5,7 +5,34 @@
     min-height: calc(100vh - 60px);
 }
 
+#des {
+    padding: 5px;
+}
 
+
+#imgg {
+    width: 100px;
+    filter: blur(6px);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.times {
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+    float: left;
+}
+
+
+#nema {
+    max-width: fit-content;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: #282828;
+}
 
 
 .div:hover {

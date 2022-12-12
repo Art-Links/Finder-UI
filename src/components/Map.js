@@ -4,14 +4,17 @@ import React, { useRef, useState, useEffect, useContext, useCallback } from 'rea
 import { AppContext } from '../AuthContext/AppContext';
 import SearchSection from '../components/SearchSection';
 import { useMemo } from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import { GoogleMap, useLoadScript, Marker, InfoWindow } from "@react-google-maps/api";
 import { MarkerF } from '@react-google-maps/api'
 import usePlacesAutocomplete, { getGeocode, getLatLng, } from "use-places-autocomplete";
 import { Combobox, ComboboxInput, ComboboxPopover, ComboboxList, ComboboxOption, } from "@reach/combobox";
 import "@reach/combobox/styles.css";
-import { useNavigate } from 'react-router-dom';
+import dayjs from 'dayjs'
+import { Link, useNavigate } from 'react-router-dom';
+import relativTime from 'dayjs/plugin/relativeTime'
+import Des from './Des';
 
-
+const google = window.google
 
 export default function Places() {
     const [selected, setSelected] = useState({ lat: 41.015137, lng: 28.979530 });
@@ -23,6 +26,7 @@ export default function Places() {
 export function Map({ children, selected, setSelected }) {
 
     const [Items, setItems] = useState()
+    const [activeMarker, setActiveMarker] = useState(null)
     const Navigate = useNavigate()
     useEffect(() => {
 
@@ -42,6 +46,10 @@ export function Map({ children, selected, setSelected }) {
         getItems()
     }, [])
 
+    const Time = (date) => {
+        dayjs.extend(relativTime)
+        return dayjs(date).fromNow()
+    }
 
     const { isLoaded, data } = useLoadScript({
         googleMapsApiKey: process.env.apiKey = 'AIzaSyCYOS72gqy9Hubh0rz6MU6lLg6Zjo7DSEw',
@@ -62,10 +70,37 @@ export function Map({ children, selected, setSelected }) {
             >
 
                 <MarkerF position={selected} />,
+
                 {/* icon:"http://maps.google.com/mapfiles/ms/icons/blue-dot.png" */}
                 {Items?.length > 0 && Items?.map((item) => (
                     <div>
-                        <Marker className='MarkerF' onClick={() => Navigate(`/item/${item?.id}`)} position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }}/> 
+                        <Marker
+                            onClick={() => Navigate(`/item/${item?.id}`)}
+                            onMouseOver={() => setActiveMarker(item.id)}
+                            position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }}
+                            icon={{
+                                url: item?.Category?.icon,
+                                // scale: 1,
+                                scaledSize: new google.maps.Size(40, 40)
+                            }}
+                        >
+                            {
+                                activeMarker == item.id &&
+                                <InfoWindow onCloseClick={() => setActiveMarker(0)}>
+                                    <Link to={`/item/${item?.id}`}>
+                                        <div id='des'>
+                                            <img id='imgg' src={item?.img} />
+                                            <div>
+                                                <div className="times">
+                                                    <p>{Time(item?.createdAt)}</p>
+                                                </div>
+                                                <div id='nema'>{item?.name}</div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </InfoWindow>
+                            }
+                        </Marker>
                     </div>
                 ))}
             </GoogleMap>
