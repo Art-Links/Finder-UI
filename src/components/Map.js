@@ -69,11 +69,10 @@ export function Map({ children, selected, setSelected }) {
                 mapContainerClassName="map-container"
             >
 
-                <MarkerF position={selected} />,
+                <MarkerF position={selected} />
 
                 {/* icon:"http://maps.google.com/mapfiles/ms/icons/blue-dot.png" */}
                 {Items?.length > 0 && Items?.map((item) => (
-                    <div>
                         <Marker
                             onClick={() => Navigate(`/item/${item?.id}`)}
                             onMouseOver={() => setActiveMarker(item.id)}
@@ -81,7 +80,7 @@ export function Map({ children, selected, setSelected }) {
                             icon={{
                                 url: item?.Category?.icon,
                                 // scale: 1,
-                                scaledSize: new google.maps.Size(40, 40)
+                                scaledSize: new google.maps.Size(40)
                             }}
                         >
                             {
@@ -101,7 +100,6 @@ export function Map({ children, selected, setSelected }) {
                                 </InfoWindow>
                             }
                         </Marker>
-                    </div>
                 ))}
             </GoogleMap>
 

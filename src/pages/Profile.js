@@ -98,6 +98,7 @@ const Profile = () => {
         <div>
             <div class='wrapper'>
                 <div className='answers'>
+                    <img id='personal' src={photo2} alt='' />
                 </div>
                 <div class='registration-form'>
                     <div id='form-div' className='w-100'>
