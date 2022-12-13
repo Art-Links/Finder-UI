@@ -9,6 +9,7 @@ import Paper from '@mui/material/Paper';
 import { useEffect, useState } from 'react';
 import { useContext } from 'react';
 import { AuthContext } from '../../AuthContext/authContext';
+import { lightBlue } from '@mui/material/colors';
 
 
 
@@ -38,34 +39,36 @@ const RequstedAnswers = () => {
     }, [])
     return (
         <TableContainer component={Paper} align="center">
-            <Table style={{ width: '90%'}} aria-label="caption table">
-                <caption style={{ fontWeight: 'bolder'}}>Requsted Items</caption>
+            <h1 style={{fontFamily:'Quicksand', padding:'10px'}}>THE REQUSTED</h1>
+            <Table style={{ width: '90%' }} aria-label="caption table">
+                <caption style={{ fontWeight: 'bolder', paddingRight:'0px'}} className='mt-3'>Requsted Items
+                <button style={{backgroundColor: 'blue', color: 'white', border: '1px solid blue', borderRadius:'3px', width: '100px', padding: '5px', float:'right'}}>TRUE</button>
+                </caption>
                 <TableHead>
-                    <TableRow style={{borderTop: '1px solid gray'}}>
-                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray',borderLeft: '1px solid lightgray' }}>Requsted User</TableCell>
-                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid gray' }} align="center">Item</TableCell>
-                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray',borderBottom: '1px solid gray' }} align="center">Question 1</TableCell>
-                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid gray', borderBottom: '1px solid gray' }} align="center">Answer 1</TableCell>
-                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray' ,borderBottom: '1px solid gray' }} align="center">Question 2</TableCell>
-                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid gray', borderBottom: '1px solid gray' }} align="center">Answer 2</TableCell>
+                    <TableRow style={{ borderTop: '1px solid lightgray' }} align='row'>
+                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray', borderLeft:'1px solid lightgray' }}>Requsted User</TableCell>
+                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray'}} align="center">Item</TableCell>
+                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray'}} align="center">Question 1</TableCell>
+                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray', backgroundColor:'#F7F7F7'}} align="center">Answer 1</TableCell>
+                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray'}} align="center">Question 2</TableCell>
+                        <TableCell style={{ fontWeight: 'bold', borderRight: '1px solid lightgray', backgroundColor:'#F7F7F7'}} align="center">Answer 2</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
                     {items.map((item) => (
                         <TableRow key={item?.id}>
-                            <TableCell style={{borderRight: '1px solid lightgray',borderLeft: '1px solid lightgray'}} component="th" scope="row">
+                            <TableCell style={{ borderRight: '1px solid lightgray', borderLeft: '1px solid lightgray' }} component="th" scope="row">
                                 {item?.User?.userName}
                             </TableCell>
-                            <TableCell align="center" style={{borderRight: '1px solid gray'}}>{item?.Item?.name}</TableCell>
+                            <TableCell align="center" style={{ borderRight: '1px solid lightgray' }}>{item?.Item?.name}</TableCell>
                             {item?.answers && JSON.parse(item.answers)?.map(ans => (
                                 <>
-                                    <TableCell align="center" style={{borderRight: '1px solid lightgray', borderBottom: '1px solid gray'}}>{ans?.question}</TableCell>
+                                    <TableCell align="center" style={{ borderRight: '1px solid lightgray'}}>{ans?.question}</TableCell>
                                     <TableCell className='m' style={{
                                         color: 'red',
-                                        // position: 'relative',
-                                        // left: '50px',
-                                        borderRight: '1px solid gray',
-                                        borderBottom: '1px solid gray'
+                                        borderRight: '1px solid lightgray',
+                                        backgroundColor:'#F7F7F7',
+                                        fontSize: '15px'
                                     }} align="center">{ans?.answer}</TableCell>
                                 </>
                             ))

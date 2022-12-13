@@ -18,7 +18,7 @@ const Info = () => {
                         </div>
                     </div>
                     <div id="information">
-                        <h1>Emad & Abdullmalek</h1>
+                        <h1>Emad & Abdulmalek</h1>
                         <p classname="title">CEO & Founder, Example</p>
                         <p>Harvard University</p>
                     </div>
