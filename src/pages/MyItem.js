@@ -1,29 +1,52 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useContext } from 'react'
+import { AuthContext } from '../AuthContext/authContext'
+import '../styles/MyItem.css'
 
-const Menue = () => {
-    const [categories, setCategories] = useState()
+const MyItem = () => {
+    const [myitems, setMyitems] = useState()
+    const { token } = useContext(AuthContext)
     useEffect(() => {
-        const getCategories = async () => {
-            const Category = await fetch('http://localhost:3000/category', {
+        const getMyItems = async () => {
+            const MyItem = await fetch('http://localhost:3000/items/myItems', {
                 method: 'Get',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`,
                 }
             })
-            const json = await Category.json()
-            console.log(json)
+            const json = await MyItem.json()
+            // console.log(json)
             // window.alert(json.messages)
             if (json?.success) {
-                setCategories(json?.data)
+                setMyitems(json?.data)
             }
         }
-        getCategories()
+        getMyItems()
     }, [])
-    console.log(categories)
+    console.log(myitems)
     return (
         <>
+            <div>
+                {myitems?.length > 0 && (
+                    <li>
+                        {myitems?.map((item, i) => (
+                            <div key={i} className='container'>
+                                <div className='cardee'>
+                                    <img className='catimg' src={item?.img} />
+                                    <div>{item?.name}</div>
+                                    {item?.questions?.map(question => (
+                                        <div key={question?.id}>
+                                            <p>{question?.question}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
+                    </li>
+                )}
+            </div>
         </>
     )
 }
 
-export default Menue;
+export default MyItem;

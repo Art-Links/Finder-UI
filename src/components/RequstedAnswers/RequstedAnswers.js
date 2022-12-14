@@ -38,11 +38,11 @@ const RequstedAnswers = () => {
         getItems()
     }, [])
     return (
-        <TableContainer component={Paper} align="center">
-            <h1 style={{fontFamily:'Quicksand', padding:'10px'}}>THE REQUSTED</h1>
+        <TableContainer component={Paper} align="center" className='mb-5'>
+            <h1 style={{fontFamily:'Quicksand', padding:'15px'}}>THE REQUSTED</h1>
             <Table style={{ width: '90%' }} aria-label="caption table">
                 <caption style={{ fontWeight: 'bolder', paddingRight:'0px'}} className='mt-3'>Requsted Items
-                <button style={{backgroundColor: 'blue', color: 'white', border: '1px solid blue', borderRadius:'3px', width: '100px', padding: '5px', float:'right'}}>TRUE</button>
+                <button style={{backgroundColor: 'blue', color: 'white', border: '1px solid blue', borderRadius:'5px', width: '100px', padding: '5px', float:'right'}}>TRUE</button>
                 </caption>
                 <TableHead>
                     <TableRow style={{ borderTop: '1px solid lightgray' }} align='row'>

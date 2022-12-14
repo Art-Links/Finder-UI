@@ -14,7 +14,7 @@ const Menue = () => {
                 }
             })
             const json = await Category.json()
-            console.log(json)
+            // console.log(json)
             // window.alert(json.messages)
             if (json?.success) {
                 setCategories(json?.data)
@@ -22,7 +22,7 @@ const Menue = () => {
         }
         getCategories()
     }, [])
-    console.log(categories)
+    // console.log(categories)
     return (
         <>
 

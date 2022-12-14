@@ -73,33 +73,34 @@ export function Map({ children, selected, setSelected }) {
 
                 {/* icon:"http://maps.google.com/mapfiles/ms/icons/blue-dot.png" */}
                 {Items?.length > 0 && Items?.map((item) => (
-                        <Marker
-                            onClick={() => Navigate(`/item/${item?.id}`)}
-                            onMouseOver={() => setActiveMarker(item.id)}
-                            position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }}
-                            icon={{
-                                url: item?.Category?.icon,
-                                // scale: 1,
-                                scaledSize: new google.maps.Size(40)
-                            }}
-                        >
-                            {
-                                activeMarker == item.id &&
-                                <InfoWindow onCloseClick={() => setActiveMarker(0)}>
-                                    <Link to={`/item/${item?.id}`}>
-                                        <div id='des'>
-                                            <img id='imgg' src={item?.img} />
-                                            <div>
-                                                <div className="times">
-                                                    <p>{Time(item?.createdAt)}</p>
-                                                </div>
-                                                <div id='nema'>{item?.name}</div>
+                    // console.log(item?.Category?.icon),
+                    <Marker
+                        onClick={() => Navigate(`/item/${item?.id}`)}
+                        onMouseOver={() => setActiveMarker(item.id)}
+                        position={{ lat: parseFloat(item?.latX), lng: parseFloat(item?.longY) }}
+                        icon={{
+                            url: item?.Category?.icon,
+                            // scale: 1,
+                            scaledSize: new google.maps.Size(40, 40)
+                        }}
+                    >
+                        {
+                            activeMarker == item.id &&
+                            <InfoWindow onCloseClick={() => setActiveMarker(0)}>
+                                <Link to={`/item/${item?.id}`}>
+                                    <div id='des'>
+                                        <img id='imgg' src={item?.img} />
+                                        <div>
+                                            <div className="times">
+                                                <p>{Time(item?.createdAt)}</p>
                                             </div>
+                                            <div id='nema'>{item?.name}</div>
                                         </div>
-                                    </Link>
-                                </InfoWindow>
-                            }
-                        </Marker>
+                                    </div>
+                                </Link>
+                            </InfoWindow>
+                        }
+                    </Marker>
                 ))}
             </GoogleMap>
 

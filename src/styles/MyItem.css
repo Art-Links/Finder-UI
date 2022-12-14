@@ -1,0 +1,12 @@
+.catimg {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.cardee {
+    border-radius: 5px;
+    height: fit-content;
+    width: 15%;
+    background-color: white;
+}
